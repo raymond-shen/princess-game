@@ -101,7 +101,7 @@ class Battle extends Phaser.Scene{constructor(){super('Battle');}
   const m=this.nearest(x,y);if(m)this.shoot(x,y-30,m,2,0xb388ff);this.updHud();Save.write();}
  reward(){if(this.streak>0&&this.streak%3===0)this.dropTreasure(false);}
  dropTreasure(final){const sd=Save.data;const left=TREASURES.filter(t=>!sd.inventory.includes(t));
-  if(!left.length){sd.gems+=10;floatText(this,W/2,300,'💎+10','#b3e5fc');return;}
+  if(!left.length){sd.gems+=10;Save.write();floatText(this,W/2,300,'💎+10','#b3e5fc');if(final)this.time.delayedCall(900,()=>this.toMap());return;}
   const id=left[Math.floor(Math.random()*left.length)];const e=Char.m.equipment.find(q=>q.id===id);sd.inventory.push(id);Save.write();
   const ch=this.add.text(W/2,-60,'🎁',{fontSize:'80px'}).setOrigin(0.5).setDepth(90);Sound.fanfare();
   this.tweens.add({targets:ch,y:H/2-40,duration:600,ease:'Bounce.easeOut',onComplete:()=>{ch.setText(e.emoji);stars(this,W/2,H/2-40,24);
