@@ -1,0 +1,980 @@
+{
+ "schemaVersion": "draft-0.1-game",
+ "status": "placeholder_layers_active",
+ "characterId": "girl01",
+ "masterId": "m01_pending_approval",
+ "poseId": "pose01",
+ "canvas": {
+  "width": 1000,
+  "height": 1100,
+  "origin": [
+   0,
+   0
+  ],
+  "trim": false,
+  "format": "RGBA_PNG",
+  "alpha": "straight"
+ },
+ "directionConvention": "screen_left_right",
+ "anchorsStatus": "targets_pending_master_overlay_validation",
+ "anchorsPx": {
+  "head": [
+   500,
+   275
+  ],
+  "neck": [
+   500,
+   405
+  ],
+  "shoulder_screen_left": [
+   410,
+   440
+  ],
+  "shoulder_screen_right": [
+   590,
+   440
+  ],
+  "grip_screen_left": [
+   330,
+   655
+  ],
+  "grip_screen_right": [
+   670,
+   655
+  ],
+  "waist": [
+   500,
+   600
+  ],
+  "sole_screen_left": [
+   440,
+   1000
+  ],
+  "sole_screen_right": [
+   560,
+   1000
+  ]
+ },
+ "hairStyles": [
+  {
+   "id": "A1",
+   "label": "雙馬尾",
+   "thumb": "assets/layers/thumb_A1.png"
+  },
+  {
+   "id": "A2",
+   "label": "長直髮",
+   "thumb": "assets/layers/thumb_A2.png"
+  },
+  {
+   "id": "A3",
+   "label": "波浪捲",
+   "thumb": "assets/layers/thumb_A3.png"
+  },
+  {
+   "id": "A4",
+   "label": "公主丸子頭",
+   "thumb": "assets/layers/thumb_A4.png"
+  },
+  {
+   "id": "A5",
+   "label": "短鮑伯",
+   "thumb": "assets/layers/thumb_A5.png"
+  },
+  {
+   "id": "A6",
+   "label": "側馬尾",
+   "thumb": "assets/layers/thumb_A6.png"
+  }
+ ],
+ "hairColors": [
+  {
+   "id": "brown",
+   "hex": "#98694F"
+  },
+  {
+   "id": "black",
+   "hex": "#34313E"
+  },
+  {
+   "id": "gold",
+   "hex": "#E4BD68"
+  },
+  {
+   "id": "pink",
+   "hex": "#EAA4C1"
+  },
+  {
+   "id": "lavender",
+   "hex": "#B7A0DA"
+  }
+ ],
+ "outfits": [
+  {
+   "id": "B1",
+   "label": "公主・櫻花蝴蝶結"
+  },
+  {
+   "id": "B2",
+   "label": "公主・紫瓣花裙"
+  },
+  {
+   "id": "B3",
+   "label": "戰士・奶油星甲"
+  },
+  {
+   "id": "B4",
+   "label": "戰士・紫心軟甲"
+  },
+  {
+   "id": "B5",
+   "label": "弓箭手・森林斗篷"
+  },
+  {
+   "id": "B6",
+   "label": "弓箭手・冒險裙褲"
+  },
+  {
+   "id": "B7",
+   "label": "魔法師・星月尖帽"
+  },
+  {
+   "id": "B8",
+   "label": "魔法師・月光貝雷帽"
+  },
+  {
+   "id": "B9",
+   "label": "日常・愛心吊帶裙"
+  },
+  {
+   "id": "B10",
+   "label": "日常・水手冒險裝"
+  },
+  {
+   "id": "B11",
+   "label": "禮服・櫻花層疊長裙"
+  },
+  {
+   "id": "B12",
+   "label": "禮服・薰衣草披肩裙"
+  }
+ ],
+ "jobs": [
+  {
+   "id": "warrior",
+   "label": "戰士",
+   "sample": "assets/layers/job_warrior.png",
+   "handheld": "sword"
+  },
+  {
+   "id": "archer",
+   "label": "弓箭手",
+   "sample": "assets/layers/job_archer.png",
+   "handheld": "bow"
+  },
+  {
+   "id": "magician",
+   "label": "魔法師",
+   "sample": "assets/layers/job_magician.png",
+   "handheld": "wand"
+  }
+ ],
+ "fileTemplates": {
+  "hair_front": "assets/layers/hair_{style}_{color}_front.png",
+  "hair_back": null,
+  "outfit_main": "assets/layers/outfit_{outfit}_main.png",
+  "outfit_back": null,
+  "outfit_front": null
+ },
+ "howToDropInFinalArt": "Replace the PNG at the same path (1000x1100 RGBA, origin 0,0, no trim) or set fileTemplates.hair_back / outfit_back / outfit_front / body_safe_main.file; the renderer sorts every layer by drawOrder.",
+ "assets": [
+  {
+   "id": "body_safe_main",
+   "slot": "body",
+   "part": "body_safe_main",
+   "drawOrder": 40,
+   "file": null,
+   "status": "placeholder_missing",
+   "note": "安全素體母版尚未製作；佔位版由服裝圖本身帶出身體"
+  },
+  {
+   "id": "outfit_B1_main",
+   "slot": "outfit",
+   "bundleId": "B1_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B1_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "公主・櫻花蝴蝶結",
+   "thumb": "assets/layers/thumb_B1.png"
+  },
+  {
+   "id": "outfit_B2_main",
+   "slot": "outfit",
+   "bundleId": "B2_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B2_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "公主・紫瓣花裙",
+   "thumb": "assets/layers/thumb_B2.png"
+  },
+  {
+   "id": "outfit_B3_main",
+   "slot": "outfit",
+   "bundleId": "B3_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B3_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "戰士・奶油星甲",
+   "thumb": "assets/layers/thumb_B3.png"
+  },
+  {
+   "id": "outfit_B4_main",
+   "slot": "outfit",
+   "bundleId": "B4_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B4_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "戰士・紫心軟甲",
+   "thumb": "assets/layers/thumb_B4.png"
+  },
+  {
+   "id": "outfit_B5_main",
+   "slot": "outfit",
+   "bundleId": "B5_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B5_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "弓箭手・森林斗篷",
+   "thumb": "assets/layers/thumb_B5.png"
+  },
+  {
+   "id": "outfit_B6_main",
+   "slot": "outfit",
+   "bundleId": "B6_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B6_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "弓箭手・冒險裙褲",
+   "thumb": "assets/layers/thumb_B6.png"
+  },
+  {
+   "id": "outfit_B7_main",
+   "slot": "outfit",
+   "bundleId": "B7_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B7_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "魔法師・星月尖帽",
+   "thumb": "assets/layers/thumb_B7.png"
+  },
+  {
+   "id": "outfit_B8_main",
+   "slot": "outfit",
+   "bundleId": "B8_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B8_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "魔法師・月光貝雷帽",
+   "thumb": "assets/layers/thumb_B8.png"
+  },
+  {
+   "id": "outfit_B9_main",
+   "slot": "outfit",
+   "bundleId": "B9_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B9_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "日常・愛心吊帶裙",
+   "thumb": "assets/layers/thumb_B9.png"
+  },
+  {
+   "id": "outfit_B10_main",
+   "slot": "outfit",
+   "bundleId": "B10_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B10_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "日常・水手冒險裝",
+   "thumb": "assets/layers/thumb_B10.png"
+  },
+  {
+   "id": "outfit_B11_main",
+   "slot": "outfit",
+   "bundleId": "B11_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B11_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "禮服・櫻花層疊長裙",
+   "thumb": "assets/layers/thumb_B11.png"
+  },
+  {
+   "id": "outfit_B12_main",
+   "slot": "outfit",
+   "bundleId": "B12_placeholder",
+   "part": "outfit_main",
+   "drawOrder": 60,
+   "file": "assets/layers/outfit_B12_main.png",
+   "offset": [
+    0,
+    0
+   ],
+   "occupiesSlots": [
+    "outfit"
+   ],
+   "status": "placeholder_crop_from_concept",
+   "label": "禮服・薰衣草披肩裙",
+   "thumb": "assets/layers/thumb_B12.png"
+  },
+  {
+   "id": "hair_A1_brown_front",
+   "slot": "hair_style",
+   "pairId": "A1_brown_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A1_brown_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "雙馬尾"
+  },
+  {
+   "id": "hair_A1_black_front",
+   "slot": "hair_style",
+   "pairId": "A1_black_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A1_black_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "雙馬尾"
+  },
+  {
+   "id": "hair_A1_gold_front",
+   "slot": "hair_style",
+   "pairId": "A1_gold_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A1_gold_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "雙馬尾"
+  },
+  {
+   "id": "hair_A1_pink_front",
+   "slot": "hair_style",
+   "pairId": "A1_pink_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A1_pink_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "雙馬尾"
+  },
+  {
+   "id": "hair_A1_lavender_front",
+   "slot": "hair_style",
+   "pairId": "A1_lavender_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A1_lavender_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "雙馬尾"
+  },
+  {
+   "id": "hair_A2_brown_front",
+   "slot": "hair_style",
+   "pairId": "A2_brown_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A2_brown_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "長直髮"
+  },
+  {
+   "id": "hair_A2_black_front",
+   "slot": "hair_style",
+   "pairId": "A2_black_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A2_black_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "長直髮"
+  },
+  {
+   "id": "hair_A2_gold_front",
+   "slot": "hair_style",
+   "pairId": "A2_gold_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A2_gold_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "長直髮"
+  },
+  {
+   "id": "hair_A2_pink_front",
+   "slot": "hair_style",
+   "pairId": "A2_pink_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A2_pink_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "長直髮"
+  },
+  {
+   "id": "hair_A2_lavender_front",
+   "slot": "hair_style",
+   "pairId": "A2_lavender_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A2_lavender_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "長直髮"
+  },
+  {
+   "id": "hair_A3_brown_front",
+   "slot": "hair_style",
+   "pairId": "A3_brown_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A3_brown_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "波浪捲"
+  },
+  {
+   "id": "hair_A3_black_front",
+   "slot": "hair_style",
+   "pairId": "A3_black_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A3_black_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "波浪捲"
+  },
+  {
+   "id": "hair_A3_gold_front",
+   "slot": "hair_style",
+   "pairId": "A3_gold_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A3_gold_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "波浪捲"
+  },
+  {
+   "id": "hair_A3_pink_front",
+   "slot": "hair_style",
+   "pairId": "A3_pink_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A3_pink_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "波浪捲"
+  },
+  {
+   "id": "hair_A3_lavender_front",
+   "slot": "hair_style",
+   "pairId": "A3_lavender_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A3_lavender_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "波浪捲"
+  },
+  {
+   "id": "hair_A4_brown_front",
+   "slot": "hair_style",
+   "pairId": "A4_brown_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A4_brown_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "公主丸子頭"
+  },
+  {
+   "id": "hair_A4_black_front",
+   "slot": "hair_style",
+   "pairId": "A4_black_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A4_black_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "公主丸子頭"
+  },
+  {
+   "id": "hair_A4_gold_front",
+   "slot": "hair_style",
+   "pairId": "A4_gold_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A4_gold_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "公主丸子頭"
+  },
+  {
+   "id": "hair_A4_pink_front",
+   "slot": "hair_style",
+   "pairId": "A4_pink_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A4_pink_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "公主丸子頭"
+  },
+  {
+   "id": "hair_A4_lavender_front",
+   "slot": "hair_style",
+   "pairId": "A4_lavender_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A4_lavender_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "公主丸子頭"
+  },
+  {
+   "id": "hair_A5_brown_front",
+   "slot": "hair_style",
+   "pairId": "A5_brown_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A5_brown_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "短鮑伯"
+  },
+  {
+   "id": "hair_A5_black_front",
+   "slot": "hair_style",
+   "pairId": "A5_black_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A5_black_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "短鮑伯"
+  },
+  {
+   "id": "hair_A5_gold_front",
+   "slot": "hair_style",
+   "pairId": "A5_gold_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A5_gold_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "短鮑伯"
+  },
+  {
+   "id": "hair_A5_pink_front",
+   "slot": "hair_style",
+   "pairId": "A5_pink_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A5_pink_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "短鮑伯"
+  },
+  {
+   "id": "hair_A5_lavender_front",
+   "slot": "hair_style",
+   "pairId": "A5_lavender_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A5_lavender_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "短鮑伯"
+  },
+  {
+   "id": "hair_A6_brown_front",
+   "slot": "hair_style",
+   "pairId": "A6_brown_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A6_brown_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "側馬尾"
+  },
+  {
+   "id": "hair_A6_black_front",
+   "slot": "hair_style",
+   "pairId": "A6_black_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A6_black_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "側馬尾"
+  },
+  {
+   "id": "hair_A6_gold_front",
+   "slot": "hair_style",
+   "pairId": "A6_gold_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A6_gold_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "側馬尾"
+  },
+  {
+   "id": "hair_A6_pink_front",
+   "slot": "hair_style",
+   "pairId": "A6_pink_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A6_pink_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "側馬尾"
+  },
+  {
+   "id": "hair_A6_lavender_front",
+   "slot": "hair_style",
+   "pairId": "A6_lavender_placeholder",
+   "part": "hair_front",
+   "drawOrder": 75,
+   "file": "assets/layers/hair_A6_lavender_front.png",
+   "offset": [
+    0,
+    0
+   ],
+   "status": "placeholder_crop_recolor_hair_pixels_only",
+   "label": "側馬尾"
+  }
+ ],
+ "equipment": [
+  {
+   "id": "crown",
+   "slot": "headwear",
+   "emoji": "👑",
+   "drawOrder": 80,
+   "anchor": "head",
+   "posPx": [
+    500,
+    150
+   ],
+   "sizePx": 170,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "flower_crown",
+   "slot": "headwear",
+   "emoji": "🌸",
+   "drawOrder": 80,
+   "anchor": "head",
+   "posPx": [
+    500,
+    160
+   ],
+   "sizePx": 150,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "bow",
+   "slot": "bow_accessory",
+   "emoji": "🎀",
+   "drawOrder": 100,
+   "anchor": "head",
+   "posPx": [
+    640,
+    190
+   ],
+   "sizePx": 120,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "necklace",
+   "slot": "neck",
+   "emoji": "💎",
+   "drawOrder": 70,
+   "anchor": "neck",
+   "posPx": [
+    500,
+    450
+   ],
+   "sizePx": 90,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "wings",
+   "slot": "wings_back",
+   "emoji": "🦋",
+   "drawOrder": 10,
+   "anchor": "back",
+   "posPx": [
+    500,
+    520
+   ],
+   "sizePx": 520,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "cat",
+   "slot": "pet",
+   "emoji": "🐱",
+   "drawOrder": 110,
+   "anchor": "pet",
+   "posPx": [
+    790,
+    930
+   ],
+   "sizePx": 200,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "unicorn",
+   "slot": "pet",
+   "emoji": "🦄",
+   "drawOrder": 110,
+   "anchor": "pet",
+   "posPx": [
+    800,
+    920
+   ],
+   "sizePx": 220,
+   "status": "placeholder_emoji",
+   "file": null
+  },
+  {
+   "id": "star_cape",
+   "slot": "cape",
+   "emoji": "🌟",
+   "drawOrder": 20,
+   "anchor": "back",
+   "posPx": [
+    500,
+    640
+   ],
+   "sizePx": 380,
+   "status": "placeholder_emoji",
+   "file": null
+  }
+ ],
+ "handheld": [
+  {
+   "id": "sword",
+   "job": "warrior",
+   "drawOrder": 95,
+   "anchor": "grip_screen_right",
+   "status": "placeholder_vector"
+  },
+  {
+   "id": "bow",
+   "job": "archer",
+   "drawOrder": 95,
+   "anchor": "grip_screen_left",
+   "status": "placeholder_vector"
+  },
+  {
+   "id": "wand",
+   "job": "magician",
+   "drawOrder": 95,
+   "anchor": "grip_screen_right",
+   "status": "placeholder_vector"
+  }
+ ],
+ "compatibilityStatus": "unvalidated",
+ "runtime": {
+  "dir": "assets/layers/rt/",
+  "scale": 0.5,
+  "note": "runtime copies at 50% of the 1000x1100 canvas to save iPad memory"
+ }
+}

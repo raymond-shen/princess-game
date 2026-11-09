@@ -1,0 +1,2073 @@
+{
+  "version": 1,
+  "textbook": "康軒 國語 一上 首冊",
+  "lessonsTOCSource": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+  "verificationNote": "已於111官方首冊網頁電子書逐頁核對九課完整注音課文與課名；此驗證只適用111版，尚未證明114/115逐字相同。寶寶第二字依原書更正為輕聲。",
+  "words": [
+    {
+      "id": "貓咪",
+      "word": "貓咪",
+      "zhuyin": [
+        "ㄇㄠ",
+        "ㄇㄧ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "🐱",
+      "lesson": 1,
+      "lessonName": "貓咪",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "鵝",
+      "word": "鵝",
+      "zhuyin": [
+        "ㄜ"
+      ],
+      "tones": [
+        2
+      ],
+      "pic": "🦢",
+      "lesson": 2,
+      "lessonName": "鵝寶寶",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "寶寶",
+      "word": "寶寶",
+      "zhuyin": [
+        "ㄅㄠ",
+        "ㄅㄠ"
+      ],
+      "tones": [
+        3,
+        0
+      ],
+      "pic": "👶",
+      "lesson": 2,
+      "lessonName": "鵝寶寶",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。 官方111版第二個寶為輕聲，已由原3聲更正。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "河馬",
+      "word": "河馬",
+      "zhuyin": [
+        "ㄏㄜ",
+        "ㄇㄚ"
+      ],
+      "tones": [
+        2,
+        3
+      ],
+      "pic": "🦛",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "河狸",
+      "word": "河狸",
+      "zhuyin": [
+        "ㄏㄜ",
+        "ㄌㄧ"
+      ],
+      "tones": [
+        2,
+        2
+      ],
+      "pic": "🦫",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "笑嘻嘻",
+      "word": "笑嘻嘻",
+      "zhuyin": [
+        "ㄒㄧㄠ",
+        "ㄒㄧ",
+        "ㄒㄧ"
+      ],
+      "tones": [
+        4,
+        1,
+        1
+      ],
+      "pic": "😄",
+      "lesson": 4,
+      "lessonName": "笑嘻嘻",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "翹翹板",
+      "word": "翹翹板",
+      "zhuyin": [
+        "ㄑㄧㄠ",
+        "ㄑㄧㄠ",
+        "ㄅㄢ"
+      ],
+      "tones": [
+        4,
+        4,
+        3
+      ],
+      "pic": "🛝",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "老師",
+      "word": "老師",
+      "zhuyin": [
+        "ㄌㄠ",
+        "ㄕ"
+      ],
+      "tones": [
+        3,
+        1
+      ],
+      "pic": "🧑‍🏫",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=8248cb65-5e6d-4713-b5f6-55e57f703293&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "小紅花",
+      "word": "小紅花",
+      "zhuyin": [
+        "ㄒㄧㄠ",
+        "ㄏㄨㄥ",
+        "ㄏㄨㄚ"
+      ],
+      "tones": [
+        3,
+        2,
+        1
+      ],
+      "pic": "🌺",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=8248cb65-5e6d-4713-b5f6-55e57f703293&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "一朵",
+      "word": "一朵",
+      "zhuyin": [
+        "ㄧ",
+        "ㄉㄨㄛ"
+      ],
+      "tones": [
+        4,
+        3
+      ],
+      "pic": "🌸",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=8248cb65-5e6d-4713-b5f6-55e57f703293&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        0
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "送",
+      "word": "送",
+      "zhuyin": [
+        "ㄙㄨㄥ"
+      ],
+      "tones": [
+        4
+      ],
+      "pic": "🎁",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=8248cb65-5e6d-4713-b5f6-55e57f703293&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "烏龜",
+      "word": "烏龜",
+      "zhuyin": [
+        "ㄨ",
+        "ㄍㄨㄟ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "🐢",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "title-partial",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "source2": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=8248cb65-5e6d-4713-b5f6-55e57f703293&subject=Language",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "賽跑",
+      "word": "賽跑",
+      "zhuyin": [
+        "ㄙㄞ",
+        "ㄆㄠ"
+      ],
+      "tones": [
+        4,
+        3
+      ],
+      "pic": "🏃",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "拔",
+      "word": "拔",
+      "zhuyin": [
+        "ㄅㄚ"
+      ],
+      "tones": [
+        2
+      ],
+      "pic": "🥕",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "大象",
+      "word": "大象",
+      "zhuyin": [
+        "ㄉㄚ",
+        "ㄒㄧㄤ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🐘",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_84_85/book_0_8_84_85.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "黃牛",
+      "word": "黃牛",
+      "zhuyin": [
+        "ㄏㄨㄤ",
+        "ㄋㄧㄡ"
+      ],
+      "tones": [
+        2,
+        2
+      ],
+      "pic": "🐂",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_84_85/book_0_8_84_85.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "浣熊",
+      "word": "浣熊",
+      "zhuyin": [
+        "ㄏㄨㄢ",
+        "ㄒㄩㄥ"
+      ],
+      "tones": [
+        4,
+        2
+      ],
+      "pic": "🦝",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_84_85/book_0_8_84_85.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "兔子",
+      "word": "兔子",
+      "zhuyin": [
+        "ㄊㄨ",
+        "ㄗ"
+      ],
+      "tones": [
+        4,
+        0
+      ],
+      "pic": "🐰",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "菜園",
+      "word": "菜園",
+      "zhuyin": [
+        "ㄘㄞ",
+        "ㄩㄢ"
+      ],
+      "tones": [
+        4,
+        2
+      ],
+      "pic": "🥬",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "動物",
+      "word": "動物",
+      "zhuyin": [
+        "ㄉㄨㄥ",
+        "ㄨ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🐾",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "狂歡",
+      "word": "狂歡",
+      "zhuyin": [
+        "ㄎㄨㄤ",
+        "ㄏㄨㄢ"
+      ],
+      "tones": [
+        2,
+        1
+      ],
+      "pic": "🎉",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "title",
+      "source": "https://owlowls.club/products/%E5%9C%8B%E5%B0%8F%E5%9C%8B%E8%AA%9E%E9%A6%96%E5%86%8A",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "弟弟",
+      "word": "弟弟",
+      "zhuyin": [
+        "ㄉㄧ",
+        "ㄉㄧ"
+      ],
+      "tones": [
+        4,
+        0
+      ],
+      "pic": "👦",
+      "lesson": 1,
+      "lessonName": "貓咪",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "第一",
+      "word": "第一",
+      "zhuyin": [
+        "ㄉㄧ",
+        "ㄧ"
+      ],
+      "tones": [
+        4,
+        1
+      ],
+      "pic": "🥇",
+      "lesson": 1,
+      "lessonName": "貓咪",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "跑",
+      "word": "跑",
+      "zhuyin": [
+        "ㄆㄠ"
+      ],
+      "tones": [
+        3
+      ],
+      "pic": "🏃",
+      "lesson": 1,
+      "lessonName": "貓咪",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "媽媽",
+      "word": "媽媽",
+      "zhuyin": [
+        "ㄇㄚ",
+        "ㄇㄚ"
+      ],
+      "tones": [
+        1,
+        0
+      ],
+      "pic": "👩",
+      "lesson": 2,
+      "lessonName": "鵝寶寶",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "得意",
+      "word": "得意",
+      "zhuyin": [
+        "ㄉㄜ",
+        "ㄧ"
+      ],
+      "tones": [
+        2,
+        4
+      ],
+      "pic": "😊",
+      "lesson": 2,
+      "lessonName": "鵝寶寶",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "孵出",
+      "word": "孵出",
+      "zhuyin": [
+        "ㄈㄨ",
+        "ㄔㄨ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "🐣",
+      "lesson": 2,
+      "lessonName": "鵝寶寶",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "五隻",
+      "word": "五隻",
+      "zhuyin": [
+        "ㄨ",
+        "ㄓ"
+      ],
+      "tones": [
+        3,
+        1
+      ],
+      "pic": "🦢",
+      "lesson": 2,
+      "lessonName": "鵝寶寶",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "泡澡",
+      "word": "泡澡",
+      "zhuyin": [
+        "ㄆㄠ",
+        "ㄗㄠ"
+      ],
+      "tones": [
+        4,
+        3
+      ],
+      "pic": "🛁",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://wyesju.blogspot.com/2019/09/blog-post_19.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "半路",
+      "word": "半路",
+      "zhuyin": [
+        "ㄅㄢ",
+        "ㄌㄨ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🛤️",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://wyesju.blogspot.com/2019/09/blog-post_19.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "遇到",
+      "word": "遇到",
+      "zhuyin": [
+        "ㄩ",
+        "ㄉㄠ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🤝",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://wyesju.blogspot.com/2019/09/blog-post_19.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "築巢",
+      "word": "築巢",
+      "zhuyin": [
+        "ㄓㄨ",
+        "ㄔㄠ"
+      ],
+      "tones": [
+        2,
+        2
+      ],
+      "pic": "🪹",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://wyesju.blogspot.com/2019/09/blog-post_19.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "忙",
+      "word": "忙",
+      "zhuyin": [
+        "ㄇㄤ"
+      ],
+      "tones": [
+        2
+      ],
+      "pic": "🛠️",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://wyesju.blogspot.com/2019/09/blog-post_19.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "書包",
+      "word": "書包",
+      "zhuyin": [
+        "ㄕㄨ",
+        "ㄅㄠ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "🎒",
+      "lesson": 4,
+      "lessonName": "笑嘻嘻",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "手拉手",
+      "word": "手拉手",
+      "zhuyin": [
+        "ㄕㄡ",
+        "ㄌㄚ",
+        "ㄕㄡ"
+      ],
+      "tones": [
+        3,
+        1,
+        3
+      ],
+      "pic": "🤝",
+      "lesson": 4,
+      "lessonName": "笑嘻嘻",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "歡喜",
+      "word": "歡喜",
+      "zhuyin": [
+        "ㄏㄨㄢ",
+        "ㄒㄧ"
+      ],
+      "tones": [
+        1,
+        3
+      ],
+      "pic": "😊",
+      "lesson": 4,
+      "lessonName": "笑嘻嘻",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "好朋友",
+      "word": "好朋友",
+      "zhuyin": [
+        "ㄏㄠ",
+        "ㄆㄥ",
+        "ㄧㄡ"
+      ],
+      "tones": [
+        3,
+        2,
+        3
+      ],
+      "pic": "👭",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "一起",
+      "word": "一起",
+      "zhuyin": [
+        "ㄧ",
+        "ㄑㄧ"
+      ],
+      "tones": [
+        4,
+        3
+      ],
+      "pic": "👭",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        0
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "上上下下",
+      "word": "上上下下",
+      "zhuyin": [
+        "ㄕㄤ",
+        "ㄕㄤ",
+        "ㄒㄧㄚ",
+        "ㄒㄧㄚ"
+      ],
+      "tones": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "pic": "↕️",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "高高低低",
+      "word": "高高低低",
+      "zhuyin": [
+        "ㄍㄠ",
+        "ㄍㄠ",
+        "ㄉㄧ",
+        "ㄉㄧ"
+      ],
+      "tones": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pic": "📊",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "小鳥",
+      "word": "小鳥",
+      "zhuyin": [
+        "ㄒㄧㄠ",
+        "ㄋㄧㄠ"
+      ],
+      "tones": [
+        3,
+        3
+      ],
+      "pic": "🐦",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "飛",
+      "word": "飛",
+      "zhuyin": [
+        "ㄈㄟ"
+      ],
+      "tones": [
+        1
+      ],
+      "pic": "🪽",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "謝謝",
+      "word": "謝謝",
+      "zhuyin": [
+        "ㄒㄧㄝ",
+        "ㄒㄧㄝ"
+      ],
+      "tones": [
+        4,
+        0
+      ],
+      "pic": "🙏",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "讀書",
+      "word": "讀書",
+      "zhuyin": [
+        "ㄉㄨ",
+        "ㄕㄨ"
+      ],
+      "tones": [
+        2,
+        1
+      ],
+      "pic": "📚",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "畫畫",
+      "word": "畫畫",
+      "zhuyin": [
+        "ㄏㄨㄚ",
+        "ㄏㄨㄚ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🎨",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "教",
+      "word": "教",
+      "zhuyin": [
+        "ㄐㄧㄠ"
+      ],
+      "tones": [
+        1
+      ],
+      "pic": "🧑‍🏫",
+      "lesson": 6,
+      "lessonName": "謝謝老師",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "比賽",
+      "word": "比賽",
+      "zhuyin": [
+        "ㄅㄧ",
+        "ㄙㄞ"
+      ],
+      "tones": [
+        3,
+        4
+      ],
+      "pic": "🏁",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "領先",
+      "word": "領先",
+      "zhuyin": [
+        "ㄌㄧㄥ",
+        "ㄒㄧㄢ"
+      ],
+      "tones": [
+        3,
+        1
+      ],
+      "pic": "🥇",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "落後",
+      "word": "落後",
+      "zhuyin": [
+        "ㄌㄨㄛ",
+        "ㄏㄡ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🏃",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "氣餒",
+      "word": "氣餒",
+      "zhuyin": [
+        "ㄑㄧ",
+        "ㄋㄟ"
+      ],
+      "tones": [
+        4,
+        3
+      ],
+      "pic": "😞",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "後面",
+      "word": "後面",
+      "zhuyin": [
+        "ㄏㄡ",
+        "ㄇㄧㄢ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "⬅️",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "追",
+      "word": "追",
+      "zhuyin": [
+        "ㄓㄨㄟ"
+      ],
+      "tones": [
+        1
+      ],
+      "pic": "🏃",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "蘿蔔",
+      "word": "蘿蔔",
+      "zhuyin": [
+        "ㄌㄨㄛ",
+        "ㄅㄛ"
+      ],
+      "tones": [
+        2,
+        0
+      ],
+      "pic": "🥕",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "拉著",
+      "word": "拉著",
+      "zhuyin": [
+        "ㄌㄚ",
+        "ㄓㄜ"
+      ],
+      "tones": [
+        1,
+        0
+      ],
+      "pic": "🤝",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_84_85/book_0_8_84_85.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "嘿唷",
+      "word": "嘿唷",
+      "zhuyin": [
+        "ㄏㄟ",
+        "ㄧㄛ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "💪",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://www.maiyajiaoan.com/wiki/7044.html",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_84_85/book_0_8_84_85.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "山崖",
+      "word": "山崖",
+      "zhuyin": [
+        "ㄕㄢ",
+        "ㄧㄞ"
+      ],
+      "tones": [
+        1,
+        2
+      ],
+      "pic": "⛰️",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "開心",
+      "word": "開心",
+      "zhuyin": [
+        "ㄎㄞ",
+        "ㄒㄧㄣ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "😊",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "慶祝",
+      "word": "慶祝",
+      "zhuyin": [
+        "ㄑㄧㄥ",
+        "ㄓㄨ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "🎉",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "小熊",
+      "word": "小熊",
+      "zhuyin": [
+        "ㄒㄧㄠ",
+        "ㄒㄩㄥ"
+      ],
+      "tones": [
+        3,
+        2
+      ],
+      "pic": "🐻",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "大球",
+      "word": "大球",
+      "zhuyin": [
+        "ㄉㄚ",
+        "ㄑㄧㄡ"
+      ],
+      "tones": [
+        4,
+        2
+      ],
+      "pic": "⚽",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "馴鹿",
+      "word": "馴鹿",
+      "zhuyin": [
+        "ㄒㄩㄣ",
+        "ㄌㄨ"
+      ],
+      "tones": [
+        2,
+        4
+      ],
+      "pic": "🦌",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "大鼓",
+      "word": "大鼓",
+      "zhuyin": [
+        "ㄉㄚ",
+        "ㄍㄨ"
+      ],
+      "tones": [
+        4,
+        3
+      ],
+      "pic": "🥁",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "孔雀",
+      "word": "孔雀",
+      "zhuyin": [
+        "ㄎㄨㄥ",
+        "ㄑㄩㄝ"
+      ],
+      "tones": [
+        3,
+        4
+      ],
+      "pic": "🦚",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "魔術",
+      "word": "魔術",
+      "zhuyin": [
+        "ㄇㄛ",
+        "ㄕㄨ"
+      ],
+      "tones": [
+        2,
+        4
+      ],
+      "pic": "🪄",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "青蛙",
+      "word": "青蛙",
+      "zhuyin": [
+        "ㄑㄧㄥ",
+        "ㄨㄚ"
+      ],
+      "tones": [
+        1,
+        1
+      ],
+      "pic": "🐸",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "合唱",
+      "word": "合唱",
+      "zhuyin": [
+        "ㄏㄜ",
+        "ㄔㄤ"
+      ],
+      "tones": [
+        2,
+        4
+      ],
+      "pic": "🎶",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+      "note": "111官方首冊注音課文／課名已逐頁目視核對；114/115版尚未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "嗶",
+      "word": "嗶",
+      "zhuyin": [
+        "ㄅㄧ"
+      ],
+      "tones": [
+        1
+      ],
+      "pic": "📣",
+      "lesson": 1,
+      "lessonName": "貓咪",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "去",
+      "word": "去",
+      "zhuyin": [
+        "ㄑㄩ"
+      ],
+      "tones": [
+        4
+      ],
+      "pic": "🚶",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "忙著",
+      "word": "忙著",
+      "zhuyin": [
+        "ㄇㄤ",
+        "ㄓㄜ"
+      ],
+      "tones": [
+        2,
+        0
+      ],
+      "pic": "🛠️",
+      "lesson": 3,
+      "lessonName": "河馬和河狸",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "背著",
+      "word": "背著",
+      "zhuyin": [
+        "ㄅㄟ",
+        "ㄓㄜ"
+      ],
+      "tones": [
+        1,
+        0
+      ],
+      "pic": "🎒",
+      "lesson": 4,
+      "lessonName": "笑嘻嘻",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [
+        1
+      ],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "好像",
+      "word": "好像",
+      "zhuyin": [
+        "ㄏㄠ",
+        "ㄒㄧㄤ"
+      ],
+      "tones": [
+        3,
+        4
+      ],
+      "pic": "💭",
+      "lesson": 5,
+      "lessonName": "翹翹板",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "午覺",
+      "word": "午覺",
+      "zhuyin": [
+        "ㄨ",
+        "ㄐㄧㄠ"
+      ],
+      "tones": [
+        3,
+        4
+      ],
+      "pic": "😴",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "跟在",
+      "word": "跟在",
+      "zhuyin": [
+        "ㄍㄣ",
+        "ㄗㄞ"
+      ],
+      "tones": [
+        1,
+        4
+      ],
+      "pic": "🚶",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "快",
+      "word": "快",
+      "zhuyin": [
+        "ㄎㄨㄞ"
+      ],
+      "tones": [
+        4
+      ],
+      "pic": "💨",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "哈哈笑",
+      "word": "哈哈笑",
+      "zhuyin": [
+        "ㄏㄚ",
+        "ㄏㄚ",
+        "ㄒㄧㄠ"
+      ],
+      "tones": [
+        1,
+        1,
+        4
+      ],
+      "pic": "😄",
+      "lesson": 7,
+      "lessonName": "龜兔賽跑",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "用力",
+      "word": "用力",
+      "zhuyin": [
+        "ㄩㄥ",
+        "ㄌㄧ"
+      ],
+      "tones": [
+        4,
+        4
+      ],
+      "pic": "💪",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "長出",
+      "word": "長出",
+      "zhuyin": [
+        "ㄓㄤ",
+        "ㄔㄨ"
+      ],
+      "tones": [
+        3,
+        1
+      ],
+      "pic": "🌱",
+      "lesson": 8,
+      "lessonName": "拔蘿蔔",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "表演",
+      "word": "表演",
+      "zhuyin": [
+        "ㄅㄧㄠ",
+        "ㄧㄢ"
+      ],
+      "tones": [
+        3,
+        3
+      ],
+      "pic": "🎭",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "精采",
+      "word": "精采",
+      "zhuyin": [
+        "ㄐㄧㄥ",
+        "ㄘㄞ"
+      ],
+      "tones": [
+        1,
+        3
+      ],
+      "pic": "✨",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "敲",
+      "word": "敲",
+      "zhuyin": [
+        "ㄑㄧㄠ"
+      ],
+      "tones": [
+        1
+      ],
+      "pic": "🥁",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "滾",
+      "word": "滾",
+      "zhuyin": [
+        "ㄍㄨㄣ"
+      ],
+      "tones": [
+        3
+      ],
+      "pic": "⚽",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    },
+    {
+      "id": "變",
+      "word": "變",
+      "zhuyin": [
+        "ㄅㄧㄢ"
+      ],
+      "tones": [
+        4
+      ],
+      "pic": "🪄",
+      "lesson": 9,
+      "lessonName": "動物狂歡會",
+      "evidence": "text",
+      "source": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "officialTextSource": "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg",
+      "note": "依111官方首冊頁面注音逐字目視核對；114/115版未核對。",
+      "skipSyllables": [],
+      "verifiedEditions": [
+        "111"
+      ],
+      "currentEditionConfirmed": false,
+      "phoneticsVerifiedAgainst": "111 official page image"
+    }
+  ]
+}

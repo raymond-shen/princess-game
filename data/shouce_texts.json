@@ -1,0 +1,326 @@
+{
+  "textbook": "康軒 國語 一上 首冊",
+  "requestedEditions": [
+    "114",
+    "115"
+  ],
+  "checkedDate": "2026-11-08 Asia/Singapore",
+  "fullTextReproduction": false,
+  "note": "All nine complete111-edition phonetic lesson sources now located and visually inspected. text:null intentionally avoids reproducing the complete copyrighted textbook. No claim of114/115 exact match.",
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "貓咪",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+        "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "2015家長文章明確標示課文開始/結束；校方PDF另列對應語料。不能證明與114/115逐字相同。",
+      "readingVideo": "https://www.youtube.com/watch?v=zk5NNBl0qOU",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "23-22"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_1_22_23/book_0_1_22_23.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson1.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 2,
+      "title": "鵝寶寶",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+        "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "2015家長文章有整段短詩；校方PDF另列語料；不可把較長的聆聽故事當課文。",
+      "readingVideo": "https://www.youtube.com/watch?v=MpGua3h8SHo",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "29-28"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_2_28_29/book_0_2_28_29.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson2.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 3,
+      "title": "河馬和河狸",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+        "https://wyesju.blogspot.com/2019/09/blog-post_19.html"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "2019教師文章直接列出整首短課文；校方PDF另列相同句型。",
+      "readingVideo": "https://www.youtube.com/watch?v=Bswu4Zi2oes",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "35-34"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_3_34_35/book_0_3_34_35.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson3.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 4,
+      "title": "笑嘻嘻",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+        "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "校方PDF只有分散語料；2015家長文章看似完整但寫背包，校方寫書包，不能合併成已核對全文。",
+      "readingVideo": "https://www.youtube.com/watch?v=QQEhzwood_Q",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "49-48"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_4_48_49/book_0_4_48_49.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson4.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 5,
+      "title": "翹翹板",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+        "https://zoea1234.blogspot.com/search/label/%E7%AC%91%E8%A9%B1"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "2015家長文章看似列完整短課文；校方資料可確認小鳥相關課文句子；未核對114/115全文。",
+      "readingVideo": "https://www.youtube.com/watch?v=EOuaaItZ9RU",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "55-54"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_5_54_55/book_0_5_54_55.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson5.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 6,
+      "title": "謝謝老師",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "校方PDF朗讀指導把兩個句子的斷句位置列全，看似完整；未取得114/115原書逐字比對。",
+      "readingVideo": "https://www.youtube.com/watch?v=stQKBQJC7BM",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "61-60"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_6_60_61/book_0_6_60_61.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson6.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 7,
+      "title": "龜兔賽跑",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "校方PDF只有語料與朗讀指導，且同份文件出現好驕傲/哈哈笑兩種措辭；搜尋合成答案不可作全文。",
+      "readingVideo": "https://www.youtube.com/watch?v=PuCFULPixy8",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "77-76"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_7_76_77/book_0_7_76_77.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson7.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 8,
+      "title": "拔蘿蔔",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language",
+        "https://www.maiyajiaoan.com/wiki/7044.html"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "112公開觀課紀錄可核對動物鏈、菜園與用力的聲音，但沒有最後結尾全文。",
+      "readingVideo": "https://www.youtube.com/watch?v=LX_1XyIrG10",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "83-82",
+        "85-84"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_82_83/book_0_8_82_83.svg",
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_8_84_85/book_0_8_84_85.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson8.png",
+        "/workspace/shouce-research/pages/111-lesson8-part2.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    },
+    {
+      "lesson": 9,
+      "title": "動物狂歡會",
+      "text": null,
+      "partial": false,
+      "status": "full_source_located_111",
+      "sourceCompleteness": "complete phonetic lesson page(s) visually read in official111 viewer",
+      "sourceURLs": [
+        "https://tten.tp.edu.tw/Login/Downment?grade=1&spid=65371329-eb33-4117-b7f7-bf44a93f91d3&subject=Language"
+      ],
+      "confidence": {
+        "vocabulary111": "high",
+        "complete_current_edition": "unverified"
+      },
+      "editionVerified": true,
+      "note": "校方PDF有前半句卡、表演項目與理解問答，並非連續完整課文；2012博客吹喇叭與較新敲大鼓不同，未採舊詞。",
+      "readingVideo": "https://www.youtube.com/watch?v=Aoy-VXq36K4",
+      "videoVerification": "School page links all nine; descriptions do not contain lesson text. Video content not transcribed.",
+      "verifiedEdition": "111",
+      "currentEditionVerified": false,
+      "verifiedPages": [
+        "91-90",
+        "93-92"
+      ],
+      "officialPageURLs": [
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_90_91/book_0_9_90_91.svg",
+        "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/PageContent/Book/book_0_9_92_93/book_0_9_92_93.svg"
+      ],
+      "localPageImages": [
+        "/workspace/shouce-research/pages/111-lesson9.png",
+        "/workspace/shouce-research/pages/111-lesson9-part2.png"
+      ],
+      "verificationNote": "Official111 page images rendered and visually read, including printed zhuyin and tone marks. Complete copyrighted lessons are located by URL rather than reproduced here. 114/115 equivalence not established."
+    }
+  ],
+  "publicEbook111": "https://storage1.knsh.com.tw/WebEbook/2208161005495/index.html?uuid=602870",
+  "ebook111Source": "https://sites.google.com/mail.ljes.ylc.edu.tw/ljesonline111/%E5%85%8D%E7%99%BB%E5%85%A5%E9%9B%BB%E5%AD%90%E6%9B%B8/%E5%BA%B7%E8%BB%92",
+  "currentCatalog": "https://945cloud.knsh.com.tw/show/E/expo/inner-page.html?expo=digital&subject=ebook&sub=lowbook",
+  "blocks": {
+    "wordwall": "All five resource pages explicitly private/login; no bypass attempted.",
+    "collegesidekick": "WebFetch timed out; public curl got HTTP403. Search snippets not used as fetched word evidence.",
+    "officialCurrent": "115 catalog preview resolved at correct viewer-declared knsh_book/ manifest path, HTTP200. Metadata year115上, bookID K115CH_1, specialVersion. Includes ordinary1上 lesson3 sample, NOT首冊. Previous403 was an incorrect config path, not proof viewer inaccessible.",
+    "oldEbook": "Resolved: correct knsh_book/ manifest and SVG image assets return200 without login; all nine rendered/read.",
+    "youtube": "School links all nine readings; descriptions lack text. L4 fetch404, L9 timed out.",
+    "scannedImages": "No reliable114/115 page-image transcription obtained.",
+    "edition": "Older teacher/parent sources have variant wording. Cannot claim exact114/115 match.",
+    "publicEbookEntry": "https://digitalmaster.knsh.com.tw/ebook/index.html returned403 in both WebFetch and curl. No bypass attempted."
+  },
+  "reachableOfficialURLs": [
+    "https://945cloud.knsh.com.tw/",
+    "https://digitalmaster.knsh.com.tw/",
+    "https://digitalmaster.knsh.com.tw/v3/pages/e/index.html",
+    "https://storage1.knsh.com.tw/WebEbook/2208161005495/index.html?uuid=602870",
+    "https://storage1.knsh.com.tw/WebEbook/2208161005495/knsh_book/SystemResource/Config/config_page.json",
+    "https://945cloud.knsh.com.tw/show/E/expo/data/digital_ebook_lowbook.xml",
+    "https://digitalmaster.knsh.com.tw/promo/e/115%E4%B8%8A/01_%E5%9C%8B%E8%AA%9E/K115CH_1/Resource/SystemResource/index.html",
+    "https://digitalmaster.knsh.com.tw/promo/e/115%E4%B8%8A/01_%E5%9C%8B%E8%AA%9E/K115CH_1/Resource/SystemResource/knsh_book/SystemResource/Config/config_page.json"
+  ]
+}
