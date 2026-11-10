@@ -28,7 +28,7 @@ class Battle extends Phaser.Scene{constructor(){super('Battle');}
   this.hearts=HEARTS;this.mistakes=0;this.qOpen=false;this.picking=false;this.picker=null;this.pending=null;this.hitStop=0;this.lastItem=null;this.done=false;this.defeated=false;
   this.correctTotal=0;this.t0=Date.now();this.hero=null;this.heroWrap=null;this.heroCd=800;this.heroBusy=false;this.answering=false;this.q=null;}
  get busy(){return this.qOpen||this.picking;}
- create(){sky(this,0xa8e6cf,0xdcedc1);const g=this.add.graphics();g.lineStyle(70,0xf4e1b5);g.beginPath();g.moveTo(...PATH[0]);PATH.forEach(p=>g.lineTo(...p));g.strokePath();
+ create(){this.events.once('shutdown',()=>Sound.cancelPrompt());sky(this,0xa8e6cf,0xdcedc1);const g=this.add.graphics();g.lineStyle(70,0xf4e1b5);g.beginPath();g.moveTo(...PATH[0]);PATH.forEach(p=>g.lineTo(...p));g.strokePath();
   g.lineStyle(8,0xffffff,0.45);g.beginPath();g.moveTo(...PATH[0]);PATH.forEach(p=>g.lineTo(...p));g.strokePath();
   [[80,120],[330,130],[650,110],[90,600],[300,700],[560,700],[980,700],[620,470],[350,520]].forEach(([x,y],i)=>this.add.text(x,y,i%2?'🌳':'🌲',{fontSize:'58px'}).setOrigin(0.5,1));
   this.castle=this.add.text(930,560,'🏰',{fontSize:'120px'}).setOrigin(0.5,1);
@@ -144,7 +144,7 @@ class Battle extends Phaser.Scene{constructor(){super('Battle');}
    this.mons.filter(o=>o.alive&&Phaser.Math.Distance.Between(cx,cy,o.c.x,o.c.y)<=st.splash).forEach(o=>this.hit(o,st.dmg,{knock:8}));},'🫧');}
  // ---------- hero ----------
  heroAttack(m,power){const J=this.heroJob(),w=this.heroWrap;if(!w||!m||!m.alive)return;const dmg=J.dmg+(power?2:0);
-  const fx=HERO_POS[0],fy=HERO_POS[1]-70;const wasBusy=this.heroBusy;this.heroBusy=true;const done=()=>{this.heroBusy=false;};
+  Sound.attack();const fx=HERO_POS[0],fy=HERO_POS[1]-70;const wasBusy=this.heroBusy;this.heroBusy=true;const done=()=>{this.heroBusy=false;};
   if(power){// answer bonus: big job-emoji shot from anywhere (does not block auto-attacks)
    this.heroBusy=wasBusy;this.tweens.add({targets:w,scale:1.15,duration:120,yoyo:true});this.shoot(fx,fy,m,0xffffff,()=>this.hit(m,dmg,{stop:80,shake:160,shakeI:0.006,big:true,knock:30}),J.icon);return;}
   if(J.kind==='melee'){const tx=m.c.x+(m.c.x<fx?40:-40),ty=m.c.y+70;
@@ -163,48 +163,56 @@ class Battle extends Phaser.Scene{constructor(){super('Battle');}
   const r=this.add.rectangle(W/2,H/2,W,H,0xffffff,0.8).setDepth(45);this.tweens.add({targets:r,alpha:0,duration:500,onComplete:()=>r.destroy()});this.cameras.main.shake(300,0.01);
   this.mons.filter(m=>m.alive).forEach((m,i)=>this.time.delayedCall(i*120,()=>this.hit(m,3,{stop:60,big:true,knock:40})));}
  // ---------- quiz ----------
- ask(){if(this.qOpen||this.done)return;this.qOpen=true;const it=Learn.pick(this.stage.lessons,this.lastItem&&this.lastItem.id);this.lastItem=it;
-  this.item=it;this.firstTry=true;const types=['hear','pic2spell','spell2pic','drag'];this.qtype=this.forceType||types[Math.floor(Math.random()*4)];this.buildQ();}
- buildQ(){if(this.q)this.q.destroy();const q=this.q=this.add.container(0,0).setDepth(100);const it=this.item,w=it.word;
+ ask(){if(this.qOpen||this.done)return;const types=['hear','pic2spell','spell2pic','drag'];this.qtype=this.forceType||types[Math.floor(Math.random()*4)];
+  let it=Learn.pick(this.stage.lessons,this.lastItem?.id,this.qtype);if(!it){this.qtype='hear';it=Learn.pick(this.stage.lessons,this.lastItem?.id,'hear');}if(!it)return;
+  this.qOpen=true;this.lastItem=it;this.item=it;this.firstTry=true;this.buildQ();}
+ buildQ(){if(!Learn.typeAllowed(this.item,this.qtype))this.qtype='hear';if(this.q)this.q.destroy();const q=this.q=this.add.container(0,0).setDepth(100);const it=this.item,w=it.word;
   q.add(this.add.rectangle(W/2,H/2,W,H,0x2b1f45,0.45).setInteractive());const card=this.add.graphics();card.fillStyle(0xfff8fc,0.97).fillRoundedRect(112,70,800,620,36).lineStyle(6,0xffc1dc).strokeRoundedRect(112,70,800,620,36);q.add(card);
   const P=this.pending;if(P){const T=TOWER_TYPES[P.type];q.add(this.add.text(W/2,98,(P.kind==='up'?'⬆ 升級 ':'🔨 蓋 ')+T.e+' '+T.name,{fontFamily:FONT,fontSize:'24px',color:'#9a6ab8'}).setOrigin(0.5));}
-  const speak=()=>{Sound.sayWord(w);};Sound.loadWord(w.id);q.add(btn(this,830,130,90,80,'🔊',0xe1f5fe,speak,40));
+  const instructions={hear:'聽聽看，黃色框的音是第幾聲？',pic2spell:'看圖聽讀音，選出正確的注音。',spell2pic:'看注音聽讀音，點選正確的圖片。',drag:'把正確的聲調拖到黃色框，也可以點一下聲調。'};
+  this.promptInstruction=instructions[this.qtype];this.promptKey=this.qtype+':'+it.id;
+  const target='（第'+(it.syl+1)+'個音）';this.instructionText=this.add.text(580,140,this.promptInstruction.replace('，','，\n'),{fontFamily:FONT,fontSize:this.qtype==='drag'?'22px':'23px',color:'#5a2d6e',align:'center',wordWrap:{width:320,useAdvancedWrap:true}}).setOrigin(.5);q.add(this.instructionText);
+  if(['hear','pic2spell','drag'].includes(this.qtype))q.add(this.add.text(620,180,target,{fontFamily:FONT,fontSize:'18px',color:'#9a6ab8'}).setOrigin(.5));
+  const speak=()=>Sound.prompt(this.promptInstruction,w,this.promptKey);Sound.loadWord(w.id);this.replayButton=btn(this,830,130,108,90,'🔊 重聽',0xe1f5fe,speak,23);q.add(this.replayButton);Sound.replayArt(this,this.replayButton,this.promptKey);const hk='audio_ui_hint_'+this.qtype;if(this.textures.exists(hk)){const h=Sound.ui.hint;this.hintImage=this.add.image(...h.center,hk).setDisplaySize(...h.size);q.add(this.hintImage);q.add(this.add.text(h.center[0],94,'怎麼玩（示意）',{fontFamily:FONT,fontSize:'16px',color:'#9a6ab8'}).setOrigin(.5));}
+  const oldKey=this.promptKey;this.time.delayedCall(250,()=>{if(this.q===q&&this.promptKey===oldKey)speak();});
   q.add(btn(this,170,640,70,60,'✖',0xf3e9ff,()=>this.cancelQ(),26));
-  this.opts=[];const T=this.qtype;
-  const sylRow=(y,hideIdx,hideMode)=>{const n=w.zhuyin.length;const sp=Math.min(170,640/n);w.zhuyin.forEach((z,i)=>{const x=W/2-(n-1)*sp/2+i*sp;const hl=i===it.syl;
+  this.opts=[];this.questionPictures=[];this.wordLabel=null;const T=this.qtype,ownPicture=Learn.picture(w);
+  const addWordPicture=(pw,x,y,size,role='target',button=null)=>{const p=Learn.picture(pw);if(!p)return null;const im=button?button.label:this.add.text(x,y,p.glyph,{fontSize:size+'px'}).setOrigin(.5);if(!button)q.add(im);im.setData({pictureWordId:p.wordId,representedWordId:pw.id,questionWordId:w.id,pictureRole:role});this.questionPictures.push({wordId:p.wordId,expectedWordId:pw.id,questionWordId:w.id,role,glyph:p.glyph,object:im});return im;};
+  const wordOrPicture=()=>{if(ownPicture)addWordPicture(w,W/2,232,88);else{this.wordLabel=this.add.text(W/2,235,w.word,{fontFamily:FONT,fontSize:'48px',color:'#5a2d6e'}).setOrigin(.5);q.add(this.wordLabel);}};
+  const sylRow=(y,hideIdx,hideMode)=>{const n=w.zhuyin.length;const sp=Math.min(240,680/n);w.zhuyin.forEach((z,i)=>{const x=W/2-(n-1)*sp/2+i*sp;const hl=i===it.syl;
    const box=this.add.rectangle(x,y,sp-14,96,hl?0xfff3b0:0xffffff).setStrokeStyle(hl?5:2,hl?0xffb300:0xe0d0f0);q.add(box);
-   let txt=z+(w.tones[i]===0?'˙':TONE_SHOW[w.tones[i]]);if(i===hideIdx)txt=z+(hideMode||'');q.add(this.add.text(x,y,txt,{fontFamily:FONT,fontSize:'48px',color:'#5a2d6e'}).setOrigin(0.5));if(hl)this.hlBox={x,y,box};});};
-  if(T==='hear'){q.add(this.add.text(W/2,190,w.pic,{fontSize:'110px'}).setOrigin(0.5));sylRow(330,it.syl,' ?');
-   [1,2,3,4].forEach((tn,i)=>{const x=W/2-270+i*180;const b=btn(this,x,520,160,150,'',0xffe4f1,()=>this.answer(tn===it.tone,tn,b));b.add(this.add.text(0,-30,TONE_MARK[tn],{fontFamily:FONT,fontSize:'64px',color:'#5a2d6e'}).setOrigin(0.5));b.add(toneIcon(this,0,40,tn,70));b.tone=tn;q.add(b);this.opts.push(b);});
-   this.time.delayedCall(250,speak);}
-  if(T==='pic2spell'){q.add(this.add.text(W/2,220,w.pic,{fontSize:'140px'}).setOrigin(0.5));
+   let txt=z+(w.tones[i]===0?'˙':TONE_SHOW[w.tones[i]]);if(i===hideIdx)txt=z+(hideMode||'');q.add(this.add.text(x,y,txt,{fontFamily:FONT,fontSize:ownPicture?'48px':(n>2?'52px':'56px'),color:'#5a2d6e'}).setOrigin(0.5));if(hl)this.hlBox={x,y,box};});};
+  if(T==='hear'){wordOrPicture();sylRow(330,it.syl,' ?');
+   [1,2,3,4].forEach((tn,i)=>{const x=W/2-270+i*180;const b=btn(this,x,520,160,150,'',0xffe4f1,null);b.removeAllListeners('pointerdown');b.on('pointerdown',()=>{b.toneDown=true;Sound.pop();});b.on('pointerout',()=>{b.toneDown=false;});b.toneMark=this.add.text(0,18,TONE_MARK[tn],{fontFamily:FONT,fontSize:'92px',color:'#5a2d6e'}).setOrigin(.5);b.add(b.toneMark);Sound.toneButtonArt(this,b,tn,b.bg,b.toneMark);b.on('pointerup',()=>{if(b.toneDown){b.toneDown=false;this.answer(tn===it.tone,tn,b);}});b.tone=tn;q.add(b);this.opts.push(b);});
+}
+  if(T==='pic2spell'){addWordPicture(w,W/2,238,104);
    const tones=Phaser.Utils.Array.Shuffle([it.tone,...Phaser.Utils.Array.Shuffle([1,2,3,4].filter(x=>x!==it.tone)).slice(0,2)]);
-   tones.forEach((tn,i)=>{const b=btn(this,W/2,400+i*95,560,80,Learn.spell(w,it.syl,tn),0xffe4f1,()=>this.answer(tn===it.tone,tn,b),40);b.tone=tn;q.add(b);this.opts.push(b);});this.time.delayedCall(250,speak);}
-  if(T==='spell2pic'){q.add(this.add.text(W/2,200,Learn.spell(w),{fontFamily:FONT,fontSize:'60px',color:'#5a2d6e'}).setOrigin(0.5));
+   tones.forEach((tn,i)=>{const b=btn(this,W/2,400+i*95,560,80,Learn.spell(w,it.syl,tn),0xffe4f1,()=>this.answer(tn===it.tone,tn,b),40);b.tone=tn;q.add(b);this.opts.push(b);});}
+  if(T==='spell2pic'){q.add(this.add.text(W/2,300,Learn.spell(w),{fontFamily:FONT,fontSize:'52px',color:'#5a2d6e'}).setOrigin(0.5));
    // P0 fix: distractors differ in tone at the target syllable, and the chosen word's tone is recorded like other types
    const pics=Phaser.Utils.Array.Shuffle([w,...Learn.toneDistractPics(it,2)]);pics.forEach((pw,i)=>{const ct=pw===w?it.tone:Learn.toneAt(pw,it.syl);
-    const b=btn(this,W/2-240+i*240,450,200,200,pw.pic,0xffe4f1,()=>this.answer(pw===w,ct,b),100);b.tone=ct;b.correct=pw===w;q.add(b);this.opts.push(b);});}
-  if(T==='drag'){q.add(this.add.text(W/2,190,w.pic,{fontSize:'110px'}).setOrigin(0.5));sylRow(330,it.syl,'');
+    const b=btn(this,W/2-240+i*240,450,200,200,Learn.picture(pw).glyph,0xffe4f1,()=>this.answer(pw===w,ct,b),100);b.tone=ct;b.correct=pw===w;b.wordId=pw.id;addWordPicture(pw,0,0,100,'option',b);q.add(b);this.opts.push(b);});}
+  if(T==='drag'){wordOrPicture();sylRow(330,it.syl,'');
    q.add(this.add.text(W/2,420,'👆 ➡ ⬆',{fontSize:'34px'}).setOrigin(0.5).setAlpha(0.7));
    [1,2,3,4].forEach((tn,i)=>{const x=W/2-270+i*180,y=560;const tile=this.add.container(x,y);const g=this.add.graphics();g.fillStyle(0xd1c4e9).fillRoundedRect(-60,-60,120,120,24);
-    tile.add([g,this.add.text(0,-14,TONE_MARK[tn],{fontFamily:FONT,fontSize:'64px',color:'#4a148c'}).setOrigin(0.5),toneIcon(this,0,36,tn,50)]);tile.setSize(120,120).setInteractive({draggable:true});
-    this.input.setDraggable(tile);tile.home=[x,y];tile.tone=tn;tile.on('drag',(p,dx,dy)=>{tile.x=dx;tile.y=dy;});
-    tile.on('dragend',()=>{const hb=this.hlBox;if(hb&&Phaser.Math.Distance.Between(tile.x,tile.y,hb.x,hb.y)<110){this.answer(tn===it.tone,tn,tile);}tile.x=tile.home[0];tile.y=tile.home[1];});
-    q.add(tile);this.opts.push(tile);});this.time.delayedCall(250,speak);}}
- answer(ok,tn,b){if(this.answering||!this.q)return;const it=this.item;
+    tile.toneMark=this.add.text(0,18,TONE_MARK[tn],{fontFamily:FONT,fontSize:'84px',color:'#4a148c'}).setOrigin(.5);tile.add([g,tile.toneMark]);tile.setSize(120,120).setInteractive({draggable:true});Sound.toneButtonArt(this,tile,tn,g,tile.toneMark);
+    this.input.setDraggable(tile);tile.home=[x,y];tile.tone=tn;tile.on('drag',(p,dx,dy)=>{tile.didDrag=true;tile.x=dx;tile.y=dy;});
+    tile.on('pointerdown',()=>{tile.didDrag=false;});tile.on('pointerup',()=>{if(!tile.didDrag)this.answer(tn===it.tone,tn,tile);});tile.on('dragend',()=>{const hb=this.hlBox;if(hb&&Phaser.Math.Distance.Between(tile.x,tile.y,hb.x,hb.y)<110){this.answer(tn===it.tone,tn,tile);}tile.x=tile.home[0];tile.y=tile.home[1];});
+    q.add(tile);this.opts.push(tile);});}}
+ answer(ok,tn,b){if(this.answering||!this.q)return;if(b.selectTone){this.opts.forEach(o=>{if(o!==b)o.unselectTone?.();});b.selectTone();}const it=this.item;
   if(this.firstTry){Learn.record(it,ok,tn);this.firstTry=false;if(!ok)this.mistakes++;Save.write();}
   if(ok){this.answering=true;this.streak++;this.correctTotal++;this.rainbow=Math.min(1,this.rainbow+0.25);Sound.chime(this.streak);
    fxSparkle(this,b.x||W/2,b.y||H/2,110);floatText(this,W/2,150,['⭐','🌟','💖','✨'][this.streak%4]+' +1','#ffeb3b');Save.data.stars++;
-   this.time.delayedCall(450,()=>{Sound.sayWord(it.word);this.closeQ();this.reward(true);});}
+   this.time.delayedCall(450,()=>{this.closeQ();Sound.sayWord(it.word);this.reward(true);});}
   else{this.streak=0;Sound.soft();b.setAlpha(0.35);if(b.disableInteractive)b.disableInteractive();
    const ch=it.word.word[it.syl]||it.word.word;if(Sound.hasWord(it.word.id))Sound.sayWord(it.word);else Sound.say(ch+'，'+it.word.word,0.7);
-   const gp=this.add.graphics().setDepth(101);gp.fillStyle(0xffffff,0.95).fillRoundedRect(140,85,240,90,16);this.q.add(gp);
-   this.q.add(this.add.text(180,130,TONE_MARK[it.tone],{fontFamily:FONT,fontSize:'56px',color:'#ff6fae'}).setOrigin(0.5).setDepth(102));
-   this.q.add(toneGesture(this,290,130,it.tone,120,60).setDepth(102));
+   const gp=this.add.graphics().setDepth(101);gp.fillStyle(0xffffff,0.95).fillRoundedRect(720,636,170,44,12);this.q.add(gp);
+   this.q.add(this.add.text(750,658,TONE_MARK[it.tone],{fontFamily:FONT,fontSize:'32px',color:'#ff6fae'}).setOrigin(0.5).setDepth(102));
+   this.q.add(toneGesture(this,830,658,it.tone,60,30).setDepth(102));
    if(this.hlBox){this.tweens.add({targets:this.hlBox.box,scale:1.15,duration:200,yoyo:true,repeat:2});}}
   this.updHud();}
- cancelQ(){if(this.answering)return;if(this.q){this.q.destroy();this.q=null;}this.qOpen=false;this.pending=null;}
- closeQ(){this.answering=false;if(this.q){this.q.destroy();this.q=null;}this.qOpen=false;const P=this.pending;this.pending=null;if(this.done)return;
+ cancelQ(){if(this.answering)return;Sound.cancelPrompt();if(this.q){this.q.destroy();this.q=null;}this.qOpen=false;this.pending=null;}
+ closeQ(){Sound.cancelPrompt();this.answering=false;if(this.q){this.q.destroy();this.q=null;}this.qOpen=false;const P=this.pending;this.pending=null;if(this.done)return;
   if(P){if(P.kind==='build'&&!this.towers[P.slot])this.buildTower(P.slot,P.type);else if(P.kind==='up'&&this.towers[P.slot]&&this.towers[P.slot].lv<2)this.upgradeTower(P.slot);}
   // correct answer = princess power attack on the nearest monster
   const m=this.nearest(HERO_POS[0],HERO_POS[1]);if(m&&this.heroWrap)this.heroAttack(m,true);this.heroExpr('cheer',1200);

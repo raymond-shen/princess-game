@@ -1,0 +1,397 @@
+{
+  "source": "/tmp/moe/dict_concised_2014_20260929.xlsx",
+  "sourceSHA256": "af2e9ba3655799080e0f7214646bde11ca5cc5e16226bca1e9a461285e05eec6",
+  "rows": [
+    {
+      "word": "鵝",
+      "moeId": "5726",
+      "officialWord": "鵝",
+      "officialZhuyin": "ㄜˊ",
+      "gameZhuyin": "ㄜˊ",
+      "file": "assets/audio/words/moe_word_5726.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "笑嘻嘻",
+      "moeId": "397400010",
+      "officialWord": "笑嘻嘻",
+      "officialZhuyin": "ㄒㄧㄠˋ ㄒㄧ ㄒㄧ",
+      "gameZhuyin": "ㄒㄧㄠˋ ㄒㄧ ㄒㄧ",
+      "file": "assets/audio/words/moe_www_397400010.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "老師",
+      "moeId": "179200095",
+      "officialWord": "老師",
+      "officialZhuyin": "ㄌㄠˇ ㄕ",
+      "gameZhuyin": "ㄌㄠˇ ㄕ",
+      "file": "assets/audio/words/moe_www_179200095.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "送",
+      "moeId": "5706",
+      "officialWord": "送",
+      "officialZhuyin": "ㄙㄨㄥˋ",
+      "gameZhuyin": "ㄙㄨㄥˋ",
+      "file": "assets/audio/words/moe_word_5706.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "賽跑",
+      "moeId": "560200001",
+      "officialWord": "賽跑",
+      "officialZhuyin": "ㄙㄞˋ ㄆㄠˇ",
+      "gameZhuyin": "ㄙㄞˋ ㄆㄠˇ",
+      "file": "assets/audio/words/moe_www_560200001.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "拔",
+      "moeId": "0012",
+      "officialWord": "拔",
+      "officialZhuyin": "ㄅㄚˊ",
+      "gameZhuyin": "ㄅㄚˊ",
+      "file": "assets/audio/words/moe_word_0012.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "大象",
+      "moeId": "101500324",
+      "officialWord": "大象",
+      "officialZhuyin": "ㄉㄚˋ ㄒㄧㄤˋ",
+      "gameZhuyin": "ㄉㄚˋ ㄒㄧㄤˋ",
+      "file": "assets/audio/words/moe_www_101500324.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "動物",
+      "moeId": "131600050",
+      "officialWord": "動物",
+      "officialZhuyin": "ㄉㄨㄥˋ ㄨˋ",
+      "gameZhuyin": "ㄉㄨㄥˋ ㄨˋ",
+      "file": "assets/audio/words/moe_www_131600050.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "狂歡",
+      "moeId": "265400007",
+      "officialWord": "狂歡",
+      "officialZhuyin": "ㄎㄨㄤˊ ㄏㄨㄢ",
+      "gameZhuyin": "ㄎㄨㄤˊ ㄏㄨㄢ",
+      "file": "assets/audio/words/moe_www_265400007.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "弟弟",
+      "moeId": "114800003",
+      "officialWord": "弟弟",
+      "officialZhuyin": "ㄉㄧˋ ㄉㄧ˙",
+      "gameZhuyin": "ㄉㄧˋ ㄉㄧ˙",
+      "file": "assets/audio/words/moe_www_114800003.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "第一",
+      "moeId": "115000011",
+      "officialWord": "第一",
+      "officialZhuyin": "ㄉㄧˋ ㄧ",
+      "gameZhuyin": "ㄉㄧˋ ㄧ",
+      "file": "assets/audio/words/moe_www_115000011.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "跑",
+      "moeId": "0353",
+      "officialWord": "跑",
+      "officialZhuyin": "ㄆㄠˇ",
+      "gameZhuyin": "ㄆㄠˇ",
+      "file": "assets/audio/words/moe_word_0353.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "半路",
+      "moeId": "012400010",
+      "officialWord": "半路",
+      "officialZhuyin": "ㄅㄢˋ ㄌㄨˋ",
+      "gameZhuyin": "ㄅㄢˋ ㄌㄨˋ",
+      "file": "assets/audio/words/moe_www_012400010.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "遇到",
+      "moeId": "650000001",
+      "officialWord": "遇到",
+      "officialZhuyin": "ㄩˋ ㄉㄠˋ",
+      "gameZhuyin": "ㄩˋ ㄉㄠˋ",
+      "file": "assets/audio/words/moe_www_650000001.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "築巢",
+      "moeId": "451300003",
+      "officialWord": "築巢",
+      "officialZhuyin": "ㄓㄨˊ ㄔㄠˊ",
+      "gameZhuyin": "ㄓㄨˊ ㄔㄠˊ",
+      "file": "assets/audio/words/moe_www_451300003.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "忙",
+      "moeId": "0666",
+      "officialWord": "忙",
+      "officialZhuyin": "ㄇㄤˊ",
+      "gameZhuyin": "ㄇㄤˊ",
+      "file": "assets/audio/words/moe_word_0666.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "書包",
+      "moeId": "511200001",
+      "officialWord": "書包",
+      "officialZhuyin": "ㄕㄨ ㄅㄠ",
+      "gameZhuyin": "ㄕㄨ ㄅㄠ",
+      "file": "assets/audio/words/moe_www_511200001.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "歡喜",
+      "moeId": "292500007",
+      "officialWord": "歡喜",
+      "officialZhuyin": "ㄏㄨㄢ ㄒㄧˇ",
+      "gameZhuyin": "ㄏㄨㄢ ㄒㄧˇ",
+      "file": "assets/audio/words/moe_www_292500007.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "上上下下",
+      "moeId": "508000065",
+      "officialWord": "上上下下",
+      "officialZhuyin": "ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ",
+      "gameZhuyin": "ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ",
+      "file": "assets/audio/words/moe_www_508000065.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "飛",
+      "moeId": "0824",
+      "officialWord": "飛",
+      "officialZhuyin": "ㄈㄟ",
+      "gameZhuyin": "ㄈㄟ",
+      "file": "assets/audio/words/moe_word_0824.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "讀書",
+      "moeId": "124100007",
+      "officialWord": "讀書",
+      "officialZhuyin": "ㄉㄨˊ ㄕㄨ",
+      "gameZhuyin": "ㄉㄨˊ ㄕㄨ",
+      "file": "assets/audio/words/moe_www_124100007.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "教",
+      "moeId": "3194",
+      "officialWord": "教",
+      "officialZhuyin": "ㄐㄧㄠ",
+      "gameZhuyin": "ㄐㄧㄠ",
+      "file": "assets/audio/words/moe_word_3194.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "落後",
+      "moeId": "212800020",
+      "officialWord": "落後",
+      "officialZhuyin": "ㄌㄨㄛˋ ㄏㄡˋ",
+      "gameZhuyin": "ㄌㄨㄛˋ ㄏㄡˋ",
+      "file": "assets/audio/words/moe_www_212800020.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "追",
+      "moeId": "4567",
+      "officialWord": "追",
+      "officialZhuyin": "ㄓㄨㄟ",
+      "gameZhuyin": "ㄓㄨㄟ",
+      "file": "assets/audio/words/moe_word_4567.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "山崖",
+      "moeId": "501500051",
+      "officialWord": "山崖",
+      "officialZhuyin": "ㄕㄢ ㄧㄞˊ",
+      "gameZhuyin": "ㄕㄢ ㄧㄞˊ",
+      "file": "assets/audio/words/moe_www_501500051.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "開心",
+      "moeId": "252100069",
+      "officialWord": "開心",
+      "officialZhuyin": "ㄎㄞ ㄒㄧㄣ",
+      "gameZhuyin": "ㄎㄞ ㄒㄧㄣ",
+      "file": "assets/audio/words/moe_www_252100069.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "慶祝",
+      "moeId": "374300005",
+      "officialWord": "慶祝",
+      "officialZhuyin": "ㄑㄧㄥˋ ㄓㄨˋ",
+      "gameZhuyin": "ㄑㄧㄥˋ ㄓㄨˋ",
+      "file": "assets/audio/words/moe_www_374300005.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "馴鹿",
+      "moeId": "419500002",
+      "officialWord": "馴鹿",
+      "officialZhuyin": "ㄒㄩㄣˊ ㄌㄨˋ",
+      "gameZhuyin": "ㄒㄩㄣˊ ㄌㄨˋ",
+      "file": "assets/audio/words/moe_www_419500002.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "大鼓",
+      "moeId": "101500195",
+      "officialWord": "大鼓",
+      "officialZhuyin": "ㄉㄚˋ ㄍㄨˇ",
+      "gameZhuyin": "ㄉㄚˋ ㄍㄨˇ",
+      "file": "assets/audio/words/moe_www_101500195.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "青蛙",
+      "moeId": "372600026",
+      "officialWord": "青蛙",
+      "officialZhuyin": "ㄑㄧㄥ ㄨㄚ",
+      "gameZhuyin": "ㄑㄧㄥ ㄨㄚ",
+      "file": "assets/audio/words/moe_www_372600026.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "去",
+      "moeId": "3770",
+      "officialWord": "去",
+      "officialZhuyin": "ㄑㄩˋ",
+      "gameZhuyin": "ㄑㄩˋ",
+      "file": "assets/audio/words/moe_word_3770.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "好像",
+      "moeId": "272700015",
+      "officialWord": "好像",
+      "officialZhuyin": "ㄏㄠˇ ㄒㄧㄤˋ",
+      "gameZhuyin": "ㄏㄠˇ ㄒㄧㄤˋ",
+      "file": "assets/audio/words/moe_www_272700015.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "午覺",
+      "moeId": "624700002",
+      "officialWord": "午覺",
+      "officialZhuyin": "ㄨˇ ㄐㄧㄠˋ",
+      "gameZhuyin": "ㄨˇ ㄐㄧㄠˋ",
+      "file": "assets/audio/words/moe_www_624700002.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "快",
+      "moeId": "2598",
+      "officialWord": "快",
+      "officialZhuyin": "ㄎㄨㄞˋ",
+      "gameZhuyin": "ㄎㄨㄞˋ",
+      "file": "assets/audio/words/moe_word_2598.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "用力",
+      "moeId": "661700005",
+      "officialWord": "用力",
+      "officialZhuyin": "ㄩㄥˋ ㄌㄧˋ",
+      "gameZhuyin": "ㄩㄥˋ ㄌㄧˋ",
+      "file": "assets/audio/words/moe_www_661700005.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "精采",
+      "moeId": "337700038",
+      "officialWord": "精采",
+      "officialZhuyin": "ㄐㄧㄥ ㄘㄞˇ",
+      "gameZhuyin": "ㄐㄧㄥ ㄘㄞˇ",
+      "file": "assets/audio/words/moe_www_337700038.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "敲",
+      "moeId": "3606",
+      "officialWord": "敲",
+      "officialZhuyin": "ㄑㄧㄠ",
+      "gameZhuyin": "ㄑㄧㄠ",
+      "file": "assets/audio/words/moe_word_3606.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "滾",
+      "moeId": "2458",
+      "officialWord": "滾",
+      "officialZhuyin": "ㄍㄨㄣˇ",
+      "gameZhuyin": "ㄍㄨㄣˇ",
+      "file": "assets/audio/words/moe_word_2458.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    },
+    {
+      "word": "變",
+      "moeId": "0250",
+      "officialWord": "變",
+      "officialZhuyin": "ㄅㄧㄢˋ",
+      "gameZhuyin": "ㄅㄧㄢˋ",
+      "file": "assets/audio/words/moe_word_0250.wav",
+      "wordMatches": true,
+      "zhuyinMatches": true
+    }
+  ],
+  "attribution": "中華民國教育部《國語辭典簡編本》公眾授權下載，2014_20260929；原始xlsx唯讀核對，未複製／修改原檔。39詞詞號與注音逐一相同；不表示真人已聽驗。"
+}

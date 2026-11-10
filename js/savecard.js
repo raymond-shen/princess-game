@@ -85,7 +85,7 @@ class Credits extends Phaser.Scene{constructor(){super('Credits');}
   T(90,'🔊 詞語讀音',{fontSize:'23px',color:'#6a2c91'});
   T(124,'中華民國教育部（Ministry of Education, R.O.C.）。《國語辭典簡編本》（版本編號：2014_20260929）網址：https://dict.concised.moe.edu.tw/');
   T(184,'授權：創用 CC 姓名標示-禁止改作 3.0 臺灣（CC BY-ND 3.0 TW）https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode');
-  T(244,'遊戲內附的教育部聲音檔為官方公眾授權下載的原始檔，未經剪輯或轉檔；遊戲只播放詞目本身的讀音段落。教育部使用說明全文附於 assets/audio/words/。沒有官方音檔的詞語，使用 iPad 內建語音朗讀。',{color:'#555'});
+  T(244,'教育部原音未剪輯或重編碼；副本13檔僅校正WAV標頭長度，PCM取樣資料完全不變。遊戲只播放詞目本身的讀音段落。教育部使用說明全文附於 assets/audio/words/。沒有官方音檔的詞語，使用 iPad 內建語音朗讀。',{color:'#555'});
   T(340,'📚 題庫',{fontSize:'23px',color:'#6a2c91'});T(374,'詞語整理自康軒國語一上首冊（111 年版）課名與注音，僅供家庭複習使用。',{color:'#555'});
   T(430,'🎨 美術',{fontSize:'23px',color:'#6a2c91'});T(464,'防禦塔、怪物、表情、寶物與特效：Lily 美術長。其餘為暫用圖。',{color:'#555'});
   T(520,'🧩 程式庫',{fontSize:'23px',color:'#6a2c91'});T(554,'Phaser 3（MIT）・qrcode-generator by Kazuhiko Arase（MIT；“QR Code” 是 DENSO WAVE 的註冊商標）・lz-string by Pieroxy（MIT）',{color:'#555'});

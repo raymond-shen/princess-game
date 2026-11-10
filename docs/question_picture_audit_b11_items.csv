@@ -1,0 +1,597 @@
+﻿word_id,word,zhuyin,lesson,item_id,target_index_1based,target_character,target_zhuyin,tone,question_type,legacy_picture,legacy_status,reason,eligible_now,approved_picture,picture_role,audio_kind,spoken_file_or_text,audio_verification
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#0,1,貓,ㄇㄠ,1,hear,🐱,matched,貓臉直接對應貓咪,true,🐱,target,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#0,1,貓,ㄇㄠ,1,pic2spell,🐱,matched,貓臉直接對應貓咪,true,🐱,target,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#0,1,貓,ㄇㄠ,1,spell2pic,🐱,matched,貓臉直接對應貓咪,true,🐱,correct_option,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#0,1,貓,ㄇㄠ,1,drag,🐱,matched,貓臉直接對應貓咪,true,🐱,target,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#1,2,咪,ㄇㄧ,1,hear,🐱,matched,貓臉直接對應貓咪,true,🐱,target,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#1,2,咪,ㄇㄧ,1,pic2spell,🐱,matched,貓臉直接對應貓咪,true,🐱,target,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#1,2,咪,ㄇㄧ,1,spell2pic,🐱,matched,貓臉直接對應貓咪,true,🐱,correct_option,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+貓咪,貓咪,ㄇㄠ ㄇㄧ,1,貓咪#1,2,咪,ㄇㄧ,1,drag,🐱,matched,貓臉直接對應貓咪,true,🐱,target,TTS（zh-TW）,speechSynthesis: 貓咪,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+鵝,鵝,ㄜˊ,2,鵝#0,1,鵝,ㄜ,2,hear,🦢,mismatched,🦢 是天鵝（swan），不能當作家鵝的專屬圖,true,,none,MOE,assets/audio/words/moe_word_5726.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+鵝,鵝,ㄜˊ,2,鵝#0,1,鵝,ㄜ,2,pic2spell,🦢,mismatched,🦢 是天鵝（swan），不能當作家鵝的專屬圖,false,,none,MOE,assets/audio/words/moe_word_5726.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+鵝,鵝,ㄜˊ,2,鵝#0,1,鵝,ㄜ,2,spell2pic,🦢,mismatched,🦢 是天鵝（swan），不能當作家鵝的專屬圖,false,,none,MOE,assets/audio/words/moe_word_5726.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+鵝,鵝,ㄜˊ,2,鵝#0,1,鵝,ㄜ,2,drag,🦢,mismatched,🦢 是天鵝（swan），不能當作家鵝的專屬圖,true,,none,MOE,assets/audio/words/moe_word_5726.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+寶寶,寶寶,ㄅㄠˇ ㄅㄠ˙,2,寶寶#0,1,寶,ㄅㄠ,3,hear,👶,matched,嬰兒直接對應寶寶,true,👶,target,TTS（zh-TW）,speechSynthesis: 寶寶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+寶寶,寶寶,ㄅㄠˇ ㄅㄠ˙,2,寶寶#0,1,寶,ㄅㄠ,3,pic2spell,👶,matched,嬰兒直接對應寶寶,true,👶,target,TTS（zh-TW）,speechSynthesis: 寶寶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+寶寶,寶寶,ㄅㄠˇ ㄅㄠ˙,2,寶寶#0,1,寶,ㄅㄠ,3,spell2pic,👶,matched,嬰兒直接對應寶寶,true,👶,correct_option,TTS（zh-TW）,speechSynthesis: 寶寶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+寶寶,寶寶,ㄅㄠˇ ㄅㄠ˙,2,寶寶#0,1,寶,ㄅㄠ,3,drag,👶,matched,嬰兒直接對應寶寶,true,👶,target,TTS（zh-TW）,speechSynthesis: 寶寶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#0,1,河,ㄏㄜ,2,hear,🦛,matched,河馬,true,🦛,target,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#0,1,河,ㄏㄜ,2,pic2spell,🦛,matched,河馬,true,🦛,target,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#0,1,河,ㄏㄜ,2,spell2pic,🦛,matched,河馬,true,🦛,correct_option,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#0,1,河,ㄏㄜ,2,drag,🦛,matched,河馬,true,🦛,target,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#1,2,馬,ㄇㄚ,3,hear,🦛,matched,河馬,true,🦛,target,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#1,2,馬,ㄇㄚ,3,pic2spell,🦛,matched,河馬,true,🦛,target,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#1,2,馬,ㄇㄚ,3,spell2pic,🦛,matched,河馬,true,🦛,correct_option,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河馬,河馬,ㄏㄜˊ ㄇㄚˇ,3,河馬#1,2,馬,ㄇㄚ,3,drag,🦛,matched,河馬,true,🦛,target,TTS（zh-TW）,speechSynthesis: 河馬,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#0,1,河,ㄏㄜ,2,hear,🦫,matched,河狸,true,🦫,target,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#0,1,河,ㄏㄜ,2,pic2spell,🦫,matched,河狸,true,🦫,target,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#0,1,河,ㄏㄜ,2,spell2pic,🦫,matched,河狸,true,🦫,correct_option,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#0,1,河,ㄏㄜ,2,drag,🦫,matched,河狸,true,🦫,target,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#1,2,狸,ㄌㄧ,2,hear,🦫,matched,河狸,true,🦫,target,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#1,2,狸,ㄌㄧ,2,pic2spell,🦫,matched,河狸,true,🦫,target,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#1,2,狸,ㄌㄧ,2,spell2pic,🦫,matched,河狸,true,🦫,correct_option,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+河狸,河狸,ㄏㄜˊ ㄌㄧˊ,3,河狸#1,2,狸,ㄌㄧ,2,drag,🦫,matched,河狸,true,🦫,target,TTS（zh-TW）,speechSynthesis: 河狸,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#0,1,笑,ㄒㄧㄠ,4,hear,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#0,1,笑,ㄒㄧㄠ,4,pic2spell,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#0,1,笑,ㄒㄧㄠ,4,spell2pic,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,correct_option,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#0,1,笑,ㄒㄧㄠ,4,drag,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#1,2,嘻,ㄒㄧ,1,hear,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#1,2,嘻,ㄒㄧ,1,pic2spell,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#1,2,嘻,ㄒㄧ,1,spell2pic,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,correct_option,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#1,2,嘻,ㄒㄧ,1,drag,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#2,3,嘻,ㄒㄧ,1,hear,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#2,3,嘻,ㄒㄧ,1,pic2spell,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#2,3,嘻,ㄒㄧ,1,spell2pic,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,correct_option,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+笑嘻嘻,笑嘻嘻,ㄒㄧㄠˋ ㄒㄧ ㄒㄧ,4,笑嘻嘻#2,3,嘻,ㄒㄧ,1,drag,😄,matched,微笑露齒臉直接呈現笑嘻嘻,true,😄,target,MOE,assets/audio/words/moe_www_397400010.wav [0.00–1.03s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#0,1,翹,ㄑㄧㄠ,4,hear,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,true,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#0,1,翹,ㄑㄧㄠ,4,pic2spell,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,false,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#0,1,翹,ㄑㄧㄠ,4,spell2pic,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,false,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#0,1,翹,ㄑㄧㄠ,4,drag,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,true,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#1,2,翹,ㄑㄧㄠ,4,hear,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,true,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#1,2,翹,ㄑㄧㄠ,4,pic2spell,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,false,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#1,2,翹,ㄑㄧㄠ,4,spell2pic,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,false,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#1,2,翹,ㄑㄧㄠ,4,drag,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,true,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#2,3,板,ㄅㄢ,3,hear,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,true,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#2,3,板,ㄅㄢ,3,pic2spell,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,false,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#2,3,板,ㄅㄢ,3,spell2pic,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,false,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+翹翹板,翹翹板,ㄑㄧㄠˋ ㄑㄧㄠˋ ㄅㄢˇ,5,翹翹板#2,3,板,ㄅㄢ,3,drag,🛝,mismatched,🛝 是溜滑梯，不是翹翹板,true,,none,TTS（zh-TW）,speechSynthesis: 翹翹板,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+老師,老師,ㄌㄠˇ ㄕ,6,老師#0,1,老,ㄌㄠ,3,hear,🧑‍🏫,matched,教師形象,true,🧑‍🏫,target,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#0,1,老,ㄌㄠ,3,pic2spell,🧑‍🏫,matched,教師形象,true,🧑‍🏫,target,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#0,1,老,ㄌㄠ,3,spell2pic,🧑‍🏫,matched,教師形象,true,🧑‍🏫,correct_option,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#0,1,老,ㄌㄠ,3,drag,🧑‍🏫,matched,教師形象,true,🧑‍🏫,target,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#1,2,師,ㄕ,1,hear,🧑‍🏫,matched,教師形象,true,🧑‍🏫,target,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#1,2,師,ㄕ,1,pic2spell,🧑‍🏫,matched,教師形象,true,🧑‍🏫,target,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#1,2,師,ㄕ,1,spell2pic,🧑‍🏫,matched,教師形象,true,🧑‍🏫,correct_option,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+老師,老師,ㄌㄠˇ ㄕ,6,老師#1,2,師,ㄕ,1,drag,🧑‍🏫,matched,教師形象,true,🧑‍🏫,target,MOE,assets/audio/words/moe_www_179200095.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#0,1,小,ㄒㄧㄠ,3,hear,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#0,1,小,ㄒㄧㄠ,3,pic2spell,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#0,1,小,ㄒㄧㄠ,3,spell2pic,🌺,matched,紅色花朵,true,🌺,correct_option,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#0,1,小,ㄒㄧㄠ,3,drag,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#1,2,紅,ㄏㄨㄥ,2,hear,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#1,2,紅,ㄏㄨㄥ,2,pic2spell,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#1,2,紅,ㄏㄨㄥ,2,spell2pic,🌺,matched,紅色花朵,true,🌺,correct_option,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#1,2,紅,ㄏㄨㄥ,2,drag,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#2,3,花,ㄏㄨㄚ,1,hear,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#2,3,花,ㄏㄨㄚ,1,pic2spell,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#2,3,花,ㄏㄨㄚ,1,spell2pic,🌺,matched,紅色花朵,true,🌺,correct_option,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小紅花,小紅花,ㄒㄧㄠˇ ㄏㄨㄥˊ ㄏㄨㄚ,6,小紅花#2,3,花,ㄏㄨㄚ,1,drag,🌺,matched,紅色花朵,true,🌺,target,TTS（zh-TW）,speechSynthesis: 小紅花,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一朵,一朵,ㄧˋ ㄉㄨㄛˇ,6,一朵#1,2,朵,ㄉㄨㄛ,3,hear,🌸,mismatched,單一花朵沒有明確量詞／計數情境，不能等同「一朵」,true,,none,TTS（zh-TW）,speechSynthesis: 一朵,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一朵,一朵,ㄧˋ ㄉㄨㄛˇ,6,一朵#1,2,朵,ㄉㄨㄛ,3,pic2spell,🌸,mismatched,單一花朵沒有明確量詞／計數情境，不能等同「一朵」,false,,none,TTS（zh-TW）,speechSynthesis: 一朵,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一朵,一朵,ㄧˋ ㄉㄨㄛˇ,6,一朵#1,2,朵,ㄉㄨㄛ,3,spell2pic,🌸,mismatched,單一花朵沒有明確量詞／計數情境，不能等同「一朵」,false,,none,TTS（zh-TW）,speechSynthesis: 一朵,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一朵,一朵,ㄧˋ ㄉㄨㄛˇ,6,一朵#1,2,朵,ㄉㄨㄛ,3,drag,🌸,mismatched,單一花朵沒有明確量詞／計數情境，不能等同「一朵」,true,,none,TTS（zh-TW）,speechSynthesis: 一朵,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+送,送,ㄙㄨㄥˋ,6,送#0,1,送,ㄙㄨㄥ,4,hear,🎁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_5706.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+送,送,ㄙㄨㄥˋ,6,送#0,1,送,ㄙㄨㄥ,4,pic2spell,🎁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_5706.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+送,送,ㄙㄨㄥˋ,6,送#0,1,送,ㄙㄨㄥ,4,spell2pic,🎁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_5706.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+送,送,ㄙㄨㄥˋ,6,送#0,1,送,ㄙㄨㄥ,4,drag,🎁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_5706.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#0,1,烏,ㄨ,1,hear,🐢,matched,烏龜,true,🐢,target,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#0,1,烏,ㄨ,1,pic2spell,🐢,matched,烏龜,true,🐢,target,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#0,1,烏,ㄨ,1,spell2pic,🐢,matched,烏龜,true,🐢,correct_option,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#0,1,烏,ㄨ,1,drag,🐢,matched,烏龜,true,🐢,target,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#1,2,龜,ㄍㄨㄟ,1,hear,🐢,matched,烏龜,true,🐢,target,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#1,2,龜,ㄍㄨㄟ,1,pic2spell,🐢,matched,烏龜,true,🐢,target,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#1,2,龜,ㄍㄨㄟ,1,spell2pic,🐢,matched,烏龜,true,🐢,correct_option,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+烏龜,烏龜,ㄨ ㄍㄨㄟ,7,烏龜#1,2,龜,ㄍㄨㄟ,1,drag,🐢,matched,烏龜,true,🐢,target,TTS（zh-TW）,speechSynthesis: 烏龜,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#0,1,賽,ㄙㄞ,4,hear,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#0,1,賽,ㄙㄞ,4,pic2spell,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#0,1,賽,ㄙㄞ,4,spell2pic,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#0,1,賽,ㄙㄞ,4,drag,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#1,2,跑,ㄆㄠ,3,hear,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#1,2,跑,ㄆㄠ,3,pic2spell,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#1,2,跑,ㄆㄠ,3,spell2pic,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+賽跑,賽跑,ㄙㄞˋ ㄆㄠˇ,7,賽跑#1,2,跑,ㄆㄠ,3,drag,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_560200001.wav [0.03–1.43s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+拔,拔,ㄅㄚˊ,8,拔#0,1,拔,ㄅㄚ,2,hear,🥕,mismatched,🥕 只有胡蘿蔔，未呈現「拔」的動作,true,,none,MOE,assets/audio/words/moe_word_0012.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+拔,拔,ㄅㄚˊ,8,拔#0,1,拔,ㄅㄚ,2,pic2spell,🥕,mismatched,🥕 只有胡蘿蔔，未呈現「拔」的動作,false,,none,MOE,assets/audio/words/moe_word_0012.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+拔,拔,ㄅㄚˊ,8,拔#0,1,拔,ㄅㄚ,2,spell2pic,🥕,mismatched,🥕 只有胡蘿蔔，未呈現「拔」的動作,false,,none,MOE,assets/audio/words/moe_word_0012.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+拔,拔,ㄅㄚˊ,8,拔#0,1,拔,ㄅㄚ,2,drag,🥕,mismatched,🥕 只有胡蘿蔔，未呈現「拔」的動作,true,,none,MOE,assets/audio/words/moe_word_0012.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#0,1,大,ㄉㄚ,4,hear,🐘,matched,大象,true,🐘,target,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#0,1,大,ㄉㄚ,4,pic2spell,🐘,matched,大象,true,🐘,target,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#0,1,大,ㄉㄚ,4,spell2pic,🐘,matched,大象,true,🐘,correct_option,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#0,1,大,ㄉㄚ,4,drag,🐘,matched,大象,true,🐘,target,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#1,2,象,ㄒㄧㄤ,4,hear,🐘,matched,大象,true,🐘,target,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#1,2,象,ㄒㄧㄤ,4,pic2spell,🐘,matched,大象,true,🐘,target,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#1,2,象,ㄒㄧㄤ,4,spell2pic,🐘,matched,大象,true,🐘,correct_option,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大象,大象,ㄉㄚˋ ㄒㄧㄤˋ,8,大象#1,2,象,ㄒㄧㄤ,4,drag,🐘,matched,大象,true,🐘,target,MOE,assets/audio/words/moe_www_101500324.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#0,1,黃,ㄏㄨㄤ,2,hear,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,true,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#0,1,黃,ㄏㄨㄤ,2,pic2spell,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,false,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#0,1,黃,ㄏㄨㄤ,2,spell2pic,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,false,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#0,1,黃,ㄏㄨㄤ,2,drag,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,true,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#1,2,牛,ㄋㄧㄡ,2,hear,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,true,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#1,2,牛,ㄋㄧㄡ,2,pic2spell,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,false,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#1,2,牛,ㄋㄧㄡ,2,spell2pic,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,false,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+黃牛,黃牛,ㄏㄨㄤˊ ㄋㄧㄡˊ,8,黃牛#1,2,牛,ㄋㄧㄡ,2,drag,🐂,mismatched,🐂 公牛圖未明確表達黃牛物種／顏色,true,,none,TTS（zh-TW）,speechSynthesis: 黃牛,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#0,1,浣,ㄏㄨㄢ,4,hear,🦝,matched,浣熊,true,🦝,target,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#0,1,浣,ㄏㄨㄢ,4,pic2spell,🦝,matched,浣熊,true,🦝,target,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#0,1,浣,ㄏㄨㄢ,4,spell2pic,🦝,matched,浣熊,true,🦝,correct_option,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#0,1,浣,ㄏㄨㄢ,4,drag,🦝,matched,浣熊,true,🦝,target,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#1,2,熊,ㄒㄩㄥ,2,hear,🦝,matched,浣熊,true,🦝,target,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#1,2,熊,ㄒㄩㄥ,2,pic2spell,🦝,matched,浣熊,true,🦝,target,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#1,2,熊,ㄒㄩㄥ,2,spell2pic,🦝,matched,浣熊,true,🦝,correct_option,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+浣熊,浣熊,ㄏㄨㄢˋ ㄒㄩㄥˊ,8,浣熊#1,2,熊,ㄒㄩㄥ,2,drag,🦝,matched,浣熊,true,🦝,target,TTS（zh-TW）,speechSynthesis: 浣熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+兔子,兔子,ㄊㄨˋ ㄗ˙,8,兔子#0,1,兔,ㄊㄨ,4,hear,🐰,matched,兔子,true,🐰,target,TTS（zh-TW）,speechSynthesis: 兔子,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+兔子,兔子,ㄊㄨˋ ㄗ˙,8,兔子#0,1,兔,ㄊㄨ,4,pic2spell,🐰,matched,兔子,true,🐰,target,TTS（zh-TW）,speechSynthesis: 兔子,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+兔子,兔子,ㄊㄨˋ ㄗ˙,8,兔子#0,1,兔,ㄊㄨ,4,spell2pic,🐰,matched,兔子,true,🐰,correct_option,TTS（zh-TW）,speechSynthesis: 兔子,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+兔子,兔子,ㄊㄨˋ ㄗ˙,8,兔子#0,1,兔,ㄊㄨ,4,drag,🐰,matched,兔子,true,🐰,target,TTS（zh-TW）,speechSynthesis: 兔子,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#0,1,菜,ㄘㄞ,4,hear,🥬,mismatched,🥬 是葉菜，不是菜園,true,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#0,1,菜,ㄘㄞ,4,pic2spell,🥬,mismatched,🥬 是葉菜，不是菜園,false,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#0,1,菜,ㄘㄞ,4,spell2pic,🥬,mismatched,🥬 是葉菜，不是菜園,false,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#0,1,菜,ㄘㄞ,4,drag,🥬,mismatched,🥬 是葉菜，不是菜園,true,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#1,2,園,ㄩㄢ,2,hear,🥬,mismatched,🥬 是葉菜，不是菜園,true,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#1,2,園,ㄩㄢ,2,pic2spell,🥬,mismatched,🥬 是葉菜，不是菜園,false,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#1,2,園,ㄩㄢ,2,spell2pic,🥬,mismatched,🥬 是葉菜，不是菜園,false,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+菜園,菜園,ㄘㄞˋ ㄩㄢˊ,8,菜園#1,2,園,ㄩㄢ,2,drag,🥬,mismatched,🥬 是葉菜，不是菜園,true,,none,TTS（zh-TW）,speechSynthesis: 菜園,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#0,1,動,ㄉㄨㄥ,4,hear,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#0,1,動,ㄉㄨㄥ,4,pic2spell,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#0,1,動,ㄉㄨㄥ,4,spell2pic,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#0,1,動,ㄉㄨㄥ,4,drag,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#1,2,物,ㄨ,4,hear,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#1,2,物,ㄨ,4,pic2spell,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#1,2,物,ㄨ,4,spell2pic,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+動物,動物,ㄉㄨㄥˋ ㄨˋ,9,動物#1,2,物,ㄨ,4,drag,🐾,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_131600050.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#0,1,狂,ㄎㄨㄤ,2,hear,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#0,1,狂,ㄎㄨㄤ,2,pic2spell,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#0,1,狂,ㄎㄨㄤ,2,spell2pic,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#0,1,狂,ㄎㄨㄤ,2,drag,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#1,2,歡,ㄏㄨㄢ,1,hear,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#1,2,歡,ㄏㄨㄢ,1,pic2spell,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#1,2,歡,ㄏㄨㄢ,1,spell2pic,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+狂歡,狂歡,ㄎㄨㄤˊ ㄏㄨㄢ,9,狂歡#1,2,歡,ㄏㄨㄢ,1,drag,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_265400007.wav [0.00–1.01s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+弟弟,弟弟,ㄉㄧˋ ㄉㄧ˙,1,弟弟#0,1,弟,ㄉㄧ,4,hear,👦,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_114800003.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+弟弟,弟弟,ㄉㄧˋ ㄉㄧ˙,1,弟弟#0,1,弟,ㄉㄧ,4,pic2spell,👦,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_114800003.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+弟弟,弟弟,ㄉㄧˋ ㄉㄧ˙,1,弟弟#0,1,弟,ㄉㄧ,4,spell2pic,👦,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_114800003.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+弟弟,弟弟,ㄉㄧˋ ㄉㄧ˙,1,弟弟#0,1,弟,ㄉㄧ,4,drag,👦,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_114800003.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#0,1,第,ㄉㄧ,4,hear,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#0,1,第,ㄉㄧ,4,pic2spell,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#0,1,第,ㄉㄧ,4,spell2pic,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#0,1,第,ㄉㄧ,4,drag,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#1,2,一,ㄧ,1,hear,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#1,2,一,ㄧ,1,pic2spell,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#1,2,一,ㄧ,1,spell2pic,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+第一,第一,ㄉㄧˋ ㄧ,1,第一#1,2,一,ㄧ,1,drag,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_115000011.wav [0.00–0.83s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+跑,跑,ㄆㄠˇ,1,跑#0,1,跑,ㄆㄠ,3,hear,🏃,matched,奔跑中的人,true,🏃,target,MOE,assets/audio/words/moe_word_0353.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+跑,跑,ㄆㄠˇ,1,跑#0,1,跑,ㄆㄠ,3,pic2spell,🏃,matched,奔跑中的人,true,🏃,target,MOE,assets/audio/words/moe_word_0353.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+跑,跑,ㄆㄠˇ,1,跑#0,1,跑,ㄆㄠ,3,spell2pic,🏃,matched,奔跑中的人,true,🏃,correct_option,MOE,assets/audio/words/moe_word_0353.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+跑,跑,ㄆㄠˇ,1,跑#0,1,跑,ㄆㄠ,3,drag,🏃,matched,奔跑中的人,true,🏃,target,MOE,assets/audio/words/moe_word_0353.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+媽媽,媽媽,ㄇㄚ ㄇㄚ˙,2,媽媽#0,1,媽,ㄇㄚ,1,hear,👩,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 媽媽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+媽媽,媽媽,ㄇㄚ ㄇㄚ˙,2,媽媽#0,1,媽,ㄇㄚ,1,pic2spell,👩,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 媽媽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+媽媽,媽媽,ㄇㄚ ㄇㄚ˙,2,媽媽#0,1,媽,ㄇㄚ,1,spell2pic,👩,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 媽媽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+媽媽,媽媽,ㄇㄚ ㄇㄚ˙,2,媽媽#0,1,媽,ㄇㄚ,1,drag,👩,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 媽媽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#0,1,得,ㄉㄜ,2,hear,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#0,1,得,ㄉㄜ,2,pic2spell,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#0,1,得,ㄉㄜ,2,spell2pic,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#0,1,得,ㄉㄜ,2,drag,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#1,2,意,ㄧ,4,hear,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#1,2,意,ㄧ,4,pic2spell,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#1,2,意,ㄧ,4,spell2pic,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+得意,得意,ㄉㄜˊ ㄧˋ,2,得意#1,2,意,ㄧ,4,drag,😊,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 得意,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#0,1,孵,ㄈㄨ,1,hear,🐣,matched,小雞破殼孵出,true,🐣,target,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#0,1,孵,ㄈㄨ,1,pic2spell,🐣,matched,小雞破殼孵出,true,🐣,target,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#0,1,孵,ㄈㄨ,1,spell2pic,🐣,matched,小雞破殼孵出,true,🐣,correct_option,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#0,1,孵,ㄈㄨ,1,drag,🐣,matched,小雞破殼孵出,true,🐣,target,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#1,2,出,ㄔㄨ,1,hear,🐣,matched,小雞破殼孵出,true,🐣,target,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#1,2,出,ㄔㄨ,1,pic2spell,🐣,matched,小雞破殼孵出,true,🐣,target,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#1,2,出,ㄔㄨ,1,spell2pic,🐣,matched,小雞破殼孵出,true,🐣,correct_option,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孵出,孵出,ㄈㄨ ㄔㄨ,2,孵出#1,2,出,ㄔㄨ,1,drag,🐣,matched,小雞破殼孵出,true,🐣,target,TTS（zh-TW）,speechSynthesis: 孵出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#0,1,五,ㄨ,3,hear,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,true,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#0,1,五,ㄨ,3,pic2spell,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,false,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#0,1,五,ㄨ,3,spell2pic,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,false,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#0,1,五,ㄨ,3,drag,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,true,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#1,2,隻,ㄓ,1,hear,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,true,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#1,2,隻,ㄓ,1,pic2spell,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,false,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#1,2,隻,ㄓ,1,spell2pic,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,false,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+五隻,五隻,ㄨˇ ㄓ,2,五隻#1,2,隻,ㄓ,1,drag,🦢,mismatched,🦢 只有一隻天鵝，與「五隻」數量不符,true,,none,TTS（zh-TW）,speechSynthesis: 五隻,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#0,1,泡,ㄆㄠ,4,hear,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#0,1,泡,ㄆㄠ,4,pic2spell,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#0,1,泡,ㄆㄠ,4,spell2pic,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#0,1,泡,ㄆㄠ,4,drag,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#1,2,澡,ㄗㄠ,3,hear,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#1,2,澡,ㄗㄠ,3,pic2spell,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#1,2,澡,ㄗㄠ,3,spell2pic,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+泡澡,泡澡,ㄆㄠˋ ㄗㄠˇ,3,泡澡#1,2,澡,ㄗㄠ,3,drag,🛁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 泡澡,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#0,1,半,ㄅㄢ,4,hear,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#0,1,半,ㄅㄢ,4,pic2spell,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#0,1,半,ㄅㄢ,4,spell2pic,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#0,1,半,ㄅㄢ,4,drag,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#1,2,路,ㄌㄨ,4,hear,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#1,2,路,ㄌㄨ,4,pic2spell,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#1,2,路,ㄌㄨ,4,spell2pic,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+半路,半路,ㄅㄢˋ ㄌㄨˋ,3,半路#1,2,路,ㄌㄨ,4,drag,🛤️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_012400010.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#0,1,遇,ㄩ,4,hear,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#0,1,遇,ㄩ,4,pic2spell,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#0,1,遇,ㄩ,4,spell2pic,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#0,1,遇,ㄩ,4,drag,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#1,2,到,ㄉㄠ,4,hear,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#1,2,到,ㄉㄠ,4,pic2spell,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#1,2,到,ㄉㄠ,4,spell2pic,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+遇到,遇到,ㄩˋ ㄉㄠˋ,3,遇到#1,2,到,ㄉㄠ,4,drag,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_650000001.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#0,1,築,ㄓㄨ,2,hear,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#0,1,築,ㄓㄨ,2,pic2spell,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#0,1,築,ㄓㄨ,2,spell2pic,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#0,1,築,ㄓㄨ,2,drag,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#1,2,巢,ㄔㄠ,2,hear,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#1,2,巢,ㄔㄠ,2,pic2spell,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#1,2,巢,ㄔㄠ,2,spell2pic,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+築巢,築巢,ㄓㄨˊ ㄔㄠˊ,3,築巢#1,2,巢,ㄔㄠ,2,drag,🪹,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_451300003.wav [0.00–0.81s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+忙,忙,ㄇㄤˊ,3,忙#0,1,忙,ㄇㄤ,2,hear,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_0666.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+忙,忙,ㄇㄤˊ,3,忙#0,1,忙,ㄇㄤ,2,pic2spell,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_0666.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+忙,忙,ㄇㄤˊ,3,忙#0,1,忙,ㄇㄤ,2,spell2pic,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_0666.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+忙,忙,ㄇㄤˊ,3,忙#0,1,忙,ㄇㄤ,2,drag,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_0666.wav [0.00–0.53s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#0,1,書,ㄕㄨ,1,hear,🎒,matched,背包形書包,true,🎒,target,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#0,1,書,ㄕㄨ,1,pic2spell,🎒,matched,背包形書包,true,🎒,target,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#0,1,書,ㄕㄨ,1,spell2pic,🎒,matched,背包形書包,true,🎒,correct_option,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#0,1,書,ㄕㄨ,1,drag,🎒,matched,背包形書包,true,🎒,target,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#1,2,包,ㄅㄠ,1,hear,🎒,matched,背包形書包,true,🎒,target,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#1,2,包,ㄅㄠ,1,pic2spell,🎒,matched,背包形書包,true,🎒,target,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#1,2,包,ㄅㄠ,1,spell2pic,🎒,matched,背包形書包,true,🎒,correct_option,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+書包,書包,ㄕㄨ ㄅㄠ,4,書包#1,2,包,ㄅㄠ,1,drag,🎒,matched,背包形書包,true,🎒,target,MOE,assets/audio/words/moe_www_511200001.wav [0.00–0.99s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#0,1,手,ㄕㄡ,3,hear,🤝,mismatched,🤝 是握手，不是手拉手同行,true,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#0,1,手,ㄕㄡ,3,pic2spell,🤝,mismatched,🤝 是握手，不是手拉手同行,false,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#0,1,手,ㄕㄡ,3,spell2pic,🤝,mismatched,🤝 是握手，不是手拉手同行,false,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#0,1,手,ㄕㄡ,3,drag,🤝,mismatched,🤝 是握手，不是手拉手同行,true,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#1,2,拉,ㄌㄚ,1,hear,🤝,mismatched,🤝 是握手，不是手拉手同行,true,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#1,2,拉,ㄌㄚ,1,pic2spell,🤝,mismatched,🤝 是握手，不是手拉手同行,false,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#1,2,拉,ㄌㄚ,1,spell2pic,🤝,mismatched,🤝 是握手，不是手拉手同行,false,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#1,2,拉,ㄌㄚ,1,drag,🤝,mismatched,🤝 是握手，不是手拉手同行,true,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#2,3,手,ㄕㄡ,3,hear,🤝,mismatched,🤝 是握手，不是手拉手同行,true,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#2,3,手,ㄕㄡ,3,pic2spell,🤝,mismatched,🤝 是握手，不是手拉手同行,false,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#2,3,手,ㄕㄡ,3,spell2pic,🤝,mismatched,🤝 是握手，不是手拉手同行,false,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+手拉手,手拉手,ㄕㄡˇ ㄌㄚ ㄕㄡˇ,4,手拉手#2,3,手,ㄕㄡ,3,drag,🤝,mismatched,🤝 是握手，不是手拉手同行,true,,none,TTS（zh-TW）,speechSynthesis: 手拉手,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#0,1,歡,ㄏㄨㄢ,1,hear,😊,matched,喜悅笑臉,true,😊,target,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#0,1,歡,ㄏㄨㄢ,1,pic2spell,😊,matched,喜悅笑臉,true,😊,target,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#0,1,歡,ㄏㄨㄢ,1,spell2pic,😊,matched,喜悅笑臉,true,😊,correct_option,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#0,1,歡,ㄏㄨㄢ,1,drag,😊,matched,喜悅笑臉,true,😊,target,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#1,2,喜,ㄒㄧ,3,hear,😊,matched,喜悅笑臉,true,😊,target,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#1,2,喜,ㄒㄧ,3,pic2spell,😊,matched,喜悅笑臉,true,😊,target,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#1,2,喜,ㄒㄧ,3,spell2pic,😊,matched,喜悅笑臉,true,😊,correct_option,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+歡喜,歡喜,ㄏㄨㄢ ㄒㄧˇ,4,歡喜#1,2,喜,ㄒㄧ,3,drag,😊,matched,喜悅笑臉,true,😊,target,MOE,assets/audio/words/moe_www_292500007.wav [0.00–1.09s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#0,1,好,ㄏㄠ,3,hear,👭,mismatched,👭 兩人牽手不保證是好朋友關係,true,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#0,1,好,ㄏㄠ,3,pic2spell,👭,mismatched,👭 兩人牽手不保證是好朋友關係,false,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#0,1,好,ㄏㄠ,3,spell2pic,👭,mismatched,👭 兩人牽手不保證是好朋友關係,false,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#0,1,好,ㄏㄠ,3,drag,👭,mismatched,👭 兩人牽手不保證是好朋友關係,true,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#1,2,朋,ㄆㄥ,2,hear,👭,mismatched,👭 兩人牽手不保證是好朋友關係,true,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#1,2,朋,ㄆㄥ,2,pic2spell,👭,mismatched,👭 兩人牽手不保證是好朋友關係,false,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#1,2,朋,ㄆㄥ,2,spell2pic,👭,mismatched,👭 兩人牽手不保證是好朋友關係,false,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#1,2,朋,ㄆㄥ,2,drag,👭,mismatched,👭 兩人牽手不保證是好朋友關係,true,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#2,3,友,ㄧㄡ,3,hear,👭,mismatched,👭 兩人牽手不保證是好朋友關係,true,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#2,3,友,ㄧㄡ,3,pic2spell,👭,mismatched,👭 兩人牽手不保證是好朋友關係,false,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#2,3,友,ㄧㄡ,3,spell2pic,👭,mismatched,👭 兩人牽手不保證是好朋友關係,false,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好朋友,好朋友,ㄏㄠˇ ㄆㄥˊ ㄧㄡˇ,5,好朋友#2,3,友,ㄧㄡ,3,drag,👭,mismatched,👭 兩人牽手不保證是好朋友關係,true,,none,TTS（zh-TW）,speechSynthesis: 好朋友,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一起,一起,ㄧˋ ㄑㄧˇ,5,一起#1,2,起,ㄑㄧ,3,hear,👭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 一起,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一起,一起,ㄧˋ ㄑㄧˇ,5,一起#1,2,起,ㄑㄧ,3,pic2spell,👭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 一起,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一起,一起,ㄧˋ ㄑㄧˇ,5,一起#1,2,起,ㄑㄧ,3,spell2pic,👭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 一起,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+一起,一起,ㄧˋ ㄑㄧˇ,5,一起#1,2,起,ㄑㄧ,3,drag,👭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 一起,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#0,1,上,ㄕㄤ,4,hear,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#0,1,上,ㄕㄤ,4,pic2spell,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#0,1,上,ㄕㄤ,4,spell2pic,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#0,1,上,ㄕㄤ,4,drag,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#1,2,上,ㄕㄤ,4,hear,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#1,2,上,ㄕㄤ,4,pic2spell,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#1,2,上,ㄕㄤ,4,spell2pic,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#1,2,上,ㄕㄤ,4,drag,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#2,3,下,ㄒㄧㄚ,4,hear,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#2,3,下,ㄒㄧㄚ,4,pic2spell,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#2,3,下,ㄒㄧㄚ,4,spell2pic,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#2,3,下,ㄒㄧㄚ,4,drag,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#3,4,下,ㄒㄧㄚ,4,hear,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#3,4,下,ㄒㄧㄚ,4,pic2spell,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#3,4,下,ㄒㄧㄚ,4,spell2pic,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+上上下下,上上下下,ㄕㄤˋ ㄕㄤˋ ㄒㄧㄚˋ ㄒㄧㄚˋ,5,上上下下#3,4,下,ㄒㄧㄚ,4,drag,↕️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_508000065.wav [0.00–1.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#0,1,高,ㄍㄠ,1,hear,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#0,1,高,ㄍㄠ,1,pic2spell,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#0,1,高,ㄍㄠ,1,spell2pic,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#0,1,高,ㄍㄠ,1,drag,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#1,2,高,ㄍㄠ,1,hear,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#1,2,高,ㄍㄠ,1,pic2spell,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#1,2,高,ㄍㄠ,1,spell2pic,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#1,2,高,ㄍㄠ,1,drag,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#2,3,低,ㄉㄧ,1,hear,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#2,3,低,ㄉㄧ,1,pic2spell,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#2,3,低,ㄉㄧ,1,spell2pic,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#2,3,低,ㄉㄧ,1,drag,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#3,4,低,ㄉㄧ,1,hear,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#3,4,低,ㄉㄧ,1,pic2spell,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#3,4,低,ㄉㄧ,1,spell2pic,📊,mismatched,📊 是圖表，未清楚呈現高低比較,false,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+高高低低,高高低低,ㄍㄠ ㄍㄠ ㄉㄧ ㄉㄧ,5,高高低低#3,4,低,ㄉㄧ,1,drag,📊,mismatched,📊 是圖表，未清楚呈現高低比較,true,,none,TTS（zh-TW）,speechSynthesis: 高高低低,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#0,1,小,ㄒㄧㄠ,3,hear,🐦,matched,小鳥,true,🐦,target,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#0,1,小,ㄒㄧㄠ,3,pic2spell,🐦,matched,小鳥,true,🐦,target,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#0,1,小,ㄒㄧㄠ,3,spell2pic,🐦,matched,小鳥,true,🐦,correct_option,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#0,1,小,ㄒㄧㄠ,3,drag,🐦,matched,小鳥,true,🐦,target,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#1,2,鳥,ㄋㄧㄠ,3,hear,🐦,matched,小鳥,true,🐦,target,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#1,2,鳥,ㄋㄧㄠ,3,pic2spell,🐦,matched,小鳥,true,🐦,target,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#1,2,鳥,ㄋㄧㄠ,3,spell2pic,🐦,matched,小鳥,true,🐦,correct_option,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小鳥,小鳥,ㄒㄧㄠˇ ㄋㄧㄠˇ,5,小鳥#1,2,鳥,ㄋㄧㄠ,3,drag,🐦,matched,小鳥,true,🐦,target,TTS（zh-TW）,speechSynthesis: 小鳥,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+飛,飛,ㄈㄟ,5,飛#0,1,飛,ㄈㄟ,1,hear,🪽,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_0824.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+飛,飛,ㄈㄟ,5,飛#0,1,飛,ㄈㄟ,1,pic2spell,🪽,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_0824.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+飛,飛,ㄈㄟ,5,飛#0,1,飛,ㄈㄟ,1,spell2pic,🪽,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_0824.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+飛,飛,ㄈㄟ,5,飛#0,1,飛,ㄈㄟ,1,drag,🪽,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_0824.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+謝謝,謝謝,ㄒㄧㄝˋ ㄒㄧㄝ˙,6,謝謝#0,1,謝,ㄒㄧㄝ,4,hear,🙏,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 謝謝,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+謝謝,謝謝,ㄒㄧㄝˋ ㄒㄧㄝ˙,6,謝謝#0,1,謝,ㄒㄧㄝ,4,pic2spell,🙏,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 謝謝,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+謝謝,謝謝,ㄒㄧㄝˋ ㄒㄧㄝ˙,6,謝謝#0,1,謝,ㄒㄧㄝ,4,spell2pic,🙏,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 謝謝,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+謝謝,謝謝,ㄒㄧㄝˋ ㄒㄧㄝ˙,6,謝謝#0,1,謝,ㄒㄧㄝ,4,drag,🙏,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 謝謝,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#0,1,讀,ㄉㄨ,2,hear,📚,mismatched,📚 只有書本，未呈現閱讀動作,true,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#0,1,讀,ㄉㄨ,2,pic2spell,📚,mismatched,📚 只有書本，未呈現閱讀動作,false,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#0,1,讀,ㄉㄨ,2,spell2pic,📚,mismatched,📚 只有書本，未呈現閱讀動作,false,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#0,1,讀,ㄉㄨ,2,drag,📚,mismatched,📚 只有書本，未呈現閱讀動作,true,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#1,2,書,ㄕㄨ,1,hear,📚,mismatched,📚 只有書本，未呈現閱讀動作,true,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#1,2,書,ㄕㄨ,1,pic2spell,📚,mismatched,📚 只有書本，未呈現閱讀動作,false,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#1,2,書,ㄕㄨ,1,spell2pic,📚,mismatched,📚 只有書本，未呈現閱讀動作,false,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+讀書,讀書,ㄉㄨˊ ㄕㄨ,6,讀書#1,2,書,ㄕㄨ,1,drag,📚,mismatched,📚 只有書本，未呈現閱讀動作,true,,none,MOE,assets/audio/words/moe_www_124100007.wav [0.00–0.77s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#0,1,畫,ㄏㄨㄚ,4,hear,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#0,1,畫,ㄏㄨㄚ,4,pic2spell,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#0,1,畫,ㄏㄨㄚ,4,spell2pic,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#0,1,畫,ㄏㄨㄚ,4,drag,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#1,2,畫,ㄏㄨㄚ,4,hear,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#1,2,畫,ㄏㄨㄚ,4,pic2spell,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#1,2,畫,ㄏㄨㄚ,4,spell2pic,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+畫畫,畫畫,ㄏㄨㄚˋ ㄏㄨㄚˋ,6,畫畫#1,2,畫,ㄏㄨㄚ,4,drag,🎨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 畫畫,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+教,教,ㄐㄧㄠ,6,教#0,1,教,ㄐㄧㄠ,1,hear,🧑‍🏫,mismatched,🧑‍🏫 是老師職業圖，未清楚呈現教學動作,true,,none,MOE,assets/audio/words/moe_word_3194.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+教,教,ㄐㄧㄠ,6,教#0,1,教,ㄐㄧㄠ,1,pic2spell,🧑‍🏫,mismatched,🧑‍🏫 是老師職業圖，未清楚呈現教學動作,false,,none,MOE,assets/audio/words/moe_word_3194.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+教,教,ㄐㄧㄠ,6,教#0,1,教,ㄐㄧㄠ,1,spell2pic,🧑‍🏫,mismatched,🧑‍🏫 是老師職業圖，未清楚呈現教學動作,false,,none,MOE,assets/audio/words/moe_word_3194.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+教,教,ㄐㄧㄠ,6,教#0,1,教,ㄐㄧㄠ,1,drag,🧑‍🏫,mismatched,🧑‍🏫 是老師職業圖，未清楚呈現教學動作,true,,none,MOE,assets/audio/words/moe_word_3194.wav [0.00–0.59s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#0,1,比,ㄅㄧ,3,hear,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#0,1,比,ㄅㄧ,3,pic2spell,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#0,1,比,ㄅㄧ,3,spell2pic,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#0,1,比,ㄅㄧ,3,drag,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#1,2,賽,ㄙㄞ,4,hear,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#1,2,賽,ㄙㄞ,4,pic2spell,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#1,2,賽,ㄙㄞ,4,spell2pic,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+比賽,比賽,ㄅㄧˇ ㄙㄞˋ,7,比賽#1,2,賽,ㄙㄞ,4,drag,🏁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 比賽,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#0,1,領,ㄌㄧㄥ,3,hear,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#0,1,領,ㄌㄧㄥ,3,pic2spell,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#0,1,領,ㄌㄧㄥ,3,spell2pic,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#0,1,領,ㄌㄧㄥ,3,drag,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#1,2,先,ㄒㄧㄢ,1,hear,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#1,2,先,ㄒㄧㄢ,1,pic2spell,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#1,2,先,ㄒㄧㄢ,1,spell2pic,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+領先,領先,ㄌㄧㄥˇ ㄒㄧㄢ,7,領先#1,2,先,ㄒㄧㄢ,1,drag,🥇,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 領先,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#0,1,落,ㄌㄨㄛ,4,hear,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#0,1,落,ㄌㄨㄛ,4,pic2spell,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#0,1,落,ㄌㄨㄛ,4,spell2pic,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#0,1,落,ㄌㄨㄛ,4,drag,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#1,2,後,ㄏㄡ,4,hear,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#1,2,後,ㄏㄡ,4,pic2spell,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#1,2,後,ㄏㄡ,4,spell2pic,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+落後,落後,ㄌㄨㄛˋ ㄏㄡˋ,7,落後#1,2,後,ㄏㄡ,4,drag,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_212800020.wav [0.00–0.85s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#0,1,氣,ㄑㄧ,4,hear,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#0,1,氣,ㄑㄧ,4,pic2spell,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#0,1,氣,ㄑㄧ,4,spell2pic,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#0,1,氣,ㄑㄧ,4,drag,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#1,2,餒,ㄋㄟ,3,hear,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#1,2,餒,ㄋㄟ,3,pic2spell,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#1,2,餒,ㄋㄟ,3,spell2pic,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+氣餒,氣餒,ㄑㄧˋ ㄋㄟˇ,7,氣餒#1,2,餒,ㄋㄟ,3,drag,😞,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 氣餒,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#0,1,後,ㄏㄡ,4,hear,⬅️,mismatched,⬅️ 是向左，不是物體後面,true,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#0,1,後,ㄏㄡ,4,pic2spell,⬅️,mismatched,⬅️ 是向左，不是物體後面,false,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#0,1,後,ㄏㄡ,4,spell2pic,⬅️,mismatched,⬅️ 是向左，不是物體後面,false,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#0,1,後,ㄏㄡ,4,drag,⬅️,mismatched,⬅️ 是向左，不是物體後面,true,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#1,2,面,ㄇㄧㄢ,4,hear,⬅️,mismatched,⬅️ 是向左，不是物體後面,true,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#1,2,面,ㄇㄧㄢ,4,pic2spell,⬅️,mismatched,⬅️ 是向左，不是物體後面,false,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#1,2,面,ㄇㄧㄢ,4,spell2pic,⬅️,mismatched,⬅️ 是向左，不是物體後面,false,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+後面,後面,ㄏㄡˋ ㄇㄧㄢˋ,7,後面#1,2,面,ㄇㄧㄢ,4,drag,⬅️,mismatched,⬅️ 是向左，不是物體後面,true,,none,TTS（zh-TW）,speechSynthesis: 後面,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+追,追,ㄓㄨㄟ,7,追#0,1,追,ㄓㄨㄟ,1,hear,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_4567.wav [0.00–0.63s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+追,追,ㄓㄨㄟ,7,追#0,1,追,ㄓㄨㄟ,1,pic2spell,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_4567.wav [0.00–0.63s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+追,追,ㄓㄨㄟ,7,追#0,1,追,ㄓㄨㄟ,1,spell2pic,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_4567.wav [0.00–0.63s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+追,追,ㄓㄨㄟ,7,追#0,1,追,ㄓㄨㄟ,1,drag,🏃,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_4567.wav [0.00–0.63s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+蘿蔔,蘿蔔,ㄌㄨㄛˊ ㄅㄛ˙,8,蘿蔔#0,1,蘿,ㄌㄨㄛ,2,hear,🥕,mismatched,🥕 是胡蘿蔔，不可擅自作白蘿蔔／蘿蔔詞目的專圖,true,,none,TTS（zh-TW）,speechSynthesis: 蘿蔔,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+蘿蔔,蘿蔔,ㄌㄨㄛˊ ㄅㄛ˙,8,蘿蔔#0,1,蘿,ㄌㄨㄛ,2,pic2spell,🥕,mismatched,🥕 是胡蘿蔔，不可擅自作白蘿蔔／蘿蔔詞目的專圖,false,,none,TTS（zh-TW）,speechSynthesis: 蘿蔔,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+蘿蔔,蘿蔔,ㄌㄨㄛˊ ㄅㄛ˙,8,蘿蔔#0,1,蘿,ㄌㄨㄛ,2,spell2pic,🥕,mismatched,🥕 是胡蘿蔔，不可擅自作白蘿蔔／蘿蔔詞目的專圖,false,,none,TTS（zh-TW）,speechSynthesis: 蘿蔔,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+蘿蔔,蘿蔔,ㄌㄨㄛˊ ㄅㄛ˙,8,蘿蔔#0,1,蘿,ㄌㄨㄛ,2,drag,🥕,mismatched,🥕 是胡蘿蔔，不可擅自作白蘿蔔／蘿蔔詞目的專圖,true,,none,TTS（zh-TW）,speechSynthesis: 蘿蔔,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+拉著,拉著,ㄌㄚ ㄓㄜ˙,8,拉著#0,1,拉,ㄌㄚ,1,hear,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 拉著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+拉著,拉著,ㄌㄚ ㄓㄜ˙,8,拉著#0,1,拉,ㄌㄚ,1,pic2spell,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 拉著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+拉著,拉著,ㄌㄚ ㄓㄜ˙,8,拉著#0,1,拉,ㄌㄚ,1,spell2pic,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 拉著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+拉著,拉著,ㄌㄚ ㄓㄜ˙,8,拉著#0,1,拉,ㄌㄚ,1,drag,🤝,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 拉著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#0,1,嘿,ㄏㄟ,1,hear,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#0,1,嘿,ㄏㄟ,1,pic2spell,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#0,1,嘿,ㄏㄟ,1,spell2pic,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#0,1,嘿,ㄏㄟ,1,drag,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#1,2,唷,ㄧㄛ,1,hear,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#1,2,唷,ㄧㄛ,1,pic2spell,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#1,2,唷,ㄧㄛ,1,spell2pic,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嘿唷,嘿唷,ㄏㄟ ㄧㄛ,8,嘿唷#1,2,唷,ㄧㄛ,1,drag,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 嘿唷,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#0,1,山,ㄕㄢ,1,hear,⛰️,mismatched,⛰️ 是山峰，不是懸崖,true,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#0,1,山,ㄕㄢ,1,pic2spell,⛰️,mismatched,⛰️ 是山峰，不是懸崖,false,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#0,1,山,ㄕㄢ,1,spell2pic,⛰️,mismatched,⛰️ 是山峰，不是懸崖,false,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#0,1,山,ㄕㄢ,1,drag,⛰️,mismatched,⛰️ 是山峰，不是懸崖,true,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#1,2,崖,ㄧㄞ,2,hear,⛰️,mismatched,⛰️ 是山峰，不是懸崖,true,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#1,2,崖,ㄧㄞ,2,pic2spell,⛰️,mismatched,⛰️ 是山峰，不是懸崖,false,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#1,2,崖,ㄧㄞ,2,spell2pic,⛰️,mismatched,⛰️ 是山峰，不是懸崖,false,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+山崖,山崖,ㄕㄢ ㄧㄞˊ,9,山崖#1,2,崖,ㄧㄞ,2,drag,⛰️,mismatched,⛰️ 是山峰，不是懸崖,true,,none,MOE,assets/audio/words/moe_www_501500051.wav [0.00–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#0,1,開,ㄎㄞ,1,hear,😊,matched,開心笑臉,true,😊,target,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#0,1,開,ㄎㄞ,1,pic2spell,😊,matched,開心笑臉,true,😊,target,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#0,1,開,ㄎㄞ,1,spell2pic,😊,matched,開心笑臉,true,😊,correct_option,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#0,1,開,ㄎㄞ,1,drag,😊,matched,開心笑臉,true,😊,target,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#1,2,心,ㄒㄧㄣ,1,hear,😊,matched,開心笑臉,true,😊,target,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#1,2,心,ㄒㄧㄣ,1,pic2spell,😊,matched,開心笑臉,true,😊,target,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#1,2,心,ㄒㄧㄣ,1,spell2pic,😊,matched,開心笑臉,true,😊,correct_option,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+開心,開心,ㄎㄞ ㄒㄧㄣ,9,開心#1,2,心,ㄒㄧㄣ,1,drag,😊,matched,開心笑臉,true,😊,target,MOE,assets/audio/words/moe_www_252100069.wav [0.00–0.91s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#0,1,慶,ㄑㄧㄥ,4,hear,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#0,1,慶,ㄑㄧㄥ,4,pic2spell,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#0,1,慶,ㄑㄧㄥ,4,spell2pic,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#0,1,慶,ㄑㄧㄥ,4,drag,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#1,2,祝,ㄓㄨ,4,hear,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#1,2,祝,ㄓㄨ,4,pic2spell,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#1,2,祝,ㄓㄨ,4,spell2pic,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+慶祝,慶祝,ㄑㄧㄥˋ ㄓㄨˋ,9,慶祝#1,2,祝,ㄓㄨ,4,drag,🎉,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_374300005.wav [0.00–1.25s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#0,1,小,ㄒㄧㄠ,3,hear,🐻,matched,熊臉,true,🐻,target,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#0,1,小,ㄒㄧㄠ,3,pic2spell,🐻,matched,熊臉,true,🐻,target,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#0,1,小,ㄒㄧㄠ,3,spell2pic,🐻,matched,熊臉,true,🐻,correct_option,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#0,1,小,ㄒㄧㄠ,3,drag,🐻,matched,熊臉,true,🐻,target,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#1,2,熊,ㄒㄩㄥ,2,hear,🐻,matched,熊臉,true,🐻,target,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#1,2,熊,ㄒㄩㄥ,2,pic2spell,🐻,matched,熊臉,true,🐻,target,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#1,2,熊,ㄒㄩㄥ,2,spell2pic,🐻,matched,熊臉,true,🐻,correct_option,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+小熊,小熊,ㄒㄧㄠˇ ㄒㄩㄥˊ,9,小熊#1,2,熊,ㄒㄩㄥ,2,drag,🐻,matched,熊臉,true,🐻,target,TTS（zh-TW）,speechSynthesis: 小熊,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#0,1,大,ㄉㄚ,4,hear,⚽,matched,球,true,⚽,target,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#0,1,大,ㄉㄚ,4,pic2spell,⚽,matched,球,true,⚽,target,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#0,1,大,ㄉㄚ,4,spell2pic,⚽,matched,球,true,⚽,correct_option,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#0,1,大,ㄉㄚ,4,drag,⚽,matched,球,true,⚽,target,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#1,2,球,ㄑㄧㄡ,2,hear,⚽,matched,球,true,⚽,target,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#1,2,球,ㄑㄧㄡ,2,pic2spell,⚽,matched,球,true,⚽,target,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#1,2,球,ㄑㄧㄡ,2,spell2pic,⚽,matched,球,true,⚽,correct_option,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+大球,大球,ㄉㄚˋ ㄑㄧㄡˊ,9,大球#1,2,球,ㄑㄧㄡ,2,drag,⚽,matched,球,true,⚽,target,TTS（zh-TW）,speechSynthesis: 大球,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#0,1,馴,ㄒㄩㄣ,2,hear,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,true,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#0,1,馴,ㄒㄩㄣ,2,pic2spell,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,false,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#0,1,馴,ㄒㄩㄣ,2,spell2pic,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,false,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#0,1,馴,ㄒㄩㄣ,2,drag,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,true,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#1,2,鹿,ㄌㄨ,4,hear,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,true,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#1,2,鹿,ㄌㄨ,4,pic2spell,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,false,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#1,2,鹿,ㄌㄨ,4,spell2pic,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,false,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+馴鹿,馴鹿,ㄒㄩㄣˊ ㄌㄨˋ,9,馴鹿#1,2,鹿,ㄌㄨ,4,drag,🦌,mismatched,🦌 是泛稱鹿，沒有馴鹿特徵,true,,none,MOE,assets/audio/words/moe_www_419500002.wav [0.00–0.75s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#0,1,大,ㄉㄚ,4,hear,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#0,1,大,ㄉㄚ,4,pic2spell,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#0,1,大,ㄉㄚ,4,spell2pic,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#0,1,大,ㄉㄚ,4,drag,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#1,2,鼓,ㄍㄨ,3,hear,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#1,2,鼓,ㄍㄨ,3,pic2spell,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#1,2,鼓,ㄍㄨ,3,spell2pic,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+大鼓,大鼓,ㄉㄚˋ ㄍㄨˇ,9,大鼓#1,2,鼓,ㄍㄨ,3,drag,🥁,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_101500195.wav [0.00–0.95s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#0,1,孔,ㄎㄨㄥ,3,hear,🦚,matched,孔雀,true,🦚,target,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#0,1,孔,ㄎㄨㄥ,3,pic2spell,🦚,matched,孔雀,true,🦚,target,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#0,1,孔,ㄎㄨㄥ,3,spell2pic,🦚,matched,孔雀,true,🦚,correct_option,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#0,1,孔,ㄎㄨㄥ,3,drag,🦚,matched,孔雀,true,🦚,target,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#1,2,雀,ㄑㄩㄝ,4,hear,🦚,matched,孔雀,true,🦚,target,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#1,2,雀,ㄑㄩㄝ,4,pic2spell,🦚,matched,孔雀,true,🦚,target,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#1,2,雀,ㄑㄩㄝ,4,spell2pic,🦚,matched,孔雀,true,🦚,correct_option,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+孔雀,孔雀,ㄎㄨㄥˇ ㄑㄩㄝˋ,9,孔雀#1,2,雀,ㄑㄩㄝ,4,drag,🦚,matched,孔雀,true,🦚,target,TTS（zh-TW）,speechSynthesis: 孔雀,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#0,1,魔,ㄇㄛ,2,hear,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#0,1,魔,ㄇㄛ,2,pic2spell,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#0,1,魔,ㄇㄛ,2,spell2pic,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#0,1,魔,ㄇㄛ,2,drag,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#1,2,術,ㄕㄨ,4,hear,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#1,2,術,ㄕㄨ,4,pic2spell,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#1,2,術,ㄕㄨ,4,spell2pic,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+魔術,魔術,ㄇㄛˊ ㄕㄨˋ,9,魔術#1,2,術,ㄕㄨ,4,drag,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 魔術,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#0,1,青,ㄑㄧㄥ,1,hear,🐸,matched,青蛙,true,🐸,target,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#0,1,青,ㄑㄧㄥ,1,pic2spell,🐸,matched,青蛙,true,🐸,target,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#0,1,青,ㄑㄧㄥ,1,spell2pic,🐸,matched,青蛙,true,🐸,correct_option,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#0,1,青,ㄑㄧㄥ,1,drag,🐸,matched,青蛙,true,🐸,target,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#1,2,蛙,ㄨㄚ,1,hear,🐸,matched,青蛙,true,🐸,target,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#1,2,蛙,ㄨㄚ,1,pic2spell,🐸,matched,青蛙,true,🐸,target,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#1,2,蛙,ㄨㄚ,1,spell2pic,🐸,matched,青蛙,true,🐸,correct_option,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+青蛙,青蛙,ㄑㄧㄥ ㄨㄚ,9,青蛙#1,2,蛙,ㄨㄚ,1,drag,🐸,matched,青蛙,true,🐸,target,MOE,assets/audio/words/moe_www_372600026.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#0,1,合,ㄏㄜ,2,hear,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#0,1,合,ㄏㄜ,2,pic2spell,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#0,1,合,ㄏㄜ,2,spell2pic,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#0,1,合,ㄏㄜ,2,drag,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#1,2,唱,ㄔㄤ,4,hear,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#1,2,唱,ㄔㄤ,4,pic2spell,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#1,2,唱,ㄔㄤ,4,spell2pic,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+合唱,合唱,ㄏㄜˊ ㄔㄤˋ,9,合唱#1,2,唱,ㄔㄤ,4,drag,🎶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 合唱,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嗶,嗶,ㄅㄧ,1,嗶#0,1,嗶,ㄅㄧ,1,hear,📣,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 嗶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嗶,嗶,ㄅㄧ,1,嗶#0,1,嗶,ㄅㄧ,1,pic2spell,📣,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 嗶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嗶,嗶,ㄅㄧ,1,嗶#0,1,嗶,ㄅㄧ,1,spell2pic,📣,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 嗶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+嗶,嗶,ㄅㄧ,1,嗶#0,1,嗶,ㄅㄧ,1,drag,📣,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 嗶,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+去,去,ㄑㄩˋ,3,去#0,1,去,ㄑㄩ,4,hear,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_3770.wav [0.00–0.55s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+去,去,ㄑㄩˋ,3,去#0,1,去,ㄑㄩ,4,pic2spell,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_3770.wav [0.00–0.55s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+去,去,ㄑㄩˋ,3,去#0,1,去,ㄑㄩ,4,spell2pic,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_3770.wav [0.00–0.55s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+去,去,ㄑㄩˋ,3,去#0,1,去,ㄑㄩ,4,drag,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_3770.wav [0.00–0.55s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+忙著,忙著,ㄇㄤˊ ㄓㄜ˙,3,忙著#0,1,忙,ㄇㄤ,2,hear,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 忙著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+忙著,忙著,ㄇㄤˊ ㄓㄜ˙,3,忙著#0,1,忙,ㄇㄤ,2,pic2spell,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 忙著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+忙著,忙著,ㄇㄤˊ ㄓㄜ˙,3,忙著#0,1,忙,ㄇㄤ,2,spell2pic,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 忙著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+忙著,忙著,ㄇㄤˊ ㄓㄜ˙,3,忙著#0,1,忙,ㄇㄤ,2,drag,🛠️,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 忙著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+背著,背著,ㄅㄟ ㄓㄜ˙,4,背著#0,1,背,ㄅㄟ,1,hear,🎒,mismatched,🎒 是書包，沒有背著的動作與人物,true,,none,TTS（zh-TW）,speechSynthesis: 背著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+背著,背著,ㄅㄟ ㄓㄜ˙,4,背著#0,1,背,ㄅㄟ,1,pic2spell,🎒,mismatched,🎒 是書包，沒有背著的動作與人物,false,,none,TTS（zh-TW）,speechSynthesis: 背著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+背著,背著,ㄅㄟ ㄓㄜ˙,4,背著#0,1,背,ㄅㄟ,1,spell2pic,🎒,mismatched,🎒 是書包，沒有背著的動作與人物,false,,none,TTS（zh-TW）,speechSynthesis: 背著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+背著,背著,ㄅㄟ ㄓㄜ˙,4,背著#0,1,背,ㄅㄟ,1,drag,🎒,mismatched,🎒 是書包，沒有背著的動作與人物,true,,none,TTS（zh-TW）,speechSynthesis: 背著,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#0,1,好,ㄏㄠ,3,hear,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#0,1,好,ㄏㄠ,3,pic2spell,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#0,1,好,ㄏㄠ,3,spell2pic,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#0,1,好,ㄏㄠ,3,drag,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#1,2,像,ㄒㄧㄤ,4,hear,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#1,2,像,ㄒㄧㄤ,4,pic2spell,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#1,2,像,ㄒㄧㄤ,4,spell2pic,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+好像,好像,ㄏㄠˇ ㄒㄧㄤˋ,5,好像#1,2,像,ㄒㄧㄤ,4,drag,💭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_272700015.wav [0.09–0.97s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#0,1,午,ㄨ,3,hear,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#0,1,午,ㄨ,3,pic2spell,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#0,1,午,ㄨ,3,spell2pic,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#0,1,午,ㄨ,3,drag,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#1,2,覺,ㄐㄧㄠ,4,hear,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#1,2,覺,ㄐㄧㄠ,4,pic2spell,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#1,2,覺,ㄐㄧㄠ,4,spell2pic,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+午覺,午覺,ㄨˇ ㄐㄧㄠˋ,7,午覺#1,2,覺,ㄐㄧㄠ,4,drag,😴,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_624700002.wav [0.00–0.87s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#0,1,跟,ㄍㄣ,1,hear,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#0,1,跟,ㄍㄣ,1,pic2spell,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#0,1,跟,ㄍㄣ,1,spell2pic,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#0,1,跟,ㄍㄣ,1,drag,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#1,2,在,ㄗㄞ,4,hear,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#1,2,在,ㄗㄞ,4,pic2spell,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#1,2,在,ㄗㄞ,4,spell2pic,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+跟在,跟在,ㄍㄣ ㄗㄞˋ,7,跟在#1,2,在,ㄗㄞ,4,drag,🚶,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 跟在,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+快,快,ㄎㄨㄞˋ,7,快#0,1,快,ㄎㄨㄞ,4,hear,💨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_2598.wav [0.00–0.51s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+快,快,ㄎㄨㄞˋ,7,快#0,1,快,ㄎㄨㄞ,4,pic2spell,💨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_2598.wav [0.00–0.51s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+快,快,ㄎㄨㄞˋ,7,快#0,1,快,ㄎㄨㄞ,4,spell2pic,💨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_2598.wav [0.00–0.51s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+快,快,ㄎㄨㄞˋ,7,快#0,1,快,ㄎㄨㄞ,4,drag,💨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_2598.wav [0.00–0.51s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#0,1,哈,ㄏㄚ,1,hear,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#0,1,哈,ㄏㄚ,1,pic2spell,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#0,1,哈,ㄏㄚ,1,spell2pic,😄,matched,露齒笑臉呈現笑,true,😄,correct_option,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#0,1,哈,ㄏㄚ,1,drag,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#1,2,哈,ㄏㄚ,1,hear,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#1,2,哈,ㄏㄚ,1,pic2spell,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#1,2,哈,ㄏㄚ,1,spell2pic,😄,matched,露齒笑臉呈現笑,true,😄,correct_option,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#1,2,哈,ㄏㄚ,1,drag,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#2,3,笑,ㄒㄧㄠ,4,hear,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#2,3,笑,ㄒㄧㄠ,4,pic2spell,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#2,3,笑,ㄒㄧㄠ,4,spell2pic,😄,matched,露齒笑臉呈現笑,true,😄,correct_option,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+哈哈笑,哈哈笑,ㄏㄚ ㄏㄚ ㄒㄧㄠˋ,7,哈哈笑#2,3,笑,ㄒㄧㄠ,4,drag,😄,matched,露齒笑臉呈現笑,true,😄,target,TTS（zh-TW）,speechSynthesis: 哈哈笑,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#0,1,用,ㄩㄥ,4,hear,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#0,1,用,ㄩㄥ,4,pic2spell,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#0,1,用,ㄩㄥ,4,spell2pic,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#0,1,用,ㄩㄥ,4,drag,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#1,2,力,ㄌㄧ,4,hear,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#1,2,力,ㄌㄧ,4,pic2spell,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#1,2,力,ㄌㄧ,4,spell2pic,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+用力,用力,ㄩㄥˋ ㄌㄧˋ,8,用力#1,2,力,ㄌㄧ,4,drag,💪,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_661700005.wav [0.00–0.79s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#0,1,長,ㄓㄤ,3,hear,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,true,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#0,1,長,ㄓㄤ,3,pic2spell,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,false,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#0,1,長,ㄓㄤ,3,spell2pic,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,false,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#0,1,長,ㄓㄤ,3,drag,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,true,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#1,2,出,ㄔㄨ,1,hear,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,true,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#1,2,出,ㄔㄨ,1,pic2spell,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,false,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#1,2,出,ㄔㄨ,1,spell2pic,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,false,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+長出,長出,ㄓㄤˇ ㄔㄨ,8,長出#1,2,出,ㄔㄨ,1,drag,🌱,mismatched,🌱 是幼苗，沒有表達由無到有長出的過程,true,,none,TTS（zh-TW）,speechSynthesis: 長出,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#0,1,表,ㄅㄧㄠ,3,hear,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#0,1,表,ㄅㄧㄠ,3,pic2spell,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#0,1,表,ㄅㄧㄠ,3,spell2pic,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#0,1,表,ㄅㄧㄠ,3,drag,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#1,2,演,ㄧㄢ,3,hear,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#1,2,演,ㄧㄢ,3,pic2spell,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#1,2,演,ㄧㄢ,3,spell2pic,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+表演,表演,ㄅㄧㄠˇ ㄧㄢˇ,9,表演#1,2,演,ㄧㄢ,3,drag,🎭,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,TTS（zh-TW）,speechSynthesis: 表演,文字路由完全相符；實際裝置聲音／多音字待真 iPad 聽驗
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#0,1,精,ㄐㄧㄥ,1,hear,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#0,1,精,ㄐㄧㄥ,1,pic2spell,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#0,1,精,ㄐㄧㄥ,1,spell2pic,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#0,1,精,ㄐㄧㄥ,1,drag,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#1,2,采,ㄘㄞ,3,hear,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#1,2,采,ㄘㄞ,3,pic2spell,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#1,2,采,ㄘㄞ,3,spell2pic,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+精采,精采,ㄐㄧㄥ ㄘㄞˇ,9,精采#1,2,采,ㄘㄞ,3,drag,✨,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_www_337700038.wav [0.00–0.67s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；切片 ASR 音近相符（非人工／聲調驗證）
+敲,敲,ㄑㄧㄠ,9,敲#0,1,敲,ㄑㄧㄠ,1,hear,🥁,mismatched,🥁 只有鼓，沒有敲擊動作,true,,none,MOE,assets/audio/words/moe_word_3606.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+敲,敲,ㄑㄧㄠ,9,敲#0,1,敲,ㄑㄧㄠ,1,pic2spell,🥁,mismatched,🥁 只有鼓，沒有敲擊動作,false,,none,MOE,assets/audio/words/moe_word_3606.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+敲,敲,ㄑㄧㄠ,9,敲#0,1,敲,ㄑㄧㄠ,1,spell2pic,🥁,mismatched,🥁 只有鼓，沒有敲擊動作,false,,none,MOE,assets/audio/words/moe_word_3606.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+敲,敲,ㄑㄧㄠ,9,敲#0,1,敲,ㄑㄧㄠ,1,drag,🥁,mismatched,🥁 只有鼓，沒有敲擊動作,true,,none,MOE,assets/audio/words/moe_word_3606.wav [0.00–0.71s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+滾,滾,ㄍㄨㄣˇ,9,滾#0,1,滾,ㄍㄨㄣ,3,hear,⚽,mismatched,⚽ 只有球，沒有滾動動作,true,,none,MOE,assets/audio/words/moe_word_2458.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+滾,滾,ㄍㄨㄣˇ,9,滾#0,1,滾,ㄍㄨㄣ,3,pic2spell,⚽,mismatched,⚽ 只有球，沒有滾動動作,false,,none,MOE,assets/audio/words/moe_word_2458.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+滾,滾,ㄍㄨㄣˇ,9,滾#0,1,滾,ㄍㄨㄣ,3,spell2pic,⚽,mismatched,⚽ 只有球，沒有滾動動作,false,,none,MOE,assets/audio/words/moe_word_2458.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+滾,滾,ㄍㄨㄣˇ,9,滾#0,1,滾,ㄍㄨㄣ,3,drag,⚽,mismatched,⚽ 只有球，沒有滾動動作,true,,none,MOE,assets/audio/words/moe_word_2458.wav [0.00–0.57s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+變,變,ㄅㄧㄢˋ,9,變#0,1,變,ㄅㄧㄢ,4,hear,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_0250.wav [0.00–0.49s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+變,變,ㄅㄧㄢˋ,9,變#0,1,變,ㄅㄧㄢ,4,pic2spell,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_0250.wav [0.00–0.49s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+變,變,ㄅㄧㄢˋ,9,變#0,1,變,ㄅㄧㄢ,4,spell2pic,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,false,,none,MOE,assets/audio/words/moe_word_0250.wav [0.00–0.49s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音
+變,變,ㄅㄧㄢˋ,9,變#0,1,變,ㄅㄧㄢ,4,drag,🪄,decorative,章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖,true,,none,MOE,assets/audio/words/moe_word_0250.wav [0.00–0.49s],來源metadata／修復後 SHA、路由詞 ID 與範圍相符；短切片 ASR 不確定，保留人工聽驗；不能據此判為錯音

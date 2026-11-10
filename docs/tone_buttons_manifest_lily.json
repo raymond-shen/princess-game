@@ -1,0 +1,210 @@
+{
+  "sets": [
+    {
+      "folder": "tone_buttons/drag_120",
+      "body1x": [
+        120,
+        120
+      ],
+      "radius1x": 24,
+      "pad1x": 8,
+      "canvas1x": [
+        136,
+        136
+      ],
+      "canvas2x": [
+        272,
+        272
+      ],
+      "files": [
+        {
+          "tone": 1,
+          "mark": "ˉ",
+          "state": "normal",
+          "1x": "tone_buttons/drag_120/tone1_normal.png",
+          "2x": "tone_buttons/drag_120/tone1_normal@2x.png"
+        },
+        {
+          "tone": 1,
+          "mark": "ˉ",
+          "state": "pressed",
+          "1x": "tone_buttons/drag_120/tone1_pressed.png",
+          "2x": "tone_buttons/drag_120/tone1_pressed@2x.png"
+        },
+        {
+          "tone": 1,
+          "mark": "ˉ",
+          "state": "selected",
+          "1x": "tone_buttons/drag_120/tone1_selected.png",
+          "2x": "tone_buttons/drag_120/tone1_selected@2x.png"
+        },
+        {
+          "tone": 2,
+          "mark": "ˊ",
+          "state": "normal",
+          "1x": "tone_buttons/drag_120/tone2_normal.png",
+          "2x": "tone_buttons/drag_120/tone2_normal@2x.png"
+        },
+        {
+          "tone": 2,
+          "mark": "ˊ",
+          "state": "pressed",
+          "1x": "tone_buttons/drag_120/tone2_pressed.png",
+          "2x": "tone_buttons/drag_120/tone2_pressed@2x.png"
+        },
+        {
+          "tone": 2,
+          "mark": "ˊ",
+          "state": "selected",
+          "1x": "tone_buttons/drag_120/tone2_selected.png",
+          "2x": "tone_buttons/drag_120/tone2_selected@2x.png"
+        },
+        {
+          "tone": 3,
+          "mark": "ˇ",
+          "state": "normal",
+          "1x": "tone_buttons/drag_120/tone3_normal.png",
+          "2x": "tone_buttons/drag_120/tone3_normal@2x.png"
+        },
+        {
+          "tone": 3,
+          "mark": "ˇ",
+          "state": "pressed",
+          "1x": "tone_buttons/drag_120/tone3_pressed.png",
+          "2x": "tone_buttons/drag_120/tone3_pressed@2x.png"
+        },
+        {
+          "tone": 3,
+          "mark": "ˇ",
+          "state": "selected",
+          "1x": "tone_buttons/drag_120/tone3_selected.png",
+          "2x": "tone_buttons/drag_120/tone3_selected@2x.png"
+        },
+        {
+          "tone": 4,
+          "mark": "ˋ",
+          "state": "normal",
+          "1x": "tone_buttons/drag_120/tone4_normal.png",
+          "2x": "tone_buttons/drag_120/tone4_normal@2x.png"
+        },
+        {
+          "tone": 4,
+          "mark": "ˋ",
+          "state": "pressed",
+          "1x": "tone_buttons/drag_120/tone4_pressed.png",
+          "2x": "tone_buttons/drag_120/tone4_pressed@2x.png"
+        },
+        {
+          "tone": 4,
+          "mark": "ˋ",
+          "state": "selected",
+          "1x": "tone_buttons/drag_120/tone4_selected.png",
+          "2x": "tone_buttons/drag_120/tone4_selected@2x.png"
+        }
+      ]
+    },
+    {
+      "folder": "tone_buttons/hear_160x150",
+      "body1x": [
+        160,
+        150
+      ],
+      "radius1x": 22,
+      "pad1x": 8,
+      "canvas1x": [
+        176,
+        166
+      ],
+      "canvas2x": [
+        352,
+        332
+      ],
+      "files": [
+        {
+          "tone": 1,
+          "mark": "ˉ",
+          "state": "normal",
+          "1x": "tone_buttons/hear_160x150/tone1_normal.png",
+          "2x": "tone_buttons/hear_160x150/tone1_normal@2x.png"
+        },
+        {
+          "tone": 1,
+          "mark": "ˉ",
+          "state": "pressed",
+          "1x": "tone_buttons/hear_160x150/tone1_pressed.png",
+          "2x": "tone_buttons/hear_160x150/tone1_pressed@2x.png"
+        },
+        {
+          "tone": 1,
+          "mark": "ˉ",
+          "state": "selected",
+          "1x": "tone_buttons/hear_160x150/tone1_selected.png",
+          "2x": "tone_buttons/hear_160x150/tone1_selected@2x.png"
+        },
+        {
+          "tone": 2,
+          "mark": "ˊ",
+          "state": "normal",
+          "1x": "tone_buttons/hear_160x150/tone2_normal.png",
+          "2x": "tone_buttons/hear_160x150/tone2_normal@2x.png"
+        },
+        {
+          "tone": 2,
+          "mark": "ˊ",
+          "state": "pressed",
+          "1x": "tone_buttons/hear_160x150/tone2_pressed.png",
+          "2x": "tone_buttons/hear_160x150/tone2_pressed@2x.png"
+        },
+        {
+          "tone": 2,
+          "mark": "ˊ",
+          "state": "selected",
+          "1x": "tone_buttons/hear_160x150/tone2_selected.png",
+          "2x": "tone_buttons/hear_160x150/tone2_selected@2x.png"
+        },
+        {
+          "tone": 3,
+          "mark": "ˇ",
+          "state": "normal",
+          "1x": "tone_buttons/hear_160x150/tone3_normal.png",
+          "2x": "tone_buttons/hear_160x150/tone3_normal@2x.png"
+        },
+        {
+          "tone": 3,
+          "mark": "ˇ",
+          "state": "pressed",
+          "1x": "tone_buttons/hear_160x150/tone3_pressed.png",
+          "2x": "tone_buttons/hear_160x150/tone3_pressed@2x.png"
+        },
+        {
+          "tone": 3,
+          "mark": "ˇ",
+          "state": "selected",
+          "1x": "tone_buttons/hear_160x150/tone3_selected.png",
+          "2x": "tone_buttons/hear_160x150/tone3_selected@2x.png"
+        },
+        {
+          "tone": 4,
+          "mark": "ˋ",
+          "state": "normal",
+          "1x": "tone_buttons/hear_160x150/tone4_normal.png",
+          "2x": "tone_buttons/hear_160x150/tone4_normal@2x.png"
+        },
+        {
+          "tone": 4,
+          "mark": "ˋ",
+          "state": "pressed",
+          "1x": "tone_buttons/hear_160x150/tone4_pressed.png",
+          "2x": "tone_buttons/hear_160x150/tone4_pressed@2x.png"
+        },
+        {
+          "tone": 4,
+          "mark": "ˋ",
+          "state": "selected",
+          "1x": "tone_buttons/hear_160x150/tone4_selected.png",
+          "2x": "tone_buttons/hear_160x150/tone4_selected@2x.png"
+        }
+      ]
+    }
+  ]
+}

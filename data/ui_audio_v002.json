@@ -1,0 +1,144 @@
+{
+  "version": 2,
+  "assetRoot": "assets/art/ui/start_audio_v002/",
+  "files": {
+    "start_bg": "start/start_bg_1024x768.png",
+    "start_princess": "start/start_princess.png",
+    "title": "start/title_kaixin_adventure.png",
+    "start_normal": "start/btn_start_normal_blank.png",
+    "start_pressed": "start/btn_start_pressed_blank.png",
+    "hint_hear": "hints_v2/hint_hear.png",
+    "hint_pic2spell": "hints_v2/hint_pic2spell.png",
+    "hint_spell2pic": "hints_v2/hint_spell2pic.png",
+    "hint_drag": "hints_v2/hint_drag.png",
+    "speaker_normal": "speaker/speaker_normal_256.png",
+    "speaker_pressed": "speaker/speaker_pressed_256.png",
+    "speaker_playing_01": "speaker/speaker_playing_01_256.png",
+    "speaker_playing_02": "speaker/speaker_playing_02_256.png",
+    "speaker_playing_03": "speaker/speaker_playing_03_256.png",
+    "music_on": "toggles/music_on_128.png",
+    "music_off": "toggles/music_off_128.png",
+    "sfx_on": "toggles/sfx_on_128.png",
+    "sfx_off": "toggles/sfx_off_128.png",
+    "tone_drag_1_normal": "tone_buttons/drag_120/tone1_normal@2x.png",
+    "tone_drag_1_pressed": "tone_buttons/drag_120/tone1_pressed@2x.png",
+    "tone_drag_1_selected": "tone_buttons/drag_120/tone1_selected@2x.png",
+    "tone_drag_2_normal": "tone_buttons/drag_120/tone2_normal@2x.png",
+    "tone_drag_2_pressed": "tone_buttons/drag_120/tone2_pressed@2x.png",
+    "tone_drag_2_selected": "tone_buttons/drag_120/tone2_selected@2x.png",
+    "tone_drag_3_normal": "tone_buttons/drag_120/tone3_normal@2x.png",
+    "tone_drag_3_pressed": "tone_buttons/drag_120/tone3_pressed@2x.png",
+    "tone_drag_3_selected": "tone_buttons/drag_120/tone3_selected@2x.png",
+    "tone_drag_4_normal": "tone_buttons/drag_120/tone4_normal@2x.png",
+    "tone_drag_4_pressed": "tone_buttons/drag_120/tone4_pressed@2x.png",
+    "tone_drag_4_selected": "tone_buttons/drag_120/tone4_selected@2x.png",
+    "tone_hear_1_normal": "tone_buttons/hear_160x150/tone1_normal@2x.png",
+    "tone_hear_1_pressed": "tone_buttons/hear_160x150/tone1_pressed@2x.png",
+    "tone_hear_1_selected": "tone_buttons/hear_160x150/tone1_selected@2x.png",
+    "tone_hear_2_normal": "tone_buttons/hear_160x150/tone2_normal@2x.png",
+    "tone_hear_2_pressed": "tone_buttons/hear_160x150/tone2_pressed@2x.png",
+    "tone_hear_2_selected": "tone_buttons/hear_160x150/tone2_selected@2x.png",
+    "tone_hear_3_normal": "tone_buttons/hear_160x150/tone3_normal@2x.png",
+    "tone_hear_3_pressed": "tone_buttons/hear_160x150/tone3_pressed@2x.png",
+    "tone_hear_3_selected": "tone_buttons/hear_160x150/tone3_selected@2x.png",
+    "tone_hear_4_normal": "tone_buttons/hear_160x150/tone4_normal@2x.png",
+    "tone_hear_4_pressed": "tone_buttons/hear_160x150/tone4_pressed@2x.png",
+    "tone_hear_4_selected": "tone_buttons/hear_160x150/tone4_selected@2x.png"
+  },
+  "startButton": {
+    "center": [
+      670,
+      500
+    ],
+    "size": [
+      600,
+      180
+    ]
+  },
+  "hint": {
+    "center": [
+      275,
+      180
+    ],
+    "size": [
+      240,
+      150
+    ],
+    "note": "Lily hints_v2: one tone mark per cell, tap or drag supported, pointer fully in frame. Swap paths here for future revisions."
+  },
+  "toneButtons": {
+    "drag": {
+      "display": [
+        136,
+        136
+      ],
+      "body": [
+        120,
+        120
+      ],
+      "tones": {
+        "1": {
+          "containsToneMark": true,
+          "normal": "tone_drag_1_normal",
+          "pressed": "tone_drag_1_pressed",
+          "selected": "tone_drag_1_selected"
+        },
+        "2": {
+          "containsToneMark": true,
+          "normal": "tone_drag_2_normal",
+          "pressed": "tone_drag_2_pressed",
+          "selected": "tone_drag_2_selected"
+        },
+        "3": {
+          "containsToneMark": true,
+          "normal": "tone_drag_3_normal",
+          "pressed": "tone_drag_3_pressed",
+          "selected": "tone_drag_3_selected"
+        },
+        "4": {
+          "containsToneMark": true,
+          "normal": "tone_drag_4_normal",
+          "pressed": "tone_drag_4_pressed",
+          "selected": "tone_drag_4_selected"
+        }
+      }
+    },
+    "hear": {
+      "display": [
+        176,
+        166
+      ],
+      "body": [
+        160,
+        150
+      ],
+      "tones": {
+        "1": {
+          "containsToneMark": true,
+          "normal": "tone_hear_1_normal",
+          "pressed": "tone_hear_1_pressed",
+          "selected": "tone_hear_1_selected"
+        },
+        "2": {
+          "containsToneMark": true,
+          "normal": "tone_hear_2_normal",
+          "pressed": "tone_hear_2_pressed",
+          "selected": "tone_hear_2_selected"
+        },
+        "3": {
+          "containsToneMark": true,
+          "normal": "tone_hear_3_normal",
+          "pressed": "tone_hear_3_pressed",
+          "selected": "tone_hear_3_selected"
+        },
+        "4": {
+          "containsToneMark": true,
+          "normal": "tone_hear_4_normal",
+          "pressed": "tone_hear_4_pressed",
+          "selected": "tone_hear_4_selected"
+        }
+      }
+    }
+  },
+  "toneButtonNote": "Lily normal/pressed/selected @2x, shown at manifest canvas1x centered on unchanged body/hit target. Set image keys here to swap future artwork; vector fallback contains one tone mark only."
+}

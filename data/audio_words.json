@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "attribution": "中華民國教育部（Ministry of Education, R.O.C.）。《國語辭典簡編本》（版本編號：2014_20260929）網址：https://dict.concised.moe.edu.tw/",
  "license": "創用 CC 姓名標示-禁止改作 3.0 臺灣（CC BY-ND 3.0 TW） https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode",
- "note": "音檔為教育部官方公眾授權下載檔（https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/dict_concised_download.html）原檔，未經任何剪輯、轉檔或修改；遊戲播放時只播放 start～end 秒（詞目本身的讀音），檔案內容保持原樣。",
+ "note": "音源為教育部官方公眾授權下載檔；原始下載與來源SHA256保留。副本內13檔僅校正WAV RIFF總長欄位，PCM取樣資料逐位元不變，未剪輯、未重編碼、未變更取樣率或聲道；遊戲播放start～end秒。各原檔SHA256見moe.sha256，修復後檔案與PCM雜湊見runtimeHeaderRepair。",
  "words": {
   "鵝": {
    "file": "assets/audio/words/moe_word_5726.wav",
@@ -14,6 +14,16 @@
     "id": "5726",
     "zipPath": "word_wav/word_wav/5726.wav",
     "sha256": "b08bee247bfdee1ec0980b46ad8b4259c2a5ae0fa3f8d132f6dc39a873cd4c9d"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "2236d49092112fcc0ec98e33fce4ed8be734caa3036bbf0a5c781fa6143a2b91",
+    "pcmSHA256": "c7c893fcd673b4dd82cf752fa66bafb0e453063314dbc99a500ae1aaa51769e5",
+    "sourceSHA256": "b08bee247bfdee1ec0980b46ad8b4259c2a5ae0fa3f8d132f6dc39a873cd4c9d",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "笑嘻嘻": {
@@ -50,6 +60,16 @@
     "id": "5706",
     "zipPath": "word_wav/word_wav/5706.wav",
     "sha256": "3d76451b445c05c2ec648e3a01e02ec063455f9cdb3601a2728127f007bb1454"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "6b32df27186e60b629107416b25eb39d95047e04194c1105f09f288be917fbc2",
+    "pcmSHA256": "b2bb20a2a130aedbf5a0b58141005cfc7f2ef3465ca165d467b6de98e9f0ac8c",
+    "sourceSHA256": "3d76451b445c05c2ec648e3a01e02ec063455f9cdb3601a2728127f007bb1454",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "賽跑": {
@@ -74,6 +94,16 @@
     "id": "0012",
     "zipPath": "word_wav/word_wav/0012.wav",
     "sha256": "0a2172e51df38e7d9dac0ef07d97dd3d5cdf55e7db07c4e6920aa04d91d398e9"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "e459fcbf7919f30348c951efa29f67a93e5745f6ff9d643cf28d04567e58ceb6",
+    "pcmSHA256": "689bdc4a33397029c7cd217f45bfaa8f61411ecedb1df4dcb574fef641f4fa09",
+    "sourceSHA256": "0a2172e51df38e7d9dac0ef07d97dd3d5cdf55e7db07c4e6920aa04d91d398e9",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "大象": {
@@ -146,6 +176,16 @@
     "id": "0353",
     "zipPath": "word_wav/word_wav/0353.wav",
     "sha256": "2d5c782bf8dc0d69b65c2f34cc8c9b461f227f078e34ee56e5eb0fd80db060cd"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "bc0b84744e569d426cd63ed1787dbe200fa18666b015b9a29a564c146a099d6f",
+    "pcmSHA256": "34507749973aa8ac3d1ae92c656816923746f63ce45058ce0521d465d330c8fc",
+    "sourceSHA256": "2d5c782bf8dc0d69b65c2f34cc8c9b461f227f078e34ee56e5eb0fd80db060cd",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "半路": {
@@ -194,6 +234,16 @@
     "id": "0666",
     "zipPath": "word_wav/word_wav/0666.wav",
     "sha256": "79680251033abca4f2bdb1fe073f0014bcb23fc7cdb9897c961affb2254119c7"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "8d85571eefc635c5a7bff80a9cdf9e53a3b6f9b6b007a334ec93751cf3621ff1",
+    "pcmSHA256": "3562f53dc90ffa4c10e0d42f38aa00b23ae71adff75dce1e9c412592b366fc4c",
+    "sourceSHA256": "79680251033abca4f2bdb1fe073f0014bcb23fc7cdb9897c961affb2254119c7",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "書包": {
@@ -242,6 +292,16 @@
     "id": "0824",
     "zipPath": "word_wav/word_wav/0824.wav",
     "sha256": "28c37d5ebed602bc9eb95bcf114b18c943ecdda344c10746452ea0962b24f142"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "ce57da20e386f3114cb848e3b4d7042aeabb31a8ab319fe30d51a9bafb7c3bda",
+    "pcmSHA256": "c9f54ece284aeb92f1e416f1000cb5d506aa706ee6048204b00ce3192fba9348",
+    "sourceSHA256": "28c37d5ebed602bc9eb95bcf114b18c943ecdda344c10746452ea0962b24f142",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "讀書": {
@@ -266,6 +326,16 @@
     "id": "3194",
     "zipPath": "word_wav/word_wav/3194.wav",
     "sha256": "9b7d5f4dec712cc7b2711b72ca09245d43db1b73b89069a3f725749a9796bd43"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "cdf39d0cf319a8e7b9de06196436615513c3c1b0fcf573adf5a034297ec719d0",
+    "pcmSHA256": "1e701e84b735e0e802ed6ba06b4452e13c3cc8a7bf112b9d7152afff1ed0dfa2",
+    "sourceSHA256": "9b7d5f4dec712cc7b2711b72ca09245d43db1b73b89069a3f725749a9796bd43",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "落後": {
@@ -290,6 +360,16 @@
     "id": "4567",
     "zipPath": "word_wav/word_wav/4567.wav",
     "sha256": "8d9dc8b503d07f35151b55cbb48b78c635baced2f9fe3d043e261665532de1f4"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "34ad2d1f3ec2812631e44040f4cec4bf87069685a4af5c4b109069d2997af95e",
+    "pcmSHA256": "568445e9baf8bb50cf102de177f3ef69a1315f5a2e0f6a5a9bc646a385a7869e",
+    "sourceSHA256": "8d9dc8b503d07f35151b55cbb48b78c635baced2f9fe3d043e261665532de1f4",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "山崖": {
@@ -374,6 +454,16 @@
     "id": "3770",
     "zipPath": "word_wav/word_wav/3770.wav",
     "sha256": "5c9bacec952aa15b38dd4943734c11501b8334cec6d7ea6ef62e306cff50d152"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "b7881085a2a79d526ef1bf85752661cd56e0296ef934660a8b2f4f3248f1d4bd",
+    "pcmSHA256": "c7e07308acb9a21f965dd1fe4088b176057e561891d805b13c0e28f9e79043fc",
+    "sourceSHA256": "5c9bacec952aa15b38dd4943734c11501b8334cec6d7ea6ef62e306cff50d152",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "好像": {
@@ -410,6 +500,16 @@
     "id": "2598",
     "zipPath": "word_wav/word_wav/2598.wav",
     "sha256": "e23fc66f310c729bd16ca716a1c0467207be11451aaec62c8eb7dd5ead95b020"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "c2e42fdbbfe0c78f551423c95667c207d00807d8ffb3a39b9b9f089be81b6394",
+    "pcmSHA256": "2b8f4dd5ec1f525630feda43db3eccd71dffbe496ace34758f4d6c7e1fb82b62",
+    "sourceSHA256": "e23fc66f310c729bd16ca716a1c0467207be11451aaec62c8eb7dd5ead95b020",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "用力": {
@@ -446,6 +546,16 @@
     "id": "3606",
     "zipPath": "word_wav/word_wav/3606.wav",
     "sha256": "5ed71a267000388c3c1bc75d32dbfd5cb037c33eda933e86a222b867a763bef3"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "265eed071652755090970f7c5ffab9993c89c9026597251528c0ca0fb103e067",
+    "pcmSHA256": "def5caaff571f3d41304c501230323f05d52b6dd9729f35e5d489f64d32d507c",
+    "sourceSHA256": "5ed71a267000388c3c1bc75d32dbfd5cb037c33eda933e86a222b867a763bef3",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "滾": {
@@ -458,6 +568,16 @@
     "id": "2458",
     "zipPath": "word_wav/word_wav/2458.wav",
     "sha256": "2323c9122af1af705d251a51545786c0d0608eec425029edb2ea45aeeab7fb4b"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "9a14ba3c72d96d71ce7623352384485def943b17a751000f39854fd57c320d7a",
+    "pcmSHA256": "08da0fd54b94ce4b6162103a89ae15cab277e82e07dde564f24fcef58801626b",
+    "sourceSHA256": "2323c9122af1af705d251a51545786c0d0608eec425029edb2ea45aeeab7fb4b",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   },
   "變": {
@@ -470,6 +590,16 @@
     "id": "0250",
     "zipPath": "word_wav/word_wav/0250.wav",
     "sha256": "6bc381a9e20d0281077d95f5b731d3d9354005785548cf5baf020b7de2361a92"
+   },
+   "runtimeHeaderRepair": {
+    "fileSHA256": "62949fcc70545955b59dd2841eb117f16ceb0398d9f50e58707ea01ccbb2a4de",
+    "pcmSHA256": "9ae6572f90b7d2fdafcf7537bd2966b97f00e325c10962efa47a480e6cc92bb6",
+    "sourceSHA256": "6bc381a9e20d0281077d95f5b731d3d9354005785548cf5baf020b7de2361a92",
+    "fields": [
+     "RIFF chunk size"
+    ],
+    "pcmUnchanged": true,
+    "reencoded": false
    }
   }
  },

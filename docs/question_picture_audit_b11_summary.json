@@ -1,0 +1,18 @@
+{
+  "words": 82,
+  "targetSyllables": 149,
+  "originalWordTypeVariants": 596,
+  "matched": 22,
+  "mismatched": 20,
+  "decorative": 40,
+  "rawMissing": 0,
+  "usableArtMissing": 60,
+  "picturedTargets": 44,
+  "allowedVariants": 386,
+  "excludedPictureVariants": 210,
+  "moeFiles": 39,
+  "ttsWords": 43,
+  "asrReviewed": 39,
+  "asrPhoneticMatches": 17,
+  "frequency": "Static original-bank target syllables × 4 types. Actual randomized/spaced-repetition player frequencies are unknown; no telemetry was fabricated."
+}

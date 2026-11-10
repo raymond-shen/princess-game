@@ -566,3 +566,61 @@ Raymond 經 Yuki 核准只整合到 `/workspace/princess-game-p0/` 副本。沒�
 
 - 修正 harness 後完整 suite 重跑成功：**回歸 9/9、主驗收 27/27**，43,200 組解析、96 次換裝、17 張補充穿戴 UI、PNG 備援及來源／runtime 稽核均 PASS；正常流程 JS／console errors 0。大碼 2823/2950 字、兩張普通卡 534／528 字，OpenCV 放大解碼均逐字相同。
 - 診斷前後 34 個遊戲／runtime／匯入工具路徑 SHA 全相同（只另加本紀錄、修 ignored 測試 harness）。原始首次失敗紀錄仍保留 `_before_idle_fix.json`，未刪除／粉飾。
+
+
+---
+
+# 第十一批：聲音啟動／柔和音樂音效／四類題意＋Lily ui_v002（2026-11-11，新加坡時間 UTC+8）
+
+## 診斷與修正
+- 確認原版**沒有 BGM**，有少量合成 SFX 但沒有覆蓋所有按鍵；自訂 AudioContext 與 Phaser 分開，resume 未等結果就 unlocked=true、空白 speech priming、無 HTMLAudio priming／真實 context 狀態與手勢恢復。這些是程式端明確缺陷，不把 Chromium 無法重現的「Raymond 真 iPad 全靜音」硬說已證實是哪個裝置設定。
+- 公開線上 d7d14e2 只讀檢測：39 MOE 路徑均 **HTTP GET 200、audio/wav、RIFF/WAVE**；mute=false／volume=1。Chromium 實際觸控開始後兩個舊 context 皆 running，因此不是已查到的 404/MIME／程式 mute；Safari 手勢／中斷／靜音與輸出路由仍待真機確認。
+- 新原生「點我開始冒險」於同一次手勢同步解鎖 Phaser、共用 AudioContext、非空白靜音 speechSynthesis 與 silent HTMLAudio；狀態真 running 才標成功。手勢後循環柔和 16 秒 BGM，念題時降音量；切背景暫停、再點恢復。**未點一下的強制開站自動出聲不符合 Safari 政策**，沒有嘗試繞過。
+- 增補所有 Phaser 互動物件／原生按鈕 tap，以及實際答對／錯、攻擊、命中、得寶物 SFX。右上角設定有獨立音樂／音效開關、持久化、語音測試與恢復；關 SFX 不會關教學語音。
+- 四類題型 hear／pic2spell／spell2pic／drag 均有明確大字指令，依序自動「指令＋詞語」，108×90 重聽熱區；原本 spell2pic 完全未自動念題已補。拖曳保留並支援點聲調，取消／換題／離開戰鬥會取消過時語音。完整 before/after 題型表與診斷：`docs/audio_question_audit_b11.md`。
+
+## Lily 正式 UI 與小體積音訊
+- 18 張 `ui_v002_start_audio` runtime 圖 SHA 同源，複製共 **1,814,841 bytes**；沒有碰源檔。接上城堡天空、v8 公主、標題、normal/pressed 無字開始圖；開始鈕 **(670,500)、600×180**，不疊雙重文字，提醒卡移右下不遮裙腳。
+- 四類真題卡均有 **240×150** 提示圖＋「怎麼玩（示意）」標籤，speaker normal/pressed／三幀 playing、音樂音符／SFX 鈴鐺 on/off 已接入。`data/ui_audio_v002.json` 可替換 hint 檔與排版；已換 Lily hints_v2：單格單聲調、一聲單橫槓、drag 同時示範拖或點、pic2spell 手指不出框；保留完整文字指令，未擅改原圖。
+- 新音樂／SFX 原創 WebAudio 合成，CC0 1.0，無第三方歌曲／錄音；**唯一新增音訊檔 silence.wav＝1,644 bytes**，BGM/SFX 不下載音檔，低於新增音訊 2MB 預算。16 秒 buffer 1,411,200 bytes RAM、重複使用；原有39 MOE WAV **27,947,818 bytes** 保持原檔及 CC BY-ND 3.0 TW，並非宣稱整個既有音庫也 <2MB。授權：`LICENSES/audio_generated_CC0.md`。
+- 學習詞共82＝39 MOE＋**43 TTS-only**；MOE 失敗可重試，不永久快取 null。角色美術／互斥／存檔 schema／readiness flags 不變。
+
+## 測試與證據
+- 新測試用真正 WebAudio／HTMLAudio、實際非零 PCM、原生 touch start、真正拖曳與答對／錯／攻擊／命中／得寶物事件；只 mock 桌面不可靠的 speechSynthesis，以驗證四類指令先於詞語、43 個 TTS-only 請求、取消、開關保存及18張 UI實際接線；不假稱桌面已真人聽驗中文。
+- 首輪回歸8/9：castle-arrival fixture 使用可能被其他攻擊打死的怪物，再固定等500ms，觀察到 hearts 5→5，但後續失敗／重試與所有遊戲斷言正常；保留原始失敗證據。**只修測試**：受測怪物給足血防競態，仍由真 update/reachCastle 扣心，等待實際 hearts 下降（最多5秒），不改遊戲扣心邏輯，也不放寬扣心斷言。最終結果以下續記。
+- `shots_p0/29_01_start_audio_gate.png`；`29_02_question_hear.png`；`29_03_question_pic2spell.png`；`29_04_question_spell2pic.png`；`29_05_question_drag.png`；`29_06_audio_settings_on.png`；`29_07_audio_settings_off.png`。
+- **只改副本，未 commit／push／deploy，push URL no_push**。真 iPad 仍須確認可聽音量、中文系統聲音／43詞、四類自動念題與重聽、切背景／鎖屏恢復、觸控與轉向；公開 live 未更動。
+
+- 第二輪 8/9 的 `three_job_attacks` 是另一個原有 fixture 競態：戰士 attacks=0／HP均60、無JS錯誤；幾何核對舊位置距主角 **353／323／293px**，全部超過戰士200px射程，固定4秒不足保證走進範圍。只修 harness：等角色真正載入、三靶擺在合法射程內並停止移動，等待實際自動攻擊造成傷害且回 idle 再原子快照（8秒逾時）；仍保留 attacks>0、扣血、idle與JS斷言，不改職業／射程／傷害遊戲碼。兩輪失敗原始資料均另存，沒有靠多跑碰運氣。
+
+### 第十一批最終 gate：PASS（2026-11-11 01:27 SGT）
+- 完整 `tests_p0/b11_preflight.py` **11支 runner全部 exit 0**；通用回歸 **9/9**、主驗收 **27/27**、新音訊/UI **15/15**、43,200組解析、96次換裝、8項邊界、缺圖/缺音負向案例與PNG備援全通過。正常流程 pageerror/console.error **0**；刻意404案例按預期降級，沒有JS例外。
+- 嚴格 `document-user-activation-required`：開始前 Phaser context **suspended**，原生點擊後共用 context **running**、HTMLAudio play成功、speech priming在手勢內、循環BGM analyser RMS **0.004255** 非零；四類指令先於詞、43個TTS-only詞皆有請求；實際觸控拖曳、五類戰鬥回饋、偏好重載保存、縱橫轉向600×180開始熱區對齊皆通過。
+- 普通翼/披風卡 **521/522字**、149筆大碼 **2825/2950**；OpenCV放大解碼逐字相同，角色/配裝round-trip、確認才匯入與備份通過。角色LRU峰值 **8**、14層峰值解碼 **15.4MB**，結束refs/sources/liveDecodedBytes **0**；角色預算不變，BGM另加1.4112MB可重用buffer。
+- 39原始MOE WAV **39/39 真瀏覽器解碼成功**。格式均mono/16-bit PCM/22,000Hz；另查13檔既有RIFF長度欄不符，Chrome容忍，**Safari兼容風險未經真機證實**；未修改/轉檔原音，詳稽核文。真機請特別驗鵝/送/拔/跑/忙/飛/教/追/去/快/敲/滾/變及43 TTS詞。
+- Lily hints_v2四檔已取代v1、18張runtime UI逐檔符合更新後SHA清單；本次共 **8張29_*實拍**（加縱向29_08），四類均可見v2圖示與重聽。最佳三張：`29_01_start_audio_gate.png`、`29_05_question_drag.png`、`29_06_audio_settings_on.png`。
+- 最終HEAD仍 `d7d14e224eef4232a13bd659493c8555faad0ed6`，push URL `no_push`；未stage/commit/push/deploy、未改live或任何源美術，角色readiness仍false。
+
+
+### 第十一批追加：核准修正MOE WAV標頭＋Lily聲調按鈕（2026-11-11，新加坡時間 UTC+8）
+- 副本13個MOE WAV先備份／拷入新inode，**僅修offset4–7的RIFF總長**；data size／fmt size原本正確、沒有其他chunk。全數保持原始mono／16-bit／22,000Hz、檔長及PCM bytes，**13/13 PCM SHA256相同、重編碼0**。其餘27個runtime音訊完全不變；官方來源／下載檔未動。`moe.sha256`仍是來源hash，另加修復後runtime與PCM hash，來源頁與授權備註據實說明。
+- 全副本**92 WAV**逐檔strict chunk/frame解析＋Python wave＋ffprobe -v error＋ffmpeg全解碼；**runtime40/40合規，無其他異常**。52個ignored歷史／原始備份保持原狀（其中26個已知原始壞頭刻意留存，不由遊戲載入），沒有其他異常。
+- hear與drag都取消多畫的一條手勢線；接上Lily兩套 **24張@2x normal/pressed/selected**，SHA完全同源。drag136×136畫布／120×120鈕身，hear176×166畫布／160×150鈕身，原中心與hitbox不變；觸下pressed、有效放開／拖放後selected。檔案與display由ui_audio_v002.json宣告，未來可換圖；缺圖仍只有一個大聲調。
+- 重拍29_02、29_05，新增29_09–12觸下／選取證據。逐檔PCM完整hash與實際檔名、工具、嚴格掃描範圍：`docs/audio_wav_header_repair_b11.md`；機器證據：`tests_p0/b11_wav_header_repair_result.json`，原始備份留在ignored tests_p0，不納入發布。
+- 本次無commit／push／deploy，no_push不變；完整音訊/UI＋regression重跑結果以下續記。
+
+### WAV／正式聲調圖最終驗收：PASS（2026-11-11 01:43 SGT）
+- 全套 **14支 runner 全 exit 0**：音訊/UI **17/17**、聲調normal/pressed/selected真觸控與尺寸 **3/3**、通用回歸 **9/9**、角色驗收 **27/27**；43,200組解析、96次壓測、149筆大碼 **2829/2950** 並OpenCV逐字解碼、PNG/缺圖/缺音備援與備份還原全PASS。正常流程pageerror/console.error **0**。
+- 修復後MOE **39/39瀏覽器解碼成功**；全副本92 WAV重掃，runtime **40/40** 完整chunk/PCM/ffprobe/full-decode合規；13份原檔備份SHA不變，13份runtime PCM hash全部相同，只改RIFF 4-byte欄位共52 bytes，無重編碼、無其他runtime異常。
+- 所有42張UI runtime圖（含24張tone @2x）逐檔同Lily來源SHA；圖身/觸控範圍不變且保留完整透明邊，已重看29_02／29_05與29_09–12，單一調號、按下及選取框清楚。真iPad Safari仍待實際聽驗；此批未部署，live未變。
+
+
+### 第十一批追加：題圖逐詞／音節／題型稽核與正確對應：PASS（2026-11-11 02:03 SGT）
+- 根因不是圖片索引錯：舊vocab直接拿章節聯想emoji當主圖／選項，沒有語義審核與word owner gate。「五隻 ㄨˇ ㄓ」被配成單一🦢，語音實際要求TTS「五隻」，不是天鵝音檔；「鵝」的SWAN物種不精確也不放行。
+- 全**82詞／149目標音節×4型＝596組**稽核：**22詞圖義可用、20明確錯配、40裝飾代理**（原pic空值0，但**60詞沒有可用圖**）。新question_pictures_b11.json只放行核對且wordId相等的22詞emoji。其餘hear／drag不顯示圖，改大字詞語／注音；無圖詞不進pic2spell／spell2pic。修後錯圖／裝飾主圖均0，**386組可出、210組無圖圖題排除**；149個Leitner ID與舊存檔全部保留。
+- 主圖owner必須等於題目word.id；選圖每個選項必須等於其represented word ID、正解再等於主詞。干擾圖亦須通過審核且glyph互異。缺目錄／偽造錯owner皆fail-closed退hear，不會回退舊pic。家長錯詞列也移除不符符號；Lily提示圖保留明確「怎麼玩（示意）」標籤。
+- 語音**39/39**獨立對照原下載MOE字典xlsx的詞號、詞名與完整注音（含多音字），檔案來源／修復後SHA及播放範圍一致；**43 TTS**逐詞呼叫文字一致。未改音檔、PCM或start/end。另本機無正解提示ASR檢查39切片，17音近相符、22短片／同音字仍不確定，已逐詞標人工聽驗；**不把能解碼／來源標籤當真人發音驗證**，43詞裝置TTS仍須真iPad聽驗。
+- 文檔：`docs/question_picture_audit_b11.md`；596列完整矩陣`docs/question_picture_audit_b11_items.csv`；39條官方音檔詞號／注音證據`docs/question_audio_identity_b11.json`。Lily補圖清單**60詞**：`docs/question_picture_art_needed_b11.csv`（UTF-8 BOM、讀回驗證），依可出題音節×原4型的**題庫靜態頻次**降序，不偽稱Raymond真實遊玩頻率；優先補pic2spell／spell2pic，圖完成後也可用hear／drag。
+- 完整`b11_preflight.py` **15支runner全部exit0**，回歸**9/9**、角色驗收**27/27**、音訊/UI**17/17**、聲調真觸控**3/3**；新增圖片／路由測試先7/7，補入獨立官方詞號驗證後再跑**8/8**。逐一實際建596種題目，核對**264個圖物件**owner／glyph、420個無圖防守排版與各關選題池；正常JS／console錯誤**0**。43,200組解析、96換裝壓測、PNG／缺圖／缺音備援全部PASS；149筆大碼**2816/2950**、OpenCV放大解碼逐字相符。角色LRU峰8、14層15.4MB解碼峰值不變，結束refs／sources／liveDecodedBytes皆0。
+- 四型真題重拍：`shots_p0/29_02_question_hear.png`（五隻第1音、無天鵝）、`29_03_question_pic2spell.png`（貓咪）、`29_04_question_spell2pic.png`（青蛙）、`29_05_question_drag.png`（五隻第2音、無天鵝）；29_09–12按下／選取亦重拍並目視檢查。大詞、目標框、正確圖、提示圖及重聽鍵都清楚。
+- 僅副本；**無stage／commit／push／deploy**，HEAD仍d7d14e224eef4232a13bd659493c8555faad0ed6、push URL no_push。原始美術／下載檔未改，live未變，readiness flags不變。模型／轉寫／測試與截圖皆ignored artifacts，不納入遊戲runtime。

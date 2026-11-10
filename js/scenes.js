@@ -1,6 +1,6 @@
 const W=1024,H=768,FONT='"PingFang TC","Noto Sans CJK TC","Heiti TC",sans-serif';
 const TREASURES=['crown','flower_crown','bow','necklace','wings','cat','unicorn','star_cape'];
-function btn(sc,x,y,w,h,label,color,cb,fs){const c=sc.add.container(x,y);const g=sc.add.graphics();
+function btn(sc,x,y,w,h,label,color,cb,fs){Sound.wireScene(sc);const c=sc.add.container(x,y);const g=sc.add.graphics();
  g.fillStyle(0x000000,0.15).fillRoundedRect(-w/2+3,-h/2+5,w,h,Math.min(22,h/2));g.fillStyle(color||0xff9ec4).fillRoundedRect(-w/2,-h/2,w,h,Math.min(22,h/2));
  g.lineStyle(3,0xffffff,0.9).strokeRoundedRect(-w/2,-h/2,w,h,Math.min(22,h/2));
  const t=sc.add.text(0,0,label,{fontFamily:FONT,fontSize:(fs||28)+'px',color:'#5a2d6e',align:'center'}).setOrigin(0.5);c.add([g,t]);
@@ -22,27 +22,23 @@ function checkRest(sc){if(Session.reminded||Date.now()-Session.start<15*60e3)ret
  o.add(btn(sc,W/2,H/2+110,200,64,'👌',0xb9f6ca,()=>o.destroy(),36));}
 
 class Boot extends Phaser.Scene{constructor(){super('Boot');}
- preload(){this.load.json('vocab','data/vocab.json');this.load.json('manifest','data/character_runtime_v8.json');this.load.json('assetsManifest','data/assets_manifest.json');this.load.json('audioWords','data/audio_words.json');
+ preload(){this.load.json('audioUI','data/ui_audio_v002.json');this.load.json('vocab','data/vocab.json');this.load.json('questionPictures','data/question_pictures_b11.json');this.load.json('manifest','data/character_runtime_v8.json');this.load.json('assetsManifest','data/assets_manifest.json');this.load.json('audioWords','data/audio_words.json');
   const t=this.add.text(W/2,H/2,'🏰 …',{fontSize:'48px'}).setOrigin(0.5);this.load.on('progress',p=>t.setText('🏰 '+Math.round(p*100)+'%'));}
- create(){Learn.init(this.cache.json.get('vocab'));
+ create(){Learn.init(this.cache.json.get('vocab'),this.cache.json.get('questionPictures'));
   Char.init(this.cache.json.get('manifest')).then(()=>{Save.load();const m=Char.m;
-   Art.init(this.cache.json.get('assetsManifest'));Sound.initWords(this.cache.json.get('audioWords'));Art.queue(this);
+   Art.init(this.cache.json.get('assetsManifest'));Sound.queueUI(this,this.cache.json.get('audioUI'));Sound.initWords(this.cache.json.get('audioWords'));Art.queue(this);
    this.load.once('complete',()=>this.scene.start('Start'));this.load.start();});}}
 
 
 class Start extends Phaser.Scene{constructor(){super('Start');}
  create(){sky(this,0xbfa7f0,0xffd6ea);
-  for(let i=0;i<30;i++){const s=this.add.text(Phaser.Math.Between(0,W),Phaser.Math.Between(0,H),'✦',{fontSize:Phaser.Math.Between(14,30)+'px',color:'#ffffff'}).setAlpha(0.7);this.tweens.add({targets:s,alpha:0.1,duration:Phaser.Math.Between(800,2000),yoyo:true,repeat:-1});}
-  this.add.text(W/2,150,'👑 🏰 🐉',{fontSize:'90px'}).setOrigin(0.5);
-  this.add.text(W/2,265,'ㄍㄨㄥ ㄓㄨˇ ㄇㄠˋ ㄒㄧㄢˇ',{fontFamily:FONT,fontSize:'44px',color:'#6a2c91',stroke:'#fff',strokeThickness:8}).setOrigin(0.5);
-  const b=btn(this,W/2,420,360,140,'▶',0xff9ec4,()=>{Sound.unlock();Sound.chime(0);
-   setTimeout(()=>Sound.say('歡迎來到公主冒險！'),150);Save.data.sessions++;Save.write();
-   this.scene.start(Save.data.character?'Map':'Creator');},90);
-  this.tweens.add({targets:b,scale:1.06,duration:700,yoyo:true,repeat:-1});
-  const h=this.add.container(W/2,610);const hg=this.add.graphics();hg.fillStyle(0xffffff,0.85).fillRoundedRect(-330,-60,660,120,24);
-  h.add([hg,this.add.text(-280,0,'📱🔕➡🔔',{fontSize:'44px'}).setOrigin(0,0.5),
-   this.add.text(40,-18,'iPad 靜音開關請關閉',{fontFamily:FONT,fontSize:'24px',color:'#6a2c91'}).setOrigin(0,0.5),
-   this.add.text(40,20,'（家長：才聽得到語音）',{fontFamily:FONT,fontSize:'20px',color:'#9a6ab8'}).setOrigin(0,0.5)]);
+  if(this.textures.exists('audio_ui_start_bg'))this.add.image(0,0,'audio_ui_start_bg').setOrigin(0).setDisplaySize(W,H);
+  if(this.textures.exists('audio_ui_start_princess'))this.add.image(250,748,'audio_ui_start_princess').setOrigin(.5,1).setDisplaySize(620*1000/1100,620);
+  if(this.textures.exists('audio_ui_title'))this.add.image(512,108,'audio_ui_title').setDisplaySize(760,200);else this.add.text(512,108,'楷芯公主冒險',{fontFamily:FONT,fontSize:'44px',color:'#6a2c91'}).setOrigin(.5);
+  Sound.titleButton(this);
+  this.add.text(670,601,'點一下，開啟音樂與題目語音',{fontFamily:FONT,fontSize:'20px',color:'#6a2c91',backgroundColor:'#fff8fccc'}).setOrigin(.5);
+  const h=this.add.container(670,663),hg=this.add.graphics();hg.fillStyle(0xffffff,.88).fillRoundedRect(-280,-45,560,90,24);
+  h.add([hg,this.add.text(-245,0,'📱🔕➡🔔',{fontSize:'32px'}).setOrigin(0,.5),this.add.text(-50,-14,'iPad 請關靜音、提高音量',{fontFamily:FONT,fontSize:'21px',color:'#6a2c91'}).setOrigin(0,.5),this.add.text(-50,18,'也請檢查藍牙耳機',{fontFamily:FONT,fontSize:'18px',color:'#9a6ab8'}).setOrigin(0,.5)]);
   this.add.text(W-16,H-12,'P0・Lily v8（本機測試版）',{fontSize:'14px',color:'#7a5a9a'}).setOrigin(1,1);
   const cr=this.add.text(16,H-12,'ⓘ 版權與音檔來源',{fontFamily:FONT,fontSize:'16px',color:'#7a5a9a',padding:{x:6,y:6}}).setOrigin(0,1).setInteractive();cr.on('pointerdown',()=>this.scene.start('Credits',{from:'Start'}));}}
 
@@ -242,7 +238,7 @@ class Report extends Phaser.Scene{constructor(){super('Report');}
   panel(24,92,480,400,'最近常錯的字（最新在上）');const miss=Stats.recentMissed(6);const L=sd.leitner;this.missRows=[];
   if(!miss.length)tx(44,140,'還沒有錯題，太棒了！',{color:'#999'});
   miss.forEach((it,i)=>{const y=134+i*58,s=L[it.id];const w=it.word;
-   tx(44,y,w.pic+' '+w.word,{fontSize:'26px'});
+   tx(44,y,(Learn.picture(w)?.glyph||'')+' '+w.word,{fontSize:'26px'});
    tx(170,y+2,Learn.spell(w),{fontSize:'24px',color:'#5a2d6e'});
    const target=w.zhuyin[it.syl]+(TONE_SHOW[it.tone]||'')+'（'+TONE_NAME[it.tone]+(s.lastChosen&&s.lastChosen!==it.tone?'，她選了'+TONE_NAME[s.lastChosen]:'')+'）';
    tx(170,y+31,'這個音：'+target,{fontSize:'15px',color:'#c2185b'});
