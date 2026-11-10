@@ -1,0 +1,549 @@
+{
+ "schemaVersion": 1,
+ "note": "所有美術素材的單一清單。檔案放到 file 路徑後，把 ready 改成 true（或執行 python3 tools/update_assets_manifest.py 自動檢查並更新）。ready=false 或載入失敗時，遊戲自動用 fallback emoji／程式產生的粒子。",
+ "format": "PNG，RGBA 透明背景（straight alpha），sRGB，8-bit；尺寸須與 w×h 完全一致；origin 為 [x,y] 比例（[0.5,1]=底部置中）",
+ "assets": {
+  "tower_flower_lv1": {
+   "file": "assets/art/towers/tower_flower_lv1.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.502,
+    0.9805
+   ],
+   "fallback": "🌸",
+   "displayPx": 160,
+   "note": "塔，透明背景，bottom-center 錨點對準塔位落地點；遊戲內以 160px（0.625 倍）顯示，Lv1／Lv2 同比例，所以 Lv2 會比較高",
+   "anchorPx": [
+    128.5,
+    251
+   ],
+   "bboxPx": [
+    72,
+    64,
+    183,
+    250
+   ],
+   "source": "Lily towers_v001 (png_256/tower_flower_lv1.png)"
+  },
+  "tower_flower_lv2": {
+   "file": "assets/art/towers/tower_flower_lv2.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.502,
+    0.9805
+   ],
+   "fallback": "🌸",
+   "displayPx": 160,
+   "note": "塔，透明背景，bottom-center 錨點對準塔位落地點；遊戲內以 160px（0.625 倍）顯示，Lv1／Lv2 同比例，所以 Lv2 會比較高",
+   "anchorPx": [
+    128.5,
+    251
+   ],
+   "bboxPx": [
+    72,
+    21,
+    183,
+    250
+   ],
+   "source": "Lily towers_v001 (png_256/tower_flower_lv2.png)"
+  },
+  "tower_star_lv1": {
+   "file": "assets/art/towers/tower_star_lv1.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.9766
+   ],
+   "fallback": "⭐",
+   "displayPx": 160,
+   "note": "塔，透明背景，bottom-center 錨點對準塔位落地點；遊戲內以 160px（0.625 倍）顯示，Lv1／Lv2 同比例，所以 Lv2 會比較高",
+   "anchorPx": [
+    128.0,
+    250
+   ],
+   "bboxPx": [
+    73,
+    50,
+    183,
+    249
+   ],
+   "source": "Lily towers_v001 (png_256/tower_star_lv1.png)"
+  },
+  "tower_star_lv2": {
+   "file": "assets/art/towers/tower_star_lv2.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.502,
+    0.9805
+   ],
+   "fallback": "⭐",
+   "displayPx": 160,
+   "note": "塔，透明背景，bottom-center 錨點對準塔位落地點；遊戲內以 160px（0.625 倍）顯示，Lv1／Lv2 同比例，所以 Lv2 會比較高；星星塔 Lv2 旗子離畫布頂端約 2px，塔上方的 UI（升級文字、滿級提示）已改成依實際高度往上預留",
+   "anchorPx": [
+    128.5,
+    251
+   ],
+   "bboxPx": [
+    73,
+    2,
+    183,
+    250
+   ],
+   "source": "Lily towers_v001 (png_256/tower_star_lv2.png)"
+  },
+  "tower_bubble_lv1": {
+   "file": "assets/art/towers/tower_bubble_lv1.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.502,
+    0.9805
+   ],
+   "fallback": "🫧",
+   "displayPx": 160,
+   "note": "塔，透明背景，bottom-center 錨點對準塔位落地點；遊戲內以 160px（0.625 倍）顯示，Lv1／Lv2 同比例，所以 Lv2 會比較高",
+   "anchorPx": [
+    128.5,
+    251
+   ],
+   "bboxPx": [
+    72,
+    52,
+    183,
+    250
+   ],
+   "source": "Lily towers_v001 (png_256/tower_bubble_lv1.png)"
+  },
+  "tower_bubble_lv2": {
+   "file": "assets/art/towers/tower_bubble_lv2.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.502,
+    0.9766
+   ],
+   "fallback": "🫧",
+   "displayPx": 160,
+   "note": "塔，透明背景，bottom-center 錨點對準塔位落地點；遊戲內以 160px（0.625 倍）顯示，Lv1／Lv2 同比例，所以 Lv2 會比較高",
+   "anchorPx": [
+    128.5,
+    250
+   ],
+   "bboxPx": [
+    72,
+    18,
+    183,
+    249
+   ],
+   "source": "Lily towers_v001 (png_256/tower_bubble_lv2.png)"
+  },
+  "princess_expr_happy": {
+   "file": "assets/art/princess/princess_expr_happy.png",
+   "ready": true,
+   "w": 1000,
+   "h": 1100,
+   "origin": [
+    0,
+    0
+   ],
+   "fallback": "😊",
+   "displayPx": null,
+   "note": "答對開心（閉眼笑＋大笑嘴）。臉部表情疊圖層（只有眼、嘴、腮紅＋覆蓋原五官的膚色底），drawOrder 70：outfit_front(65) 之上、hair_front(75) 之下。只適用母版 girl01_m02_candidate_pose01",
+   "layer": true,
+   "drawOrder": 70,
+   "source": "Lily extras_v001 (game_ready/princess_expr_happy.png)",
+   "requiresMaster": "girl01_m02_candidate_pose01",
+   "alphaBBox": [
+    413,
+    173,
+    572,
+    289
+   ]
+  },
+  "princess_expr_cheer": {
+   "file": "assets/art/princess/princess_expr_cheer.png",
+   "ready": true,
+   "w": 1000,
+   "h": 1100,
+   "origin": [
+    0,
+    0
+   ],
+   "fallback": "🎉",
+   "displayPx": null,
+   "note": "溫柔鼓勵（亮眼自信微笑，閉嘴）。臉部表情疊圖層（只有眼、嘴、腮紅＋覆蓋原五官的膚色底），drawOrder 70：outfit_front(65) 之上、hair_front(75) 之下。只適用母版 girl01_m02_candidate_pose01",
+   "layer": true,
+   "drawOrder": 70,
+   "source": "Lily extras_v001 (game_ready/princess_expr_cheer.png)",
+   "requiresMaster": "girl01_m02_candidate_pose01",
+   "alphaBBox": [
+    413,
+    173,
+    572,
+    289
+   ]
+  },
+  "monster_slime": {
+   "file": "assets/art/monsters/monster_slime.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.9648
+   ],
+   "fallback": "🟣",
+   "displayPx": 84,
+   "note": "小史萊姆；腳底中心 [128, 247]；偏正面、臉微朝左",
+   "source": "Lily extras_v001 (game_ready/monster_slime.png)",
+   "anchorPx": [
+    128,
+    247
+   ],
+   "facing": "front",
+   "flipWhenMovingRight": false
+  },
+  "monster_mush": {
+   "file": "assets/art/monsters/monster_mush.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.9648
+   ],
+   "fallback": "🍄",
+   "displayPx": 84,
+   "note": "小蘑菇；腳底中心 [128, 247]；偏正面、臉微朝左、走路姿勢",
+   "source": "Lily extras_v001 (game_ready/monster_mush.png)",
+   "anchorPx": [
+    128,
+    247
+   ],
+   "facing": "front",
+   "flipWhenMovingRight": false
+  },
+  "monster_bat": {
+   "file": "assets/art/monsters/monster_bat.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.9648
+   ],
+   "fallback": "🦇",
+   "displayPx": 84,
+   "note": "小蝙蝠；腳底中心 [128, 247]；面向左（原圖水平翻轉）",
+   "source": "Lily extras_v001 (game_ready/monster_bat.png)",
+   "anchorPx": [
+    128,
+    247
+   ],
+   "facing": "left",
+   "flipWhenMovingRight": true,
+   "floatPx": 16
+  },
+  "monster_ghost": {
+   "file": "assets/art/monsters/monster_ghost.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.9648
+   ],
+   "fallback": "👻",
+   "displayPx": 84,
+   "note": "小幽靈；腳底中心 [128, 247]；面向左",
+   "source": "Lily extras_v001 (game_ready/monster_ghost.png)",
+   "anchorPx": [
+    128,
+    247
+   ],
+   "facing": "left",
+   "flipWhenMovingRight": true,
+   "floatPx": 16
+  },
+  "monster_black_dragon": {
+   "file": "assets/art/monsters/monster_black_dragon.png",
+   "ready": true,
+   "w": 512,
+   "h": 512,
+   "origin": [
+    0.5,
+    0.9688
+   ],
+   "fallback": "🐉",
+   "displayPx": 180,
+   "note": "Q版黑龍；腳底中心 [256, 496]；面向左（3/4 側）",
+   "source": "Lily extras_v001 (game_ready/monster_black_dragon.png)",
+   "anchorPx": [
+    256,
+    496
+   ],
+   "facing": "left",
+   "flipWhenMovingRight": true
+  },
+  "treasure_crown": {
+   "file": "assets/art/princess/v7/icons/treasure_crown.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "👑",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：皇冠（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily production_wearables_01 batch03",
+   "anchorPx": [
+    128,
+    128
+   ],
+   "sha256": "b3aa467ae78a50e806bb4745f7db4f0082f9c304fcf3fdd71c9c06769148ae87"
+  },
+  "treasure_flower_crown": {
+   "file": "assets/art/treasures/treasure_flower_crown.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "🌸",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：花圈（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily extras_v001 (game_ready/treasure_flower_crown.png)",
+   "anchorPx": [
+    128,
+    128
+   ]
+  },
+  "treasure_bow": {
+   "file": "assets/art/princess/v7/icons/treasure_bow.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "🎀",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：蝴蝶結（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily production_wearables_01 batch03",
+   "anchorPx": [
+    128,
+    128
+   ],
+   "sha256": "59944afe9549f2af3e9036d831cc8b178bc74798b949151441a902d5fff38e58"
+  },
+  "treasure_necklace": {
+   "file": "assets/art/princess/v7/icons/treasure_necklace.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "💎",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：寶石項鍊（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily production_wearables_01 batch03",
+   "anchorPx": [
+    128,
+    128
+   ],
+   "sha256": "3aea8be166c5dbfe3c75b8ea9ba2de016d29e7683a6f6f1432e8b8eff4314f4b"
+  },
+  "treasure_wings": {
+   "file": "assets/art/princess/v7/icons/treasure_wings.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "🦋",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：蝴蝶翅膀（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily production_wearables_01 batch03",
+   "anchorPx": [
+    128,
+    128
+   ],
+   "sha256": "649350ab9be8abdee94baa7e54b36a8b9f93282a2b20b58f312e9aa32670495f"
+  },
+  "treasure_cat": {
+   "file": "assets/art/treasures/treasure_cat.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "🐱",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：小貓咪（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily extras_v001 (game_ready/treasure_cat.png)",
+   "anchorPx": [
+    128,
+    128
+   ]
+  },
+  "treasure_unicorn": {
+   "file": "assets/art/treasures/treasure_unicorn.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "🦄",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：小獨角獸（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily extras_v001 (game_ready/treasure_unicorn.png)",
+   "anchorPx": [
+    128,
+    128
+   ]
+  },
+  "treasure_star_cape": {
+   "file": "assets/art/princess/v7/icons/treasure_star_cape.png",
+   "ready": true,
+   "w": 256,
+   "h": 256,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": "🌟",
+   "displayPx": 140,
+   "note": "寶物圖鑑圖示：星星披風（置中）。剪影由程式自動產生，不需另外畫",
+   "source": "Lily production_wearables_01 batch03",
+   "anchorPx": [
+    128,
+    128
+   ],
+   "sha256": "01c5c3429b770063a820bf0eba735ff7477be80669d064bea9adaa9c79575838"
+  },
+  "fx_star": {
+   "file": "assets/art/fx/fx_star.png",
+   "ready": true,
+   "w": 128,
+   "h": 128,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": null,
+   "displayPx": null,
+   "note": "怪物被打倒後「變成星星飛走」用的單顆星星粒子，白色或淡黃、中心最亮；程式會再上色",
+   "fallbackTexture": "gen_star",
+   "source": "Lily extras_v001 (game_ready/fx_star.png)",
+   "anchorPx": [
+    64,
+    64
+   ]
+  },
+  "fx_sparkle": {
+   "file": "assets/art/fx/fx_sparkle.png",
+   "ready": true,
+   "w": 128,
+   "h": 128,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": null,
+   "displayPx": null,
+   "note": "答對時閃亮亮的四芒星粒子，白色為主；程式會再上色",
+   "fallbackTexture": "gen_sparkle",
+   "source": "Lily extras_v001 (game_ready/fx_sparkle.png)",
+   "anchorPx": [
+    64,
+    64
+   ]
+  },
+  "album_bg_8slots": {
+   "file": "assets/art/album/album_bg_8slots.png",
+   "ready": true,
+   "w": 1024,
+   "h": 768,
+   "mode": "RGB",
+   "origin": [
+    0,
+    0
+   ],
+   "fallback": null,
+   "displayPx": 1024,
+   "slotSize": 160,
+   "slotCenters": [
+    [
+     178,
+     235
+    ],
+    [
+     362,
+     235
+    ],
+    [
+     178,
+     455
+    ],
+    [
+     362,
+     455
+    ],
+    [
+     662,
+     235
+    ],
+    [
+     846,
+     235
+    ],
+    [
+     662,
+     455
+    ],
+    [
+     846,
+     455
+    ]
+   ],
+   "source": "Lily extras_v001 (treasure_book/treasure_book_bg_8slots.png)",
+   "note": "寶物圖鑑背景（不透明），8 格，格子 160px；slotCenters 依「左頁左上→右上→左下→右下，再右頁」排列"
+  },
+  "savecard_frame": {
+   "file": "assets/art/ui/savecard_frame.png",
+   "ready": true,
+   "w": 880,
+   "h": 600,
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "fallback": null,
+   "displayPx": 900,
+   "note": "公主存檔卡外框（未交付，現在用程式畫的框）。內容區：左側角色 300×500、中間 6 行數據、右側 QR 270×270 白底，請在這些位置留空"
+  }
+ }
+}

@@ -18,7 +18,12 @@ const Learn={words:[],items:[],
   if(!src||!src.length)src=fresh.length?fresh:(inStage.length?inStage:pool);
   return src[Math.floor(Math.random()*src.length)];},
  record(item,ok,chosenTone){const L=Save.data.leitner;const s=L[item.id]||(L[item.id]={box:1,due:0,miss:0,seen:0,correct:0,wrong:0});
-  s.seen++;if(ok){s.correct++;if(s.miss>0)s.miss--;s.box=Math.min(5,s.box+1);}else{s.wrong++;s.miss=2;s.box=1;}
+  s.seen++;s.last=Date.now();if(ok){s.correct++;if(s.miss>0)s.miss--;s.box=Math.min(5,s.box+1);}else{s.wrong++;s.miss=2;s.box=1;s.lastWrong=Date.now();if(chosenTone)s.lastChosen=chosenTone;}
   s.due=Date.now()+BOX_MS[s.box];
-  if(chosenTone){const k=item.tone+'>'+chosenTone;Save.data.toneStats[k]=(Save.data.toneStats[k]||0)+1;}},
+  if(chosenTone&&!(!ok&&chosenTone===item.tone)){const k=item.tone+'>'+chosenTone;Save.data.toneStats[k]=(Save.data.toneStats[k]||0)+1;}},
+ toneAt(w,i){const t=w.tones[Math.min(i,w.tones.length-1)];return t>0?t:null;},
+ // spell2pic distractors: prefer words whose tone at the target syllable differs, so a wrong pick is a real tone confusion
+ toneDistractPics(item,n){const others=this.words.filter(w=>w.pic!==item.word.pic);Phaser.Utils.Array.Shuffle(others);
+  const score=w=>{const t=this.toneAt(w,item.syl);return(t&&t!==item.tone?2:0)+(w.zhuyin.length===item.word.zhuyin.length?1:0);};
+  others.sort((a,b)=>score(b)-score(a));return others.slice(0,n);},
  distractPics(item,n){const others=this.words.filter(w=>w.pic!==item.word.pic);Phaser.Utils.Array.Shuffle(others);return others.slice(0,n);}};

@@ -1,0 +1,693 @@
+{
+ "schemaVersion": 1,
+ "attribution": "中華民國教育部（Ministry of Education, R.O.C.）。《國語辭典簡編本》（版本編號：2014_20260929）網址：https://dict.concised.moe.edu.tw/",
+ "license": "創用 CC 姓名標示-禁止改作 3.0 臺灣（CC BY-ND 3.0 TW） https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode",
+ "note": "音檔為教育部官方公眾授權下載檔（https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/dict_concised_download.html）原檔，未經任何剪輯、轉檔或修改；遊戲播放時只播放 start～end 秒（詞目本身的讀音），檔案內容保持原樣。",
+ "words": {
+  "鵝": {
+   "file": "assets/audio/words/moe_word_5726.wav",
+   "start": 0,
+   "end": 0.53,
+   "duration": 8.8,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "5726",
+    "zipPath": "word_wav/word_wav/5726.wav",
+    "sha256": "b08bee247bfdee1ec0980b46ad8b4259c2a5ae0fa3f8d132f6dc39a873cd4c9d"
+   }
+  },
+  "笑嘻嘻": {
+   "file": "assets/audio/words/moe_www_397400010.wav",
+   "start": 0,
+   "end": 1.03,
+   "duration": 11.14,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "397400010",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/397400010.wav",
+    "sha256": "3c290cd4d62a29c2b8d2e837c170ac703ba0c1e0b5b677751bdfbc3a003b4974"
+   }
+  },
+  "老師": {
+   "file": "assets/audio/words/moe_www_179200095.wav",
+   "start": 0,
+   "end": 0.99,
+   "duration": 14.28,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "179200095",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/179200095.wav",
+    "sha256": "f35d89568f4d79539f2a9c0ebc44cad33afacbffbfb0d088ddf1634f28053421"
+   }
+  },
+  "送": {
+   "file": "assets/audio/words/moe_word_5706.wav",
+   "start": 0,
+   "end": 0.71,
+   "duration": 9.41,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "5706",
+    "zipPath": "word_wav/word_wav/5706.wav",
+    "sha256": "3d76451b445c05c2ec648e3a01e02ec063455f9cdb3601a2728127f007bb1454"
+   }
+  },
+  "賽跑": {
+   "file": "assets/audio/words/moe_www_560200001.wav",
+   "start": 0.03,
+   "end": 1.43,
+   "duration": 25.78,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "560200001",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/560200001.wav",
+    "sha256": "993b2c596c0bff83e6e020cee0f9fe4e3cd6c134a1615369b1fd3d5246ba461d"
+   }
+  },
+  "拔": {
+   "file": "assets/audio/words/moe_word_0012.wav",
+   "start": 0,
+   "end": 0.57,
+   "duration": 10.12,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "0012",
+    "zipPath": "word_wav/word_wav/0012.wav",
+    "sha256": "0a2172e51df38e7d9dac0ef07d97dd3d5cdf55e7db07c4e6920aa04d91d398e9"
+   }
+  },
+  "大象": {
+   "file": "assets/audio/words/moe_www_101500324.wav",
+   "start": 0,
+   "end": 0.85,
+   "duration": 21.45,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "101500324",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/101500324.wav",
+    "sha256": "4a700fb1257123a3eea9e492858978c0e2a8aba2fce346a5e4845d2955312d86"
+   }
+  },
+  "動物": {
+   "file": "assets/audio/words/moe_www_131600050.wav",
+   "start": 0,
+   "end": 0.81,
+   "duration": 25.4,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "131600050",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/131600050.wav",
+    "sha256": "a7554ee28ee34240aa61537d7032a7cba2e112a36d5c314d669d1da265b69698"
+   }
+  },
+  "狂歡": {
+   "file": "assets/audio/words/moe_www_265400007.wav",
+   "start": 0,
+   "end": 1.01,
+   "duration": 15.27,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "265400007",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/265400007.wav",
+    "sha256": "801ed65b11730fd52f52824c51399cb1338e15829d7b2f341b3829ae99e2191b"
+   }
+  },
+  "弟弟": {
+   "file": "assets/audio/words/moe_www_114800003.wav",
+   "start": 0,
+   "end": 0.57,
+   "duration": 16.76,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "114800003",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/114800003.wav",
+    "sha256": "998be8d3b6c9f2f3aa9d2871dfb1cbfa1f60cae73df5b54a744bc6e3d0cfa42d"
+   }
+  },
+  "第一": {
+   "file": "assets/audio/words/moe_www_115000011.wav",
+   "start": 0,
+   "end": 0.83,
+   "duration": 14.83,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "115000011",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/115000011.wav",
+    "sha256": "9de849bbc6c7dfffb0502b60dd34c98802f7199989e878aecf65e0888d1994b4"
+   }
+  },
+  "跑": {
+   "file": "assets/audio/words/moe_word_0353.wav",
+   "start": 0,
+   "end": 0.67,
+   "duration": 9.01,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "0353",
+    "zipPath": "word_wav/word_wav/0353.wav",
+    "sha256": "2d5c782bf8dc0d69b65c2f34cc8c9b461f227f078e34ee56e5eb0fd80db060cd"
+   }
+  },
+  "半路": {
+   "file": "assets/audio/words/moe_www_012400010.wav",
+   "start": 0,
+   "end": 0.67,
+   "duration": 20.62,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "012400010",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/012400010.wav",
+    "sha256": "49a8025c33f02d23a90d92e1c446aba5314c100f83a47c1346b403976d24aa82"
+   }
+  },
+  "遇到": {
+   "file": "assets/audio/words/moe_www_650000001.wav",
+   "start": 0,
+   "end": 0.85,
+   "duration": 12.58,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "650000001",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/650000001.wav",
+    "sha256": "3c18895c929e3797c7f70303e5f385c48aa94341b3852e91e978baf032d3c791"
+   }
+  },
+  "築巢": {
+   "file": "assets/audio/words/moe_www_451300003.wav",
+   "start": 0,
+   "end": 0.81,
+   "duration": 11.76,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "451300003",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/451300003.wav",
+    "sha256": "934d83b18648a183bce4f108804a4cecebb6301b083f48c56c369a21093fd113"
+   }
+  },
+  "忙": {
+   "file": "assets/audio/words/moe_word_0666.wav",
+   "start": 0,
+   "end": 0.53,
+   "duration": 9.96,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "0666",
+    "zipPath": "word_wav/word_wav/0666.wav",
+    "sha256": "79680251033abca4f2bdb1fe073f0014bcb23fc7cdb9897c961affb2254119c7"
+   }
+  },
+  "書包": {
+   "file": "assets/audio/words/moe_www_511200001.wav",
+   "start": 0,
+   "end": 0.99,
+   "duration": 11.52,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "511200001",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/511200001.wav",
+    "sha256": "e47d9340076d803c1633bc085edb4b73d4e7bf2e3a805a723cfc18383bb2ecc9"
+   }
+  },
+  "歡喜": {
+   "file": "assets/audio/words/moe_www_292500007.wav",
+   "start": 0,
+   "end": 1.09,
+   "duration": 9.32,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "292500007",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/292500007.wav",
+    "sha256": "9b52292a22fc6a0c0fba9f6b152a93160b774badcd36678175481f951fffbdcf"
+   }
+  },
+  "上上下下": {
+   "file": "assets/audio/words/moe_www_508000065.wav",
+   "start": 0,
+   "end": 1.57,
+   "duration": 23.47,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "508000065",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/508000065.wav",
+    "sha256": "00e06e9cc0e1b3286cc803ecbe6d9f4f903207395f1c94a97bddf006c647e396"
+   }
+  },
+  "飛": {
+   "file": "assets/audio/words/moe_word_0824.wav",
+   "start": 0,
+   "end": 0.59,
+   "duration": 9.32,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "0824",
+    "zipPath": "word_wav/word_wav/0824.wav",
+    "sha256": "28c37d5ebed602bc9eb95bcf114b18c943ecdda344c10746452ea0962b24f142"
+   }
+  },
+  "讀書": {
+   "file": "assets/audio/words/moe_www_124100007.wav",
+   "start": 0,
+   "end": 0.77,
+   "duration": 10.68,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "124100007",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/124100007.wav",
+    "sha256": "1f69a6b8017b8228593a593b7981bc63d20349c0162e7365279bc6b2cc005df3"
+   }
+  },
+  "教": {
+   "file": "assets/audio/words/moe_word_3194.wav",
+   "start": 0,
+   "end": 0.59,
+   "duration": 9.56,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "3194",
+    "zipPath": "word_wav/word_wav/3194.wav",
+    "sha256": "9b7d5f4dec712cc7b2711b72ca09245d43db1b73b89069a3f725749a9796bd43"
+   }
+  },
+  "落後": {
+   "file": "assets/audio/words/moe_www_212800020.wav",
+   "start": 0,
+   "end": 0.85,
+   "duration": 17.78,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "212800020",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/212800020.wav",
+    "sha256": "8bcf01f3f81420a0e81610c8368f024eabd5b68489283f186c2a4fb96bb43879"
+   }
+  },
+  "追": {
+   "file": "assets/audio/words/moe_word_4567.wav",
+   "start": 0,
+   "end": 0.63,
+   "duration": 9.26,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "4567",
+    "zipPath": "word_wav/word_wav/4567.wav",
+    "sha256": "8d9dc8b503d07f35151b55cbb48b78c635baced2f9fe3d043e261665532de1f4"
+   }
+  },
+  "山崖": {
+   "file": "assets/audio/words/moe_www_501500051.wav",
+   "start": 0,
+   "end": 0.97,
+   "duration": 11.5,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "501500051",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/501500051.wav",
+    "sha256": "372d017665a6031adeed69640870464ea40a4f03da79db73eee34dcd3a8e41d2"
+   }
+  },
+  "開心": {
+   "file": "assets/audio/words/moe_www_252100069.wav",
+   "start": 0,
+   "end": 0.91,
+   "duration": 12.37,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "252100069",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/252100069.wav",
+    "sha256": "13898ebde6be021f0cd80fa4f5de610dd26464b251ced7f727d964ba60cd51d5"
+   }
+  },
+  "慶祝": {
+   "file": "assets/audio/words/moe_www_374300005.wav",
+   "start": 0,
+   "end": 1.25,
+   "duration": 17.48,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "374300005",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/374300005.wav",
+    "sha256": "788c7bb8041d2008ed4b836270c3e133a252a8ba03154c988d6765626b4a4188"
+   }
+  },
+  "馴鹿": {
+   "file": "assets/audio/words/moe_www_419500002.wav",
+   "start": 0,
+   "end": 0.75,
+   "duration": 36.0,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "419500002",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/419500002.wav",
+    "sha256": "04165a99e64ba841d3c658ff05561f24fcafcffcdce7752dc438e28780b799fb"
+   }
+  },
+  "大鼓": {
+   "file": "assets/audio/words/moe_www_101500195.wav",
+   "start": 0,
+   "end": 0.95,
+   "duration": 78.81,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "101500195",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/101500195.wav",
+    "sha256": "6276d9f6f595a142aace4a6103f9b6cc4ce5c26d4019a7d50bba9de004e7184e"
+   }
+  },
+  "青蛙": {
+   "file": "assets/audio/words/moe_www_372600026.wav",
+   "start": 0,
+   "end": 0.79,
+   "duration": 39.27,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "372600026",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/372600026.wav",
+    "sha256": "ae02376ca6a7c80691803100ec31e73994a5b78e18c4de6a365b030ec8ca38e9"
+   }
+  },
+  "去": {
+   "file": "assets/audio/words/moe_word_3770.wav",
+   "start": 0,
+   "end": 0.55,
+   "duration": 9.3,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "3770",
+    "zipPath": "word_wav/word_wav/3770.wav",
+    "sha256": "5c9bacec952aa15b38dd4943734c11501b8334cec6d7ea6ef62e306cff50d152"
+   }
+  },
+  "好像": {
+   "file": "assets/audio/words/moe_www_272700015.wav",
+   "start": 0.09,
+   "end": 0.97,
+   "duration": 19.16,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "272700015",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/272700015.wav",
+    "sha256": "9f87d3136f23369de06f07af06e6d29885f737c5389516d9105660eb31a17002"
+   }
+  },
+  "午覺": {
+   "file": "assets/audio/words/moe_www_624700002.wav",
+   "start": 0,
+   "end": 0.87,
+   "duration": 11.68,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "624700002",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/624700002.wav",
+    "sha256": "fa379f520864594a1d9daedd86c01383bcaf4c74041633674e4775c501203ac0"
+   }
+  },
+  "快": {
+   "file": "assets/audio/words/moe_word_2598.wav",
+   "start": 0,
+   "end": 0.51,
+   "duration": 8.88,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "2598",
+    "zipPath": "word_wav/word_wav/2598.wav",
+    "sha256": "e23fc66f310c729bd16ca716a1c0467207be11451aaec62c8eb7dd5ead95b020"
+   }
+  },
+  "用力": {
+   "file": "assets/audio/words/moe_www_661700005.wav",
+   "start": 0,
+   "end": 0.79,
+   "duration": 12.07,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "661700005",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/661700005.wav",
+    "sha256": "dd4b45aee8642e4b61a213ff626ac5e60cb3ea9e509c1be37b5229c991f01c4a"
+   }
+  },
+  "精采": {
+   "file": "assets/audio/words/moe_www_337700038.wav",
+   "start": 0,
+   "end": 0.67,
+   "duration": 11.82,
+   "moe": {
+    "source": "簡編本 詞目全文聲音檔",
+    "id": "337700038",
+    "zipPath": "dict_concised_www_2014_20260929/www_wav/337700038.wav",
+    "sha256": "d9181a62c934959c40006597af74405d8d7d55e1389fdf4c5f53c403aa200e10"
+   }
+  },
+  "敲": {
+   "file": "assets/audio/words/moe_word_3606.wav",
+   "start": 0,
+   "end": 0.71,
+   "duration": 9.54,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "3606",
+    "zipPath": "word_wav/word_wav/3606.wav",
+    "sha256": "5ed71a267000388c3c1bc75d32dbfd5cb037c33eda933e86a222b867a763bef3"
+   }
+  },
+  "滾": {
+   "file": "assets/audio/words/moe_word_2458.wav",
+   "start": 0,
+   "end": 0.57,
+   "duration": 9.39,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "2458",
+    "zipPath": "word_wav/word_wav/2458.wav",
+    "sha256": "2323c9122af1af705d251a51545786c0d0608eec425029edb2ea45aeeab7fb4b"
+   }
+  },
+  "變": {
+   "file": "assets/audio/words/moe_word_0250.wav",
+   "start": 0,
+   "end": 0.49,
+   "duration": 9.78,
+   "moe": {
+    "source": "簡編本 單字屬性聲音檔",
+    "id": "0250",
+    "zipPath": "word_wav/word_wav/0250.wav",
+    "sha256": "6bc381a9e20d0281077d95f5b731d3d9354005785548cf5baf020b7de2361a92"
+   }
+  }
+ },
+ "missing": [
+  {
+   "id": "貓咪",
+   "word": "貓咪",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "寶寶",
+   "word": "寶寶",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "河馬",
+   "word": "河馬",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "河狸",
+   "word": "河狸",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "翹翹板",
+   "word": "翹翹板",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "小紅花",
+   "word": "小紅花",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "一朵",
+   "word": "一朵",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "烏龜",
+   "word": "烏龜",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "黃牛",
+   "word": "黃牛",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "浣熊",
+   "word": "浣熊",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "兔子",
+   "word": "兔子",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "菜園",
+   "word": "菜園",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "媽媽",
+   "word": "媽媽",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "得意",
+   "word": "得意",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "孵出",
+   "word": "孵出",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "五隻",
+   "word": "五隻",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "泡澡",
+   "word": "泡澡",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "手拉手",
+   "word": "手拉手",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "好朋友",
+   "word": "好朋友",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "一起",
+   "word": "一起",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "高高低低",
+   "word": "高高低低",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "小鳥",
+   "word": "小鳥",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "謝謝",
+   "word": "謝謝",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "畫畫",
+   "word": "畫畫",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "比賽",
+   "word": "比賽",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "領先",
+   "word": "領先",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "氣餒",
+   "word": "氣餒",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "後面",
+   "word": "後面",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "蘿蔔",
+   "word": "蘿蔔",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "拉著",
+   "word": "拉著",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "嘿唷",
+   "word": "嘿唷",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "小熊",
+   "word": "小熊",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "大球",
+   "word": "大球",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "孔雀",
+   "word": "孔雀",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "魔術",
+   "word": "魔術",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "合唱",
+   "word": "合唱",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  },
+  {
+   "id": "嗶",
+   "word": "嗶",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "忙著",
+   "word": "忙著",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "背著",
+   "word": "背著",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "跟在",
+   "word": "跟在",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "哈哈笑",
+   "word": "哈哈笑",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "長出",
+   "word": "長出",
+   "reason": "辭典沒有這個詞目（或讀音不同）"
+  },
+  {
+   "id": "表演",
+   "word": "表演",
+   "reason": "辭典有詞目，但官方聲音檔沒有收錄這一條"
+  }
+ ]
+}

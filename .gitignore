@@ -1,0 +1,16 @@
+# Local QA evidence and scratch only; never publish with GitHub Pages.
+/shots_p0/
+/tests_p0/
+node_modules/
+**/__pycache__/
+*.py[cod]
+*.log
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+.DS_Store
+# Earlier imported snapshots remain on the box, not in the live payload.
+/assets/art/princess/v[3-6]/
+/data/character_runtime_v[3-6].json
