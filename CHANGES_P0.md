@@ -529,3 +529,40 @@ Raymond 經 Yuki 核准只整合到 `/workspace/princess-game-p0/` 副本。沒�
 - 2026-11-10（新加坡時間 UTC+8）收到「確定上線」核准，目標 main／https://raymond-shen.github.io/princess-game/。不修改 Lily productionReady=false／runtimeUseAllowed=false。
 - 提交前重新跑完目前適用的 tests_p0：來源／runtime驗證、27項驗收、43,200組解析、96次換裝、17張補圖及四支通用回歸／8項邊界，全數通過；正常流程無JS錯誤，刻意404備援案例另列。
 - 僅封裝目前runtime引用資產、PNG備援、圖示、MOE原音及授權說明；不包含shots_p0、tests_p0產物、node_modules、舊v3–v6資產快照或scratch。實機iPad Safari仍待清單驗收，不以Chromium模擬冒充。
+
+
+---
+
+# 第十批：Lily POLISH02／v8・B3 腰裙白霧修正（2026-11-11，新加坡時間 UTC+8）
+
+## 精確差異與副本接入
+- 只處理 `/workspace/princess-game-p0/`；未修改原遊戲、v1 或 Lily 源檔。v7 的 295 筆來源紀錄完全不變，v8 僅新增 **5 個替換 ID**：B3 四個姿勢前片＋共用背片；300 筆歷史來源投影成 218 個 active，82 個 deprecated 不打包／不畫。
+- masterId／母版 SHA、1000×1100 畫布、offset、anchors、握點、drawOrder／tieRank、帽髮、武器／姿勢／互斥及 readiness 逐欄一致。套用五筆對照後 requiredAlways／outfits／poses 精確相同；其餘 **213 筆 runtime active 紀錄連部署路徑也完全相同**。沒有規格差異。
+- 1,981 個唯一 SHA 路徑（2,344 次帶 SHA 引用）以及其餘交接／來源引用，共 2,023 個唯一來源檔案存在；SHA／標示大小／尺寸核對通過。master/full PNG/full WebP 1000×1100，runtime_50 WebP 500×550，縮圖 256／128 齊全。
+- 五層 full PNG 改變 68,607 個 RGBA 像素（背片 1,979、四前片各 16,657）；核准矩形 `[505,474,627,753]` 外 0。沒有改 B4 或其他服裝；歷史整角選單縮圖沿用交接指定版本，新層縮圖已拷入。
+- `tools/import_character_v8.py` 增量匯入：**30 新檔／729,210 bytes**（5 half WebP、5 full PNG 備援、20 張分層縮圖），沿用原有 1,432 檔，不複製 full WebP。新 `data/character_runtime_v8.json`、啟動入口 v8、cache key cc8；舊 v7 檔保留供已快取舊入口相容。
+- 純美術替換不改存檔 schema／裝備 ID，wardrobeVersion **仍 7**，既有舊檔備份／遷移與 KXZ2 保持；productionReady=false／runtimeUseAllowed=false 保持。
+
+## 像素與畫面證據
+- 以當時真正線上 d402dc3/v7（核對 manifest SHA）作 before，不拿 Lily 預覽假充線上。B3 一般、雙拳、劍／弓／杖各左右、原生背披風、合法 14 層寶物共 **10 情境**：已知皮帶白霧檢查全部 **313→0 px**，實際 Chromium 半尺寸畫面亦目視確認。
+- 非 B3 全 11 套 × 四姿勢：實際遊戲 WebP 與 PNG fallback 88 組 500×550 逐像素對比，加 44 組 full PNG 1000×1100 對比，**132 組／0 改變像素**。其餘組合由相同組裝規則、順序、位移與逐位相同來源紀錄作分解證明；未冒稱執行百萬張像素渲染。
+- `shots_p0/27_01`–`27_10` 各有原比例 before/after 與 `z` 腰裙 3×，另 `27_11_B3_star_cape_still_blocked.png`，共 **21 張**。B3 自帶背片可見於 27_09；穿戴星星披風仍與 B3 互斥，沒有為拍照放寬規則／偽造非法配裝。
+- ★ `shots_p0/27_01z_B3_neutral_waist_zoom.png`
+- ★ `shots_p0/27_03_B3_sword_left_before_after.png`
+- ★ `shots_p0/27_10_B3_treasures_max14_before_after.png`
+
+## 測試、記憶體與發佈停止線
+- `tests_p0/v8_preflight.py`：來源與 runtime 驗證、主驗收 **27/27**、補充穿戴 UI、43,200 組（26,400 合法／16,800 非法）與 96 次實際換裝均通過。LRU 峰值 8，結束 refs／sources／liveDecodedBytes 全 0；14 層 half payload 208,980 bytes，比 v7 多 922 bytes，解碼估算仍 15.4MB／PNG full 61.6MB、8 張 composite 8.8MB。
+- 普通翼／披風卡 514／519 字、149 筆大碼 **2825/2950**；OpenCV 放大解碼逐字相符，角色／配裝 round-trip、確認後覆蓋及覆蓋前備份通過。正常流程 JS／console errors 0；刻意缺圖／缺音檔 404 安全降級另列。
+- **整體 release gate 尚未通過：通用回歸摘要 8/9。** `three_job_attacks` 的固定時間截圖恰取到 magician `heroBusy=true`（2 次攻擊、敵血已降、JS 錯誤 0）；其他職業 false。看起來是攻擊中取樣的脆弱斷言，但未擅自忽略／放寬，也未把它宣稱為通過。原始失敗證據保留在 `p0_hero_jobs_regression_v8.json`／`regression_summary_v8.json`／`v8_preflight_result.json`。
+- 依「任何檢查失敗就不要 push」停止：**未 commit、未 push、未部署**。只讀 fetch 確認 origin/main 與 HEAD 均仍 d402dc3c86dc2ed9e23ca41f1823a761392bc10c；push URL 維持 no_push，Pages 原版仍 built。沒有 28_live_*，也沒有假稱線上 v8 已驗收；`tests_p0/v8_live_verify.py` 僅備妥，未執行。
+- Chromium iPad 1180×820／DPR2／touch／mobile 是模擬，非真 iPad Safari。未重新折騰既有缺系統依賴的 WebKit。Lily 已註記的 B3 胸甲上緣、B4 中縫與 B8 袖邊未擅自擴修。
+
+
+### 第十批追記：快照時序診斷與測試修正（2026-11-11，新加坡時間 UTC+8）
+- 另建 ignored `tests_p0/baseline_d402dc3/` detached worktree，基準與 v8 各跑原始固定時間快照 **5 次**，未 stash／改動待發佈副本。兩版皆 0/5 原快照通過：主要取到正常戰士近身動作；magician busy 樣本 v8 1/5、基準 2/5。兩版 30 個職業樣本皆已攻擊／造成傷害、皆自然回 idle，JS 錯誤 0；battle.js 逐位相同。因此是 harness 對「任意時間必須閒置」的錯誤時序假設，不是 v8 美術的專屬回歸。
+- 只修 `tests_p0/p0_hero_jobs.py`：保留原攻擊／傷害斷言，改為等 `heroBusy=false`，在同一個 JS callback 原子捕獲 idle 快照；最長 8 秒，真正卡 busy 仍會失敗。未更動任何遊戲邏輯，也未靠忽略 busy 或反覆重跑碰運氣。原始 10 次結果、首次失敗 gate 與 before/after patch 均留在 ignored 測試目錄。
+- 原始診斷：`tests_p0/v8_flake_diagnosis.json`；harness patch：`tests_p0/v8_hero_harness_change.patch`。完整 v8 suite 重新執行，最終結果以下續記；測試與截圖產物不納入發佈。
+
+- 修正 harness 後完整 suite 重跑成功：**回歸 9/9、主驗收 27/27**，43,200 組解析、96 次換裝、17 張補充穿戴 UI、PNG 備援及來源／runtime 稽核均 PASS；正常流程 JS／console errors 0。大碼 2823/2950 字、兩張普通卡 534／528 字，OpenCV 放大解碼均逐字相同。
+- 診斷前後 34 個遊戲／runtime／匯入工具路徑 SHA 全相同（只另加本紀錄、修 ignored 測試 harness）。原始首次失敗紀錄仍保留 `_before_idle_fix.json`，未刪除／粉飾。

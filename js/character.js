@@ -1,4 +1,4 @@
-// Lily character-complete-0.7 / POLISH01 adapter. 1000x1100 logical canvas, half runtime.
+// Lily character-complete-0.7 / POLISH02 v8 adapter. 1000x1100 logical canvas, half runtime.
 // Composite cache is bounded; decoded layer Images only live while composing.
 const Char={m:null,v3:null,webp:false,cache:new Map(),pending:new Map(),sources:new Map(),failedAssets:new Set(),maxCache:8,serial:0,
  stats:{fetches:[],composites:0,liveDecoded:0,peakDecoded:0,liveDecodedBytes:0,peakDecodedBytes:0,peakLayers:0,fallbacks:0},
@@ -103,7 +103,7 @@ const Char={m:null,v3:null,webp:false,cache:new Map(),pending:new Map(),sources:
   const eid=requested&&v.expressionLayer.options.find(id=>id===requested||id==='expr_'+requested);if(eid&&v.assets[eid].requiresMaster===v.masterId)ids.push(eid);
   ids=[...new Set(ids)].filter(id=>!!v.assets[id]);ids.sort((a,b)=>v.assets[a].drawOrder-v.assets[b].drawOrder||(v.tieRank[v.assets[a].part]||0)-(v.tieRank[v.assets[b].part]||0)||a.localeCompare(b));
   return{ids,placeholders,hat,attachments:[],pose,handVariant:null,weapon,weaponHand:hand,selection:s,expr:eid||null,issues};},
- comboKey(r){return 'cc7_'+JSON.stringify([r.ids,r.placeholders.map(e=>[e.id,e.drawOrder,e.posPx,e.sizePx]),r.attachments,r.pose,r.handVariant,r.issues||[]]);},
+ comboKey(r){return 'cc8_'+JSON.stringify([r.ids,r.placeholders.map(e=>[e.id,e.drawOrder,e.posPx,e.sizePx]),r.attachments,r.pose,r.handVariant,r.issues||[]]);},
  // Compatibility metadata for tests/debugging. Loader never preloads an entire wardrobe.
  layerFiles(sel,equipped,expr){return this.resolve(sel,equipped||[],expr).ids.map(id=>({key:id,file:this.webp?this.v3.assets[id].runtime50.path:this.v3.assets[id].path,order:this.v3.assets[id].drawOrder}));},
  image(path){if(this.sources.has(path))return this.sources.get(path);this.stats.fetches.push(path);

@@ -22,7 +22,7 @@ function checkRest(sc){if(Session.reminded||Date.now()-Session.start<15*60e3)ret
  o.add(btn(sc,W/2,H/2+110,200,64,'👌',0xb9f6ca,()=>o.destroy(),36));}
 
 class Boot extends Phaser.Scene{constructor(){super('Boot');}
- preload(){this.load.json('vocab','data/vocab.json');this.load.json('manifest','data/character_runtime_v7.json');this.load.json('assetsManifest','data/assets_manifest.json');this.load.json('audioWords','data/audio_words.json');
+ preload(){this.load.json('vocab','data/vocab.json');this.load.json('manifest','data/character_runtime_v8.json');this.load.json('assetsManifest','data/assets_manifest.json');this.load.json('audioWords','data/audio_words.json');
   const t=this.add.text(W/2,H/2,'🏰 …',{fontSize:'48px'}).setOrigin(0.5);this.load.on('progress',p=>t.setText('🏰 '+Math.round(p*100)+'%'));}
  create(){Learn.init(this.cache.json.get('vocab'));
   Char.init(this.cache.json.get('manifest')).then(()=>{Save.load();const m=Char.m;
@@ -43,7 +43,7 @@ class Start extends Phaser.Scene{constructor(){super('Start');}
   h.add([hg,this.add.text(-280,0,'📱🔕➡🔔',{fontSize:'44px'}).setOrigin(0,0.5),
    this.add.text(40,-18,'iPad 靜音開關請關閉',{fontFamily:FONT,fontSize:'24px',color:'#6a2c91'}).setOrigin(0,0.5),
    this.add.text(40,20,'（家長：才聽得到語音）',{fontFamily:FONT,fontSize:'20px',color:'#9a6ab8'}).setOrigin(0,0.5)]);
-  this.add.text(W-16,H-12,'P0・Lily v7（本機測試版）',{fontSize:'14px',color:'#7a5a9a'}).setOrigin(1,1);
+  this.add.text(W-16,H-12,'P0・Lily v8（本機測試版）',{fontSize:'14px',color:'#7a5a9a'}).setOrigin(1,1);
   const cr=this.add.text(16,H-12,'ⓘ 版權與音檔來源',{fontFamily:FONT,fontSize:'16px',color:'#7a5a9a',padding:{x:6,y:6}}).setOrigin(0,1).setInteractive();cr.on('pointerdown',()=>this.scene.start('Credits',{from:'Start'}));}}
 
 class Creator extends Phaser.Scene{constructor(){super('Creator');}
