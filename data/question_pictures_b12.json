@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-11 Asia/Singapore",
+  "policy": "Only status=matched with exact wordId ownership may be displayed as a question picture. No fallback to vocab.pic. Other items remain in hear/drag without a picture; picture-required types are ineligible. Instruction hint artwork is explicitly labelled demonstration, never a target picture.",
+  "words": {
+    "貓咪": {
+      "wordId": "貓咪",
+      "status": "matched",
+      "glyph": "🐱",
+      "legacyGlyph": "🐱",
+      "reason": "貓臉直接對應貓咪",
+      "pictureId": "0001"
+    },
+    "鵝": {
+      "wordId": "鵝",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🦢",
+      "reason": "🦢 是天鵝（swan），不能當作家鵝的專屬圖",
+      "pictureId": "0002"
+    },
+    "寶寶": {
+      "wordId": "寶寶",
+      "status": "matched",
+      "glyph": "👶",
+      "legacyGlyph": "👶",
+      "reason": "嬰兒直接對應寶寶",
+      "pictureId": "0003"
+    },
+    "河馬": {
+      "wordId": "河馬",
+      "status": "matched",
+      "glyph": "🦛",
+      "legacyGlyph": "🦛",
+      "reason": "河馬",
+      "pictureId": "0004"
+    },
+    "河狸": {
+      "wordId": "河狸",
+      "status": "matched",
+      "glyph": "🦫",
+      "legacyGlyph": "🦫",
+      "reason": "河狸",
+      "pictureId": "0005"
+    },
+    "笑嘻嘻": {
+      "wordId": "笑嘻嘻",
+      "status": "matched",
+      "glyph": "😄",
+      "legacyGlyph": "😄",
+      "reason": "微笑露齒臉直接呈現笑嘻嘻",
+      "pictureId": "0006"
+    },
+    "翹翹板": {
+      "wordId": "翹翹板",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "🛝",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0007",
+      "kind": "image"
+    },
+    "老師": {
+      "wordId": "老師",
+      "status": "matched",
+      "glyph": "🧑‍🏫",
+      "legacyGlyph": "🧑‍🏫",
+      "reason": "教師形象",
+      "pictureId": "0008"
+    },
+    "小紅花": {
+      "wordId": "小紅花",
+      "status": "matched",
+      "glyph": "🌺",
+      "legacyGlyph": "🌺",
+      "reason": "紅色花朵",
+      "pictureId": "0009"
+    },
+    "一朵": {
+      "wordId": "一朵",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🌸",
+      "reason": "單一花朵沒有明確量詞／計數情境，不能等同「一朵」",
+      "pictureId": "0010"
+    },
+    "送": {
+      "wordId": "送",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🎁",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0011"
+    },
+    "烏龜": {
+      "wordId": "烏龜",
+      "status": "matched",
+      "glyph": "🐢",
+      "legacyGlyph": "🐢",
+      "reason": "烏龜",
+      "pictureId": "0012"
+    },
+    "賽跑": {
+      "wordId": "賽跑",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🏃",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0013"
+    },
+    "拔": {
+      "wordId": "拔",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🥕",
+      "reason": "🥕 只有胡蘿蔔，未呈現「拔」的動作",
+      "pictureId": "0014"
+    },
+    "大象": {
+      "wordId": "大象",
+      "status": "matched",
+      "glyph": "🐘",
+      "legacyGlyph": "🐘",
+      "reason": "大象",
+      "pictureId": "0015"
+    },
+    "黃牛": {
+      "wordId": "黃牛",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🐂",
+      "reason": "🐂 公牛圖未明確表達黃牛物種／顏色",
+      "pictureId": "0016"
+    },
+    "浣熊": {
+      "wordId": "浣熊",
+      "status": "matched",
+      "glyph": "🦝",
+      "legacyGlyph": "🦝",
+      "reason": "浣熊",
+      "pictureId": "0017"
+    },
+    "兔子": {
+      "wordId": "兔子",
+      "status": "matched",
+      "glyph": "🐰",
+      "legacyGlyph": "🐰",
+      "reason": "兔子",
+      "pictureId": "0018"
+    },
+    "菜園": {
+      "wordId": "菜園",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🥬",
+      "reason": "🥬 是葉菜，不是菜園",
+      "pictureId": "0019"
+    },
+    "動物": {
+      "wordId": "動物",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🐾",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0020"
+    },
+    "狂歡": {
+      "wordId": "狂歡",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🎉",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0021"
+    },
+    "弟弟": {
+      "wordId": "弟弟",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "👦",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0022"
+    },
+    "第一": {
+      "wordId": "第一",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🥇",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0023"
+    },
+    "跑": {
+      "wordId": "跑",
+      "status": "matched",
+      "glyph": "🏃",
+      "legacyGlyph": "🏃",
+      "reason": "奔跑中的人",
+      "pictureId": "0024"
+    },
+    "媽媽": {
+      "wordId": "媽媽",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "👩",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0025"
+    },
+    "得意": {
+      "wordId": "得意",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "😊",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0026"
+    },
+    "孵出": {
+      "wordId": "孵出",
+      "status": "matched",
+      "glyph": "🐣",
+      "legacyGlyph": "🐣",
+      "reason": "小雞破殼孵出",
+      "pictureId": "0027"
+    },
+    "五隻": {
+      "wordId": "五隻",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "🦢",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0028",
+      "kind": "image"
+    },
+    "泡澡": {
+      "wordId": "泡澡",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "🛁",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0029",
+      "kind": "image"
+    },
+    "半路": {
+      "wordId": "半路",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🛤️",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0030"
+    },
+    "遇到": {
+      "wordId": "遇到",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🤝",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0031"
+    },
+    "築巢": {
+      "wordId": "築巢",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "🪹",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0032",
+      "kind": "image"
+    },
+    "忙": {
+      "wordId": "忙",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🛠️",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0033"
+    },
+    "書包": {
+      "wordId": "書包",
+      "status": "matched",
+      "glyph": "🎒",
+      "legacyGlyph": "🎒",
+      "reason": "背包形書包",
+      "pictureId": "0034"
+    },
+    "手拉手": {
+      "wordId": "手拉手",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "🤝",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0035",
+      "kind": "image"
+    },
+    "歡喜": {
+      "wordId": "歡喜",
+      "status": "matched",
+      "glyph": "😊",
+      "legacyGlyph": "😊",
+      "reason": "喜悅笑臉",
+      "pictureId": "0036"
+    },
+    "好朋友": {
+      "wordId": "好朋友",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "👭",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0037",
+      "kind": "image"
+    },
+    "一起": {
+      "wordId": "一起",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "👭",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0038"
+    },
+    "上上下下": {
+      "wordId": "上上下下",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "↕️",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0039",
+      "kind": "image"
+    },
+    "高高低低": {
+      "wordId": "高高低低",
+      "status": "matched",
+      "glyph": null,
+      "legacyGlyph": "📊",
+      "reason": "Lily batch01 專圖：已核對詞號、檔案、無損像素與內容，僅在副本啟用",
+      "pictureId": "0040",
+      "kind": "image"
+    },
+    "小鳥": {
+      "wordId": "小鳥",
+      "status": "matched",
+      "glyph": "🐦",
+      "legacyGlyph": "🐦",
+      "reason": "小鳥",
+      "pictureId": "0041"
+    },
+    "飛": {
+      "wordId": "飛",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🪽",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0042"
+    },
+    "謝謝": {
+      "wordId": "謝謝",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🙏",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0043"
+    },
+    "讀書": {
+      "wordId": "讀書",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "📚",
+      "reason": "📚 只有書本，未呈現閱讀動作",
+      "pictureId": "0044"
+    },
+    "畫畫": {
+      "wordId": "畫畫",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🎨",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0045"
+    },
+    "教": {
+      "wordId": "教",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🧑‍🏫",
+      "reason": "🧑‍🏫 是老師職業圖，未清楚呈現教學動作",
+      "pictureId": "0046"
+    },
+    "比賽": {
+      "wordId": "比賽",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🏁",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0047"
+    },
+    "領先": {
+      "wordId": "領先",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🥇",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0048"
+    },
+    "落後": {
+      "wordId": "落後",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🏃",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0049"
+    },
+    "氣餒": {
+      "wordId": "氣餒",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "😞",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0050"
+    },
+    "後面": {
+      "wordId": "後面",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "⬅️",
+      "reason": "⬅️ 是向左，不是物體後面",
+      "pictureId": "0051"
+    },
+    "追": {
+      "wordId": "追",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🏃",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0052"
+    },
+    "蘿蔔": {
+      "wordId": "蘿蔔",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🥕",
+      "reason": "🥕 是胡蘿蔔，不可擅自作白蘿蔔／蘿蔔詞目的專圖",
+      "pictureId": "0053"
+    },
+    "拉著": {
+      "wordId": "拉著",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🤝",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0054"
+    },
+    "嘿唷": {
+      "wordId": "嘿唷",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "💪",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0055"
+    },
+    "山崖": {
+      "wordId": "山崖",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "⛰️",
+      "reason": "⛰️ 是山峰，不是懸崖",
+      "pictureId": "0056"
+    },
+    "開心": {
+      "wordId": "開心",
+      "status": "matched",
+      "glyph": "😊",
+      "legacyGlyph": "😊",
+      "reason": "開心笑臉",
+      "pictureId": "0057"
+    },
+    "慶祝": {
+      "wordId": "慶祝",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🎉",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0058"
+    },
+    "小熊": {
+      "wordId": "小熊",
+      "status": "matched",
+      "glyph": "🐻",
+      "legacyGlyph": "🐻",
+      "reason": "熊臉",
+      "pictureId": "0059"
+    },
+    "大球": {
+      "wordId": "大球",
+      "status": "matched",
+      "glyph": "⚽",
+      "legacyGlyph": "⚽",
+      "reason": "球",
+      "pictureId": "0060"
+    },
+    "馴鹿": {
+      "wordId": "馴鹿",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🦌",
+      "reason": "🦌 是泛稱鹿，沒有馴鹿特徵",
+      "pictureId": "0061"
+    },
+    "大鼓": {
+      "wordId": "大鼓",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🥁",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0062"
+    },
+    "孔雀": {
+      "wordId": "孔雀",
+      "status": "matched",
+      "glyph": "🦚",
+      "legacyGlyph": "🦚",
+      "reason": "孔雀",
+      "pictureId": "0063"
+    },
+    "魔術": {
+      "wordId": "魔術",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🪄",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0064"
+    },
+    "青蛙": {
+      "wordId": "青蛙",
+      "status": "matched",
+      "glyph": "🐸",
+      "legacyGlyph": "🐸",
+      "reason": "青蛙",
+      "pictureId": "0065"
+    },
+    "合唱": {
+      "wordId": "合唱",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🎶",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0066"
+    },
+    "嗶": {
+      "wordId": "嗶",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "📣",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0067"
+    },
+    "去": {
+      "wordId": "去",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🚶",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0068"
+    },
+    "忙著": {
+      "wordId": "忙著",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🛠️",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0069"
+    },
+    "背著": {
+      "wordId": "背著",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🎒",
+      "reason": "🎒 是書包，沒有背著的動作與人物",
+      "pictureId": "0070"
+    },
+    "好像": {
+      "wordId": "好像",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "💭",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0071"
+    },
+    "午覺": {
+      "wordId": "午覺",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "😴",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0072"
+    },
+    "跟在": {
+      "wordId": "跟在",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🚶",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0073"
+    },
+    "快": {
+      "wordId": "快",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "💨",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0074"
+    },
+    "哈哈笑": {
+      "wordId": "哈哈笑",
+      "status": "matched",
+      "glyph": "😄",
+      "legacyGlyph": "😄",
+      "reason": "露齒笑臉呈現笑",
+      "pictureId": "0075"
+    },
+    "用力": {
+      "wordId": "用力",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "💪",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0076"
+    },
+    "長出": {
+      "wordId": "長出",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🌱",
+      "reason": "🌱 是幼苗，沒有表達由無到有長出的過程",
+      "pictureId": "0077"
+    },
+    "表演": {
+      "wordId": "表演",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🎭",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0078"
+    },
+    "精采": {
+      "wordId": "精采",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "✨",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0079"
+    },
+    "敲": {
+      "wordId": "敲",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "🥁",
+      "reason": "🥁 只有鼓，沒有敲擊動作",
+      "pictureId": "0080"
+    },
+    "滾": {
+      "wordId": "滾",
+      "status": "mismatched",
+      "glyph": null,
+      "legacyGlyph": "⚽",
+      "reason": "⚽ 只有球，沒有滾動動作",
+      "pictureId": "0081"
+    },
+    "變": {
+      "wordId": "變",
+      "status": "decorative",
+      "glyph": null,
+      "legacyGlyph": "🪄",
+      "reason": "章節聯想／泛用情境符號，不能單憑此圖辨識完整詞義；未核准當作本詞專圖",
+      "pictureId": "0082"
+    }
+  },
+  "batch": "12",
+  "productionReady": false,
+  "runtimeUseAllowed": false
+}

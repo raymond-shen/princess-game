@@ -22,10 +22,10 @@ function checkRest(sc){if(Session.reminded||Date.now()-Session.start<15*60e3)ret
  o.add(btn(sc,W/2,H/2+110,200,64,'👌',0xb9f6ca,()=>o.destroy(),36));}
 
 class Boot extends Phaser.Scene{constructor(){super('Boot');}
- preload(){this.load.json('audioUI','data/ui_audio_v002.json');this.load.json('vocab','data/vocab.json');this.load.json('questionPictures','data/question_pictures_b11.json');this.load.json('manifest','data/character_runtime_v8.json');this.load.json('assetsManifest','data/assets_manifest.json');this.load.json('audioWords','data/audio_words.json');
+ preload(){this.load.json('audioUI','data/ui_audio_v002.json');this.load.json('vocab','data/vocab.json');this.load.json('questionPictures','data/question_pictures_b12.json');this.load.json('questionWordIds','data/question_word_ids_b12.json');this.load.json('questionAssets','data/question_assets_b12.json');this.load.json('manifest','data/character_runtime_v8.json');this.load.json('assetsManifest','data/assets_manifest.json');this.load.json('audioWords','data/audio_words.json');this.load.json('tdUI','data/ui_td_v003.json');
   const t=this.add.text(W/2,H/2,'🏰 …',{fontSize:'48px'}).setOrigin(0.5);this.load.on('progress',p=>t.setText('🏰 '+Math.round(p*100)+'%'));}
  create(){Learn.init(this.cache.json.get('vocab'),this.cache.json.get('questionPictures'));
-  Char.init(this.cache.json.get('manifest')).then(()=>{Save.load();const m=Char.m;
+  Char.init(this.cache.json.get('manifest')).then(async()=>{QuestionArt.init(this.cache.json.get('questionWordIds'),this.cache.json.get('questionAssets'));await QuestionArt.loadAll(this);TdUI.init(this.cache.json.get('tdUI'));await TdUI.loadAll(this);Save.load();const m=Char.m;
    Art.init(this.cache.json.get('assetsManifest'));Sound.queueUI(this,this.cache.json.get('audioUI'));Sound.initWords(this.cache.json.get('audioWords'));Art.queue(this);
    this.load.once('complete',()=>this.scene.start('Start'));this.load.start();});}}
 
@@ -39,7 +39,7 @@ class Start extends Phaser.Scene{constructor(){super('Start');}
   this.add.text(670,601,'點一下，開啟音樂與題目語音',{fontFamily:FONT,fontSize:'20px',color:'#6a2c91',backgroundColor:'#fff8fccc'}).setOrigin(.5);
   const h=this.add.container(670,663),hg=this.add.graphics();hg.fillStyle(0xffffff,.88).fillRoundedRect(-280,-45,560,90,24);
   h.add([hg,this.add.text(-245,0,'📱🔕➡🔔',{fontSize:'32px'}).setOrigin(0,.5),this.add.text(-50,-14,'iPad 請關靜音、提高音量',{fontFamily:FONT,fontSize:'21px',color:'#6a2c91'}).setOrigin(0,.5),this.add.text(-50,18,'也請檢查藍牙耳機',{fontFamily:FONT,fontSize:'18px',color:'#9a6ab8'}).setOrigin(0,.5)]);
-  this.add.text(W-16,H-12,'P0・Lily v8（本機測試版）',{fontSize:'14px',color:'#7a5a9a'}).setOrigin(1,1);
+  this.add.text(W-16,H-12,'v '+Build.id+'・Lily v8（副本）',{fontSize:'14px',color:'#7a5a9a'}).setOrigin(1,1);
   const cr=this.add.text(16,H-12,'ⓘ 版權與音檔來源',{fontFamily:FONT,fontSize:'16px',color:'#7a5a9a',padding:{x:6,y:6}}).setOrigin(0,1).setInteractive();cr.on('pointerdown',()=>this.scene.start('Credits',{from:'Start'}));}}
 
 class Creator extends Phaser.Scene{constructor(){super('Creator');}
@@ -121,7 +121,7 @@ class MapScene extends Phaser.Scene{constructor(){super('Map');}
   // HUD
   this.add.text(20,20,'⭐ '+sd.stars+'   💎 '+sd.gems,{fontFamily:FONT,fontSize:'30px',color:'#fff',stroke:'#7a3d9a',strokeThickness:6});
   btn(this,W-60,60,90,80,'🏠',0xffe0f0,()=>this.scene.start('Home'),40);btn(this,W-160,60,90,80,'👗',0xffe0f0,()=>this.scene.start('Creator',{fromMap:true}),40);
-  btn(this,W-260,60,90,80,'📖',0xffe0f0,()=>this.scene.start('Book'),40);albumButton(this,W-175,H-60);parentGate(this,W-28,H-28);
+  btn(this,W-260,60,90,80,'📖',0xffe0f0,()=>this.scene.start('Book'),40);albumButton(this,W-175,H-60);parentGate(this,W-28,H-28);this.add.text(16,H-12,'v '+Build.id,{fontSize:'14px',color:'#2e6b3f'}).setOrigin(0,1);
   const p=sd.mapPos||{x:80,y:620};Char.ensure(this,sd.character,()=>{this.hero=Char.build(this,p.x,p.y,170,sd.character,sd.equipped);this.hero.setDepth(10);});
   this.input.on('pointerdown',(ptr,objs)=>{if(objs.length||!this.hero)return;this.walkTo(ptr.worldX,ptr.worldY);});
   this.nodes.forEach(n=>{n.c.setSize(100,100).setInteractive();n.c.on('pointerdown',()=>{if(!n.unlocked){Sound.soft();return;}this.walkTo(n.s.x,n.s.y+30,()=>this.enter(n.s));});});

@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "batch": "question_pictures_b01",
+  "sourceVersion": "frameless_v2",
+  "frameless": true,
+  "productionReady": false,
+  "runtimeUseAllowed": false,
+  "assetRoot": "assets/art/questions/",
+  "naming": "{size}/word_{pictureId}.{webp|png}",
+  "items": {
+    "0039": {
+      "wordId": "上上下下",
+      "pictureId": "0039",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0039.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 1008960,
+            "sha256": "006047b3e04f99fa99d12fc06068b54a4b0855fc2aae88e289b02ebb8e61bb12"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0039.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 729110,
+            "sha256": "dae9e1b95f4ab694930d4ea83309573ca8177137b02236308b4b88748ba3b389"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0039.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 341328,
+            "sha256": "fcdc61bfb041ec3fb53e55f906ca926f34db34f08f56c61a4e5abd0d02cebd51"
+          },
+          "webp": {
+            "relpath": "640x400/word_0039.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 258004,
+            "sha256": "4c4fcf4ecd02cbcc9d0da4d923aae2aafb1c53ec3e0678973eecf39e3926f11f"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0039.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 96124,
+            "sha256": "3315a03d373a7fa33e8689328cb350c8dd2288a3d49b84a24d4b8f12924a3129"
+          },
+          "webp": {
+            "relpath": "320x200/word_0039.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 75464,
+            "sha256": "fc0ee47b950651e2ed4d3c2a07904a4e37c6b815598e27e214c59b9bb21f8721"
+          }
+        }
+      }
+    },
+    "0040": {
+      "wordId": "高高低低",
+      "pictureId": "0040",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0040.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 951930,
+            "sha256": "62487f6591f4037890251662b0093151f1dfef460552082e3d3a52bb17470456"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0040.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 744936,
+            "sha256": "682b71fd2b6f7dfb9d89246a0fa37ccad0aeead757c5d9587338fe9bf398a19c"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0040.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 311653,
+            "sha256": "d8ccca9acd86b4a00d42de57d92147ea6c062243ee42abbb9ed196cc9c837494"
+          },
+          "webp": {
+            "relpath": "640x400/word_0040.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 246500,
+            "sha256": "f75219d779fe8b6efd2222edb83c0d252ab4a276515228bd0578972a8dba9357"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0040.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 88763,
+            "sha256": "000eb7cacefa19bdcd3441c6d218824e0b0da8282326318bad35c8e80a8fa468"
+          },
+          "webp": {
+            "relpath": "320x200/word_0040.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 70928,
+            "sha256": "f33d5d417281b90961384f7c1fe68e2000baf05f99f1daeacc8cc3d22fb411e8"
+          }
+        }
+      }
+    },
+    "0035": {
+      "wordId": "手拉手",
+      "pictureId": "0035",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0035.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 1063072,
+            "sha256": "663e869e3c737ecf64c05c45c228e61d33ebc14b29255b5e383dcc8d795a9437"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0035.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 770052,
+            "sha256": "44ad03deeda882dc48f1da1ad413f6f6ea9668879abbf9065ba468a1158cb052"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0035.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 348854,
+            "sha256": "9b15245741ffbd545a6eea5dca17a61e5d9dbe65188a46c9223063ac3e7251a1"
+          },
+          "webp": {
+            "relpath": "640x400/word_0035.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 253528,
+            "sha256": "4bfce329689dd035afefbcd234f345d74492754887abd5ce358bfaf9ce0876b0"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0035.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 100788,
+            "sha256": "25056e2c0eaba14a559476d730253abca74cd73b20b2a21f270d2c6a0324558d"
+          },
+          "webp": {
+            "relpath": "320x200/word_0035.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 74764,
+            "sha256": "1f80559588ab659e3fa757e0425a1be415e21a629a7c7a2bf15a2a8dc70367a1"
+          }
+        }
+      }
+    },
+    "0037": {
+      "wordId": "好朋友",
+      "pictureId": "0037",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0037.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 1108334,
+            "sha256": "b48533d007fa7bdbb0a9be009d031e9c36d5990e85bb11a9abc070c29c79b5b3"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0037.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 786580,
+            "sha256": "35a958bd6f7840e18508f15e4623d2c1ebfa402bc1e131f53940ba4ba86bc5bb"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0037.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 366037,
+            "sha256": "ca7524ea24230ef9f635e74d0e0d1a3eec40dc420174514c78af9804752461ea"
+          },
+          "webp": {
+            "relpath": "640x400/word_0037.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 260838,
+            "sha256": "d3e76e92207166354b70f8e55ada952bada498f67c231ab1b819fbd8844d5122"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0037.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 105298,
+            "sha256": "445b1b49e1ce6976a50f39ef4e49abe4a73b4cf6bfbcdcb3685193d5e0c54382"
+          },
+          "webp": {
+            "relpath": "320x200/word_0037.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 77200,
+            "sha256": "00435dcd9ea7bd6ade7a97db698a8ea3ce929a7fec28aa058c94eb52c7bc6ab7"
+          }
+        }
+      }
+    },
+    "0007": {
+      "wordId": "翹翹板",
+      "pictureId": "0007",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0007.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 883612,
+            "sha256": "74cef57c9396aa961ec030c60a2ed41a925f7d12679375a1d11d735a30cb941a"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0007.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 646472,
+            "sha256": "c32ce8d97ca0753b61b81dc5a582ee184f55d99bd647957d03f61720ad439065"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0007.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 303137,
+            "sha256": "c9402a30f3507dce9c396994ea2cf503489a3689d62a48864877b87b2a7ae37f"
+          },
+          "webp": {
+            "relpath": "640x400/word_0007.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 221688,
+            "sha256": "cc408e0c4c4288f049cc12cd4ca9556c5bddbb91c6d868c1b29fbf0ea5be3d6e"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0007.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 87083,
+            "sha256": "f49c7c7481f1542899cc812186c50cbf81b4e6e1dea937fb18d5a0601a486792"
+          },
+          "webp": {
+            "relpath": "320x200/word_0007.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 64842,
+            "sha256": "66a3311f78b273d83a360e9bf78ecb898d8d1448c0795d6030075ff1bd901966"
+          }
+        }
+      }
+    },
+    "0028": {
+      "wordId": "五隻",
+      "pictureId": "0028",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0028.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 1041602,
+            "sha256": "418644acacf2c55db2da185ab068328d57a62911d4c48fed72917e8bd2e5017e"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0028.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 808376,
+            "sha256": "b6aa43e3b4509ee24e2ca52bd220419705b912b91711ccfe689b8d2484cdc738"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0028.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 337084,
+            "sha256": "1c1b4fb25806194dcfa3eb65f1a06519b9fc52a61bb21b655675b16cd776e9bd"
+          },
+          "webp": {
+            "relpath": "640x400/word_0028.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 262042,
+            "sha256": "911286d80fefa019fa2d92b84e670d1aa715a2e075dfba3976eddd0319577f9a"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0028.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 97477,
+            "sha256": "255ab304350ce311ca7579ddd075aad6d3f61741787a75e78496f32992fa4123"
+          },
+          "webp": {
+            "relpath": "320x200/word_0028.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 76854,
+            "sha256": "f03d72acd69f518684e83b65d9aea9a03bfde63f2aa228c9c9c4166bcd1da1de"
+          }
+        }
+      }
+    },
+    "0029": {
+      "wordId": "泡澡",
+      "pictureId": "0029",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0029.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 797865,
+            "sha256": "bc764e4cd24a410bd00e9ffefdc78cdcd00aa7f63eeb89c2106c94316234b920"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0029.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 598674,
+            "sha256": "501ed9be976a14124a0a9477cec36ddf7c1637d2b8977f5ea472fdc89d2f1bbb"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0029.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 284131,
+            "sha256": "2b38191c3e9742d1da9207c826d72134422de6539110a25a8bc7d8d551862245"
+          },
+          "webp": {
+            "relpath": "640x400/word_0029.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 213292,
+            "sha256": "f51c6a8eb3a041069693ccf676bf27d9af42839f149c0469146905b014caddc3"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0029.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 82513,
+            "sha256": "9e70ecf3effb39633f19ee80326ab9795afa2a464785f07a74e748dffc66ade0"
+          },
+          "webp": {
+            "relpath": "320x200/word_0029.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 62474,
+            "sha256": "e68bad1473810fb5f50b28eac38b509f76161655bc0bc2135ecb386680280398"
+          }
+        }
+      }
+    },
+    "0032": {
+      "wordId": "築巢",
+      "pictureId": "0032",
+      "files": {
+        "1280x800": {
+          "png": {
+            "relpath": "1280x800/word_0032.png",
+            "width": 1280,
+            "height": 800,
+            "bytes": 1115873,
+            "sha256": "4f9cc81c951d90befe9057a8ece80672eb585c7461e8e8299ce5c8b47eef70f7"
+          },
+          "webp": {
+            "relpath": "1280x800/word_0032.webp",
+            "width": 1280,
+            "height": 800,
+            "bytes": 775154,
+            "sha256": "931cd8072f60a1860c87b83a7e17fa1b818985efd6a158f7d838411f31833143"
+          }
+        },
+        "640x400": {
+          "png": {
+            "relpath": "640x400/word_0032.png",
+            "width": 640,
+            "height": 400,
+            "bytes": 378328,
+            "sha256": "314bc88b592a28a259ee7050330a95aedff8890618ff53b8a0bbb0d352b94af3"
+          },
+          "webp": {
+            "relpath": "640x400/word_0032.webp",
+            "width": 640,
+            "height": 400,
+            "bytes": 261466,
+            "sha256": "d15857c0ee4e0d976e3b0907b4fe0ded29146e4453edd47740c2dd351fa5fccd"
+          }
+        },
+        "320x200": {
+          "png": {
+            "relpath": "320x200/word_0032.png",
+            "width": 320,
+            "height": 200,
+            "bytes": 108569,
+            "sha256": "43f3e26e80923437749c8100de8af325186c449af5dea3792b799014f3cdd973"
+          },
+          "webp": {
+            "relpath": "320x200/word_0032.webp",
+            "width": 320,
+            "height": 200,
+            "bytes": 78452,
+            "sha256": "6bf2d69f8d405e19bb5879c48609092f6a2235096a91aac8fdbc8cd6c3b4b68f"
+          }
+        }
+      }
+    }
+  }
+}

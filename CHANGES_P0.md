@@ -624,3 +624,188 @@ Raymond 經 Yuki 核准只整合到 `/workspace/princess-game-p0/` 副本。沒�
 - 完整`b11_preflight.py` **15支runner全部exit0**，回歸**9/9**、角色驗收**27/27**、音訊/UI**17/17**、聲調真觸控**3/3**；新增圖片／路由測試先7/7，補入獨立官方詞號驗證後再跑**8/8**。逐一實際建596種題目，核對**264個圖物件**owner／glyph、420個無圖防守排版與各關選題池；正常JS／console錯誤**0**。43,200組解析、96換裝壓測、PNG／缺圖／缺音備援全部PASS；149筆大碼**2816/2950**、OpenCV放大解碼逐字相符。角色LRU峰8、14層15.4MB解碼峰值不變，結束refs／sources／liveDecodedBytes皆0。
 - 四型真題重拍：`shots_p0/29_02_question_hear.png`（五隻第1音、無天鵝）、`29_03_question_pic2spell.png`（貓咪）、`29_04_question_spell2pic.png`（青蛙）、`29_05_question_drag.png`（五隻第2音、無天鵝）；29_09–12按下／選取亦重拍並目視檢查。大詞、目標框、正確圖、提示圖及重聽鍵都清楚。
 - 僅副本；**無stage／commit／push／deploy**，HEAD仍d7d14e224eef4232a13bd659493c8555faad0ed6、push URL no_push。原始美術／下載檔未改，live未變，readiness flags不變。模型／轉寫／測試與截圖皆ignored artifacts，不納入遊戲runtime。
+
+
+---
+
+# 第十二批：Lily第一批8張題圖＋固定圖片詞號／WebP–PNG載入（2026-11-11 08:07 SGT）
+
+## 匯入、內容與映射
+- 基線為已核准上線的`4796fcbb22e16d355dcf1a645c2040dd4a9b6d5c`，本批只改副本。讀Lily HANDOFF與manifest後，**32/32檔來源SHA256、bytes、兩尺寸、16對PNG/WebP解碼像素一致**才複製至`assets/art/questions/{640x400,320x200}/word_<word_id>.{webp,png}`。沒有copy src、rejected、工作JPEG或總覽；來源未改，productionReady／runtimeUseAllowed仍false。
+- 正式檔共4,678,984 bytes（WebP 1,998,026、PNG 2,680,958）；`tools/import_question_pictures_b12.py`可重現核對／匯入，runtime manifest用相對路徑。保留中文word.id與149個Leitner／存檔ID不變，另以`data/question_word_ids_b12.json`固定82詞雙向圖片ID，絕不按CSV排序重編。
+- 8詞逐一對圖：0039上上下下、0040高高低低、0035手拉手、0037好朋友、0007翹翹板、0028五隻、0029泡澡、0032築巢。**五隻逐隻數過，正好5隻黃色幼鳥／小鴨，沒有第6隻**；嘴型偏鴨與HANDOFF相同，詞語本身未限定鵝，未擅改。高低花朵確為交錯、翹翹板不是溜滑梯、浴缸用小熊安全版，未發現其他內容不符。
+
+## 載入、題庫與CSV
+- 新`js/question-pictures.js`依實際canvas CSS縮放×DPR×顯示大小選320/640，WebP解碼失敗自動同名PNG；低DPR只需320，DPR2大圖／選圖用640、小主圖可用320。共用texture最多16張、10,240,000 bytes（9.77MiB），與角色LRU分開；旋轉後新題按需求補較高解析度。
+- 8詞恢復pic2spell／spell2pic；可用圖由22→**30詞**、圖題目標音節44→**67**，仍完整保留全部149目標。596種詞音節×4型組合中**432可出、164無圖圖型排除**。主圖與各選項同時核對中文owner、固定數字pictureId；圖失敗／映射錯位不會借別詞圖或退舊emoji，安全改hear／drag的大字詞語。
+- CSV生成器讀固定映射，保留首欄word_id；未分配ID時先拒絕，不可覆寫半份CSV或重新編號。B11原交接60列／原欄內容／排序不刪改，本批8詞完成狀態見B12manifest，剩52詞待圖；ignored fixture實際重跑生成器，60個ID、列／欄內容完全一致。CSV僅統一LF行尾，UTF-8 BOM保留。
+
+## 完整驗收：PASS
+- `tests_p0/b12_preflight.py` **16支runner全exit0**；通用回歸**9/9**、角色**27/27**、音訊/UI**17/17**、正式聲調觸控**3/3**、原圖片／路由**8/8**，新增B12圖片載入／CSV／DPR／fallback **11/11**。正常與新負向解碼場景JS／console錯誤**0**。
+- 實際建出全部596組，核對**402個圖物件**的owner／圖號／內容來源；8張新圖在真遊戲題卡實拍。強制PNG＋低DPR、壞WebP改PNG、兩格式都壞退無圖hear、錯誤雙向ID拒用均PASS。
+- 43,200組角色解析、96次換裝壓測、14層、PNG備援及舊存檔／還原檢查全PASS；角色LRU峰8、15.4MB解碼峰值不變，結束refs／sources／liveDecodedBytes皆0。149筆大碼**2818/2950**，OpenCV放大QR解碼逐字相符；題圖不寫入save code。
+- `shots_p0/30_01_0039_pic2spell.png`、`30_02_0040_pic2spell.png`、`30_03_0035_pic2spell.png`、`30_04_0037_pic2spell.png`、`30_05_0007_pic2spell.png`、`30_06_0028_pic2spell.png`、`30_07_0029_pic2spell.png`、`30_08_0032_pic2spell.png`；全8張遊戲圖＋題卡contact：**`30_09_all8_ingame_contact.png`**；另`30_10_0028_spell2pic.png`。已目視檢查接圖與五隻計數。詳細規格／完整路徑：`docs/question_pictures_b12.md`。
+- **未stage／commit／push／deploy**；HEAD仍detached 4796fcb、push URL no_push，live保持batch11；所有測試／截圖為ignored artifacts。Chromium iPad觸控／DPR模擬不是真iPad Safari，仍待真機清晰度、聲音、旋轉與長時間記憶體確認。
+
+
+### 第十二批追加：題圖改為主視覺＋1280清晰度（31_*）
+- 以上30_*為初版，主圖偏小問題已修正；pic2spell改 **512×320 logical px**（800px面板的64%）、置中16:10，實拍全部8圖。指令22px、目標序號16px、三個注音答案 **560×60／34px** 全可見；「怎麼玩」示意縮為120×75置側欄，答錯提示亦移側欄，均不蓋圖／答案。
+- spell2pic三個選項主圖各 **232×145 logical px**、卡片244×220；無圖hear／drag保留48px詞語及52–56px注音。1024×768、1180×820、1366×1024的主圖實際CSS為512×320、546.7×341.7、682.7×426.7；820×1180與768×1024直向為410×256.3、384×240，最小答案熱區45px CSS高。完整尺寸表及31_*路徑：`docs/question_pictures_b12.md`。
+- Lily1280x800已到貨：主來源manifest仍列舊兩尺寸，故匯入工具讀HANDOFF與獨立`1280x800/SHA256.txt`，只在副本合併新tier；**48/48來源SHA／尺寸、24對PNG-WebP像素全部相同**。三尺寸共15,380,784 bytes（WebP6,390,696、PNG8,990,088），未拷來源／rejected工作檔、未動來源及readiness=false。
+- 顯示寬×canvas CSS比例×DPR>640時按需載1280；WebP失敗同名PNG，1280缺metadata／缺檔維持640同尺寸，絕不借詞圖。啟動只載320／640基礎fallback；1280有獨立3張LRU及GameObject引用釋放，穩態至多19張／22.528MB像素解碼（升級瞬間26.624MB估算，不是Safari總RAM），角色預算不變。
+- 新排版runner檢查五種橫直向、全部8圖、67個圖題目標答案不裁切、重聽／提示／指令／三答案及答錯回饋不重疊、DPR2實載1280與缺高階時640降級；音訊hint測試只調整pic2spell新120×75預期。重跑舊畫面runner輸出導到ignored歷史測試目錄，保留30_*初版對照，不覆寫新31_*。
+- 新圖：`shots_p0/31_01_0039_pic2spell.png`～`31_08_0032_pic2spell.png`、**`31_09_all8_ingame_contact.png`**、`31_10_0028_spell2pic.png`、`31_11_large_text_hear.png`、`31_12_large_text_drag.png`；另有31_13／15／16／17橫直向實拍。
+- 僅副本；無stage／commit／push／deploy，HEAD仍4796fcb、push URL no_push。真iPad Safari尚未實機測試。
+
+### 大圖／1280最終驗收：PASS（2026-11-11 08:22:20 SGT）
+- 完整`tests_p0/b12_preflight.py` **17支runner全部exit0**；通用回歸9/9、角色27/27、音訊/UI17/17、聲調3/3、圖所有權8/8、B12匯入/載入11/11、新排版9/9，正常pageerror／console.error **0**。五種viewport、全部67個圖題目標文字／答案均無裁切或重疊，8張主圖DPR2實載1280。
+- 43,200組解析、96次換裝、PNG／缺圖／缺音及舊存檔回復全PASS；149筆大碼 **2815/2950**、OpenCV逐字相符。角色LRU8／14層解碼峰15.4MB、結束refs／sources／liveDecodedBytes皆0；題圖穩態實測19張／22,528,000 bytes、pending0。
+- 另以真正HTTP404同時攔1280 WebP/PNG：正確640圖仍維持512×320，pageerror0，僅2個預期HTTP404資源log；證據`tests_p0/b12_high_missing_http_result.json`。沒有修改遊戲來迎合測試。
+- 已目視大圖、五隻計數、泡澡、三選圖、無圖大字、直向及8圖contact；舊30_*保留。僅副本，未stage／commit／push／deploy，no_push不變；真iPad Safari仍待確認。
+
+
+### 第十二批追加：Lily滿版無框frameless_v2（32_*）
+- 三尺寸48檔重新驗證主manifest SHA／bytes／尺寸，1280獨立SHA清單亦與主manifest逐欄相符，24對PNG/WebP像素完全相同後才覆寫副本。runtime記錄sourceVersion=frameless_v2、frameless=true；productionReady／runtimeUseAllowed仍false。僅正式runtime檔，沒有匯入備份／rejected／預覽或改來源。
+- 圖片實體共19,826,105 bytes（WebP8,417,690、PNG11,408,415）；1280/640/320依顯示×DPR選用、WebP→PNG與高階缺檔→640備援及有界快取不變，並非開站一次下載全部格式。
+- 31_*白矩形原來是源圖烘焙的米白留邊／圓角卡；遊戲本來沒有額外主圖底板。換滿版圖後直接顯示單一Image，不加白底、內框、裁切或mask；spell2pic只保留粉紅答案cell自身邊框。主圖512×320 logical（面板64%）、選圖232×145及五種橫直向排版均不改。
+- 目視0028正好五隻，頭身腳可見；兩端外翼貼到源圖邊緣，遊戲沒有額外裁圖。HANDOFF實際重畫0040／0028；0007是去框裁切，沒有誤換詞號。0039拳頭近上緣、0029缸底貼下緣是來源構圖，臉／黃鴨等題意重點完整。
+- 新實拍32_01–08逐張真題、`shots_p0/32_09_all8_ingame_contact.png`、`32_10_0028_spell2pic.png`，另有無圖大字及橫直向32_11–17。舊30／31保留對照；測試和截圖仍ignored artifacts。僅副本，無stage／commit／push／deploy，push URL no_push。
+
+### 無框v2最終驗收：PASS（2026-11-11 08:40:01 SGT）
+- 全部17支runner exit0；回歸9/9、角色27/27、音訊/UI17/17、聲調3/3、所有權8/8、B12圖片12/12、無框/排版10/10。五種橫直向、67個圖題目標、1280清晰度與640/PNG降級全PASS；正常pageerror/console.error 0。
+- 48檔新SHA／尺寸全部符合兩份來源清單，24對PNG/WebP完整RGBA bytes相同、全畫布alpha=255；無框圖片直接在粉紅面板中顯示，選圖只有cell外框、沒有白色inset，GameObject無crop/mask。嚴格匯入器最後重跑，51個runtime圖／資料檔與剛通過全套測試的bytes完全一致。
+- 43,200組／96次換裝與舊存檔全PASS；149筆QR 2813/2950、OpenCV逐字相符。角色LRU峰8／14層15.4MB、題圖峰19張／22.528MB，預算不變。四張交接重點：`shots_p0/32_06_0028_pic2spell.png`、`32_02_0040_pic2spell.png`、`32_10_0028_spell2pic.png`、`32_09_all8_ingame_contact.png`；已目視檢查。
+- 未stage/commit/push/deploy；HEAD仍detached4796fcb、push URL no_push，Lily來源與ready=false未改。真iPad Safari仍待實機確認。
+
+
+### 第十二批微調：spell2pic答案格改8:5滿版（33_10）
+- 答案cell由244×220改 **240×150 logical px**（精確8:5），圖片由232×145改 **240×150**直接填滿cell，零內襯、無上下粉紅留條；不裁圖／不加mask／不改來源。中心仍(264,450)、(512,450)、(760,450)，cell間隔8px，不與注音／指令重疊。
+- CSS cell／圖片尺寸：1024×768→240×150；1180×820→256.3×160.2；1366×1024→320×200；820×1180→192.2×120.1；768×1024→180×112.5。最小觸控高度112.5 CSS px，遠高於44；pic2spell尺寸／題庫／聲音／存檔／美術與快取上限不變。
+- 排版runner新增所有橫直向cell與圖逐邊完全相同、8:5與>=44px熱區斷言；新的`shots_p0/33_10_0028_spell2pic.png`，保留32_10修改前畫面。完整尺寸表：`docs/question_pictures_b12.md`。
+- 僅副本；未stage／commit／push／deploy，push URL維持no_push，readiness=false不變。全套重跑結果以下續記。
+
+### 8:5答案格最終驗收：PASS（2026-11-11 08:47:22 SGT）
+- `tests_p0/b12_preflight.py`17支runner全exit0；回歸9/9、角色27/27、音訊17/17、B12圖片12/12、排版10/10；正常pageerror／console.error 0。43,200組解析、96次換裝、舊存檔與PNG備援全PASS，149筆QR 2832/2950、OpenCV逐字相符。
+- 五種viewport實測cell與圖片逐邊同為240×150 logical、8:5滿版，沒有上下留條／重疊，最小直向CSS為180×112.5（高>44）。已目視`shots_p0/33_10_0028_spell2pic.png`；完整尺寸表如上。
+- `CHANGES_P0.md`及`docs/question_pictures_b12.md`已更新；未stage／commit／push／deploy，HEAD／no_push／readiness=false不變。
+
+
+---
+
+# 第十三批 Part A：錯圖根因、快取破壞、版本號、直向提示（2026-11-13，新加坡時間 UTC+8）
+
+本節在塔防經濟改版（Part B）開始前寫下，避免進度再次中斷遺失。只改副本，無 stage／commit／push／deploy，push URL 維持 no_push，Lily readiness 仍 false。
+
+## 根因（證據）
+- Raymond 11:28 正式站截圖：看注音選圖考「ㄨˇ ㄓ」，選項卻是天鵝／合掌／鼓 emoji，且沒有第 11 批的說明、「怎麼玩」與「重聽」。詳見 `docs/b13_emoji_root_cause.md` 與 `feedback/raymond_1128_spell2pic_wuzhi.png`。
+- 11:32 實抓正式站：`Cache-Control: max-age=600`、腳本無 `?v=`；第 11 批目錄已把「五隻」標為 mismatched，照理不出此題。截圖與當天程式不一致，判定 iPad Safari 仍在跑會讀 `vocab.pic` 的舊 JS。第 12 批五隻專圖當時尚未上線，即使快取正確也不會看到小鴨，但也不該看到天鵝。
+
+## 副本修正
+- 保留 11:34 已寫好的 `js/build.js`、index 快取標頭與 script `?v=`、角色／題圖 `Build.url`、直向遮罩；版本號改為可見的 **b13-20261113**（開始畫面右下、地圖、左下角 `#kx-build`）。fetch、Phaser loader、音效 UI 路徑一併加版本參數。遊戲本身沒有 Service Worker，僅在本站 scope 解除舊註冊。
+- 硬規則：`Learn.picture()` 只接受目錄已核對且 wordId 相符的 Lily 圖（8 詞）或 22 個已審核 emoji；不讀 `vocab.pic`，錯配／裝飾符號一律不算圖。`battle.js` 只在 `kind==='image'|'emoji'` 時畫題圖。看圖／選圖題需有屬於該詞的圖，否則改出聽辨／拖曳大字。
+- 新測試 `tests_p0/b13_part_a_playtest.py`：**8/8 PASS**，JS／console 錯誤 0。596 組走訪 0 個未核准 emoji；圖題目標 67×2=134；「五隻」正解為 `word_0028`、畫面無天鵝。腳本與資料請求帶 `v=b13-20261113`；390×844 顯示轉橫提示，1180×820 不顯示。
+- 截圖：`shots_p0/34_01_start_version_label.png`、`34_02_spell2pic_0028_real_art.png`、`34_03_pic2spell_0028_no_swan.png`、`34_04_portrait_rotate_prompt.png`。
+- 第 12 批題圖放大與 8:5 答案格維持不變。塔防經濟改版見下節 Part B。真 iPad Safari 仍須在上線後確認版本號與題圖。
+
+---
+
+# 第十三批 Part B：塔防經濟、三波、十顆心、重試與助手（2026-11-13 08:00，新加坡時間 UTC+8）
+
+只改副本，無 stage／commit／push／deploy，HEAD 仍 detached `4796fcb`，push URL 維持 no_push，Lily readiness 仍 false。第 12 批題圖／8:5 格與 Part A 快取、版本號、硬圖片規則均不變。
+
+## 經濟與波次
+- 所有可調數字集中在 `js/balance.js`（開局／蓋塔／升級／擊殺／Boss／答對金幣、愛心、波數與數量、出怪間隔、破關漏心、兩次戰敗後的助手）。戰鬥不再硬編碼舊的 5 心、免費蓋塔、5500ms 出怪。
+- 開局 20 金幣，剛好蓋一座塔；擊殺 +5（Boss +20）、答對 +3；升級 30。空槽在金幣不足時變灰。答對與擊殺有金幣飛向左上角（佔位 🪙）。
+- 三波，HUD「第 X/3 波　還剩 N 隻」，開場與波間有橫幅（第 1 波開始／第 2、3 波準備，波間 6 秒）。出怪較快：第 1 關 3.2 秒，之後每關快 0.2 秒，最快 2.2 秒；同場最多 5 隻。
+- 城堡 10 心，一般漏 1、Boss 漏 3。戰敗不扣星星寶石，大顆「馬上再試一次」立刻重開關卡。`window.StageFails`（不進存檔／QR）滿 2 次後給助手：再開 +20 金幣、怪物速度 ×0.85；過關清零。
+- `spawnTimer.paused` 仍只停自動出怪，測試可手動 `spawn()`。
+
+## 平衡模擬（未改已對外金幣數字）
+- `tools/sim_balance_b13.py`，40 局×五關，答對率 80%／50%。路徑長 1356px。關卡規模：第1關 4+5+6=15，第2關 17，第3–5關各 18，第5關最後一隻為 Boss。
+- 未公布的血量／速度調為：`hpBase 11`、`hpPerStage 1`、`hpStageCap 4`、`bossHP 36`、`speedBase 65`、`speedPerStage 2`、`speedStageCap 4`、`bossSpeed 40`、`spawnStageCap 4`。後期一般怪不再比第 4 關更快更厚，第 5 關只多 Boss。
+- 結果（無助手／有助手勝率）：80% 玩家 1–5 關皆 100%，剩餘心約 9.9／8／5.3／1.9／2。50% 玩家 1–3 關 100%、4–5 關 95%，助手後亦 100%。答慢時出怪暫停、怪物變慢，擊殺金幣仍能養塔，故 50% 與 80% 接近；難度主要隨關卡血量／速度上升，第 4–5 關剩約 2 心。完整數字在 `tests_p0/b13_balance_sim.json`。
+
+## Lily 介面佔位（1024×768 邏輯像素，待 1x／2x 美術）
+
+| 元件 | 位置 (x,y) | 尺寸 (寬×高) | 備註 |
+|---|---|---|---|
+| 金幣圖示 | 28, 22 | 36×36 | 左上，現為 🪙 |
+| 金幣數字 | 74, 26 | 字 28px，左對齊 | 描邊紫 |
+| 波次條底 | 240, 16 | 400×44，圓角 16 | 白底粉框 |
+| 波次條進度 | 244, 20 | 最長 392×36，圓角 12 | 粉填 |
+| 波次文字 | 440, 26 | 字 24px，水平置中 | 「第 X/3 波　還剩 N 隻」 |
+| 十心城堡條 | 20, 62 | 280×26，圓角 10 | 白底 |
+| 心格 i（0–9） | 26+i×27, 66 | 24×18，圓角 5 | 滿心粉、空心灰紫 |
+| 蓋塔槽（6 個） | `BALANCE.slots`： (180,370)、(380,330)、(420,560)、(640,360)、(700,560)、(900,360) | 點擊 90×90；圓半徑 40 | 可蓋：白＋粉框；不夠錢：灰底 `#b0b0b0`、灰框 `#9e9e9e`、透明度 0.35 |
+| 金幣飛入 | 起點為獎勵處，飛向 48, 40 | 32px | 450ms，Cubic.easeIn |
+| 波次橫幅 | 容器中心 512, 200 | 640×140，圓角 24，相對容器 -320,-70 | 深紫半透明＋粉框，字 36px |
+| 戰敗卡片 | 212, 164（W/2-300, H/2-220） | 600×440，圓角 36 | 現有佔位 |
+| 重試鈕 | 512, 494（W/2, H/2+110） | 280×100 | 「馬上再試一次」 |
+| 回地圖鈕（戰敗） | 512, 584（W/2, H/2+200） | 230×72 | |
+| 過關星星字 | 512, 200 | 字 80px，置中 | 現有過關佔位，隨後寶箱 |
+| 轉橫提示 | HTML `#kx-rotate` 全螢幕 | 100vw×100vh | 直向且寬度 <700 才顯示，非畫布 |
+| 版本號 | HTML `#kx-build` 左下（含安全區） | 內距 4×8 | 「v b13-20261113」，非 Lily 稿 |
+
+## 測試與截圖
+- `tests_p0/b13_part_b_playtest.py`：**13/13 PASS**，JS／console 錯誤 0。涵蓋開局 20 金與可蓋一塔、灰槽、三波 HUD 與橫幅、10 心、擊殺／答對給金、波間橫幅、即時重試、280×100 重試鈕、兩敗助手（40 金、速度 0.85）、過關清失敗、paused 計時器。
+- 既有 `p0`／`p0b`／`p0c`／額外截圖在測試裡改用 `coins=999`（避免連續蓋塔）、重試點改到新鈕中心、愛心斷言改 10；`spawnTimer.paused` 語意不變。因 `?v=` 快取破壞，題圖／音檔／manifest 的 Playwright 攔截改為允許 query（邏輯不變）。
+- 全套：b12 17 支 runner 與 `validate_regressions_b11.py` 9/9、Part A 8/8、Part B 13/13、平衡模擬皆 PASS；正常 pageerror／console.error 0。紀錄 `tests_p0/b13_preflight_result.json`。
+- 截圖：`shots_p0/34_05_start_20_coins.png`、`34_06_greyed_slot.png`、`34_07_wave_banner.png`、`34_08_hud_wave_remaining.png`、`34_09_10_hearts.png`、`34_10_coin_flyin.png`、`34_11_retry.png`、`34_12_win.png`、`34_13_mercy.png`（另 Part A 的 34_01–04 仍在）。
+- 真 iPad Safari 仍須在上線後確認版本號、題圖與新 HUD。未碰 Lily 源目錄。
+
+---
+
+# 第十三批 Part C：接上 Lily 塔防 UI 美術 ui_v003（2026-11-13 08:43，新加坡時間 UTC+8）
+
+只改副本 `/workspace/princess-game-p0`，無 stage／commit／push／deploy，HEAD 仍 detached `4796fcb`，push URL 維持 no_push。Lily 源目錄 `/workspace/princess-game/art/ui_v003_tower_defense/` 只讀、原檔複製進來，未改源檔。`productionReady`／`sourceReady` 仍為 false。第 12 批題圖／8:5 格與 Part A／B 行為不變。
+
+## 美術接入
+- 152 張遊戲檔（38 件 × 1x／2x × WebP／PNG）複製到 `assets/art/ui/td_v003/`（coin、coin_fly、wave_bar、hearts、build_slot、wave_banner、lose、win、rotate）。 provenance：`docs/handoff_ui_v003.md`、`data/layout_ui_v003.json`、`data/ui_td_v003_SHA256.txt`（SHA 全數相符）。未複製 previews／raw／建置腳本。
+- 執行期目錄 `data/ui_td_v003.json`：`assetRoot assets/art/ui/td_v003/`，`productionReady: false`、`sourceReady: false`。
+- 新 `js/ui-td.js`（TdUI）：Boot 載入；DPR≥1.5 用 2x，否則 1x；優先 WebP、失敗改 PNG；路徑經 `Build.url`（`?v=b13-20261113`）。注意 `const Build` 不是 `window.Build`，URL 幫手用 `typeof Build!=="undefined"?Build.url(path):path`。金幣飛入為 8 幀、70ms 的 spritesheet。
+- `index.html` 加入 `js/ui-td.js?v=b13-20261113`。數字與標題在 Lily 空白底板／按鈕上由程式繪製（字體 PingFang TC 系，HUD／卡片字色 `#5a2d6e`）。
+
+## HUD、槽位、卡片
+- 金幣圖 (28,22) 36×36，數字 (74,26)。波次框 (240,16) 400×44；進度條為 NineSlice，左右 cap 各 18px、高 36、最小寬 36，起點 (244,20)，寬度 `prog<=0` 時隱藏，否則 `max(36, round(392*prog))`，從不從右側裁切。波次文字 (440,26)。心條 (20,62)；心圖位置 **(26+i×27, 66)**，24×18，分滿／空。
+- 蓋塔槽美術置中於程式的 `BALANCE.slots`，點擊範圍 90×90；選取態兼作按下態，金幣不足顯示灰色版。建塔後隱藏槽圖、留下陰影圓當地基。`paintSlots` 曾誤把已蓋塔的 `so.t` 設為不可見（花塔只剩影子與星），已修正，只藏槽圖。
+- 開場／波間橫幅用空白 640×140 底板，中心 (512,200)，文案「第 N 波，準備！」（與 Lily 稿一致，不再寫「開始」），顯示 6 秒；戰敗／過關會先拆掉橫幅，避免蓋住卡片與星星。
+- 戰敗卡 `lose_card_blank` 在 (212,164) 600×440；重試鈕中心 (512,494) 280×100「馬上再試一次」；「回地圖」中心改為 **(512,568)** 230×72（Lily 稿 584 會超出卡片下緣約 16px，依本次指定改 568）。
+- 過關卡 `win_card_blank` 在 **(212,164)**，星星在 (512,200)。現有過關流程沒有「下一關」動作（過關後掉寶箱，先前會自動回地圖），因此**不需要「下一關」按鈕**。卡片加上既有的「回地圖」鈕（中心 512,568），並在 `winUI` 存在時略過自動回地圖，讓玩家看完卡片。未做 280×100 綠色佔位「下一關」。
+
+## 轉橫提示
+- `#kx-rotate` 使用 Lily 直向空白圖（同樣 1x／2x、WebP／PNG、`?v=`），文案「把手機橫過來，一起守護城堡！」畫在卡片下方 letterbox（白字＋陰影），避免疊在淺色卡片上對比不足；`word-break:keep-all` 避免「城堡」被拆行。下方另保留一句「橫向畫面會更大、更好點喔。」
+
+## 測試與截圖
+- `tests_p0/b13_part_c_playtest.py`：**13/13 PASS**，JS／console 錯誤 0。涵蓋 Boot 載入、NineSlice、心與槽座標、DPR1→1x WebP／DPR2→2x WebP、快取破壞、灰槽、戰敗／過關位置、無下一關、轉橫圖帶 `v=`、readiness 仍 false。灰槽截圖前會拆掉波次橫幅。
+- 回歸：Part A 8/8、Part B 13/13、`p0_playtest.py`／`p0_hero_jobs.py`／`p0b_playtest.py`／`p0c_playtest.py` 皆 exit 0。`p0_playtest.py` 的漏心模擬改為同時重設 `busy`／`breaking`／`waveSpawned`，避免波間或波次額滿時 `spawn()` 早退（遊戲規則未改）。
+- `tests_p0/b12_preflight.py` 17 支 runner 全 exit 0，`validate_regressions_b11.py` **9/9 PASS**。正常 pageerror／console.error 0（故意缺檔情境的 HTTP 404 屬預期）。紀錄 `tests_p0/b13_preflight_result.json`、`tests_p0/b13_part_c_result.json`。
+- 截圖：`shots_p0/35_01_hud.png`（dsf=1）、`35_02_grey_slot.png`、`35_03_wave_banner.png`、`35_04_coin_flyin.png`、`35_05_defeat_card.png`、`35_06_win_card.png`、`35_07_rotate_prompt.png`、`35_08_hud_dpr2.png`（dsf=2）。對照 Lily `previews/ui_v003_mock_*.png`：HUD、灰槽、橫幅、飛幣、戰敗卡、過關卡、轉橫整體相符。
+
+## 與 Lily 規格的差異（刻意或待確認）
+- 戰敗「回地圖」中心用 (512,568)，不是稿上的 (512,584)，以免按鈕超出 600×440 卡片。
+- 過關卡多了「回地圖」（Lily 此次過關 mock 無按鈕）；**不需要「下一關」**，因流程沒有下一關動作。若之後要關卡串接，再請 Lily 補 280×100 綠色「下一關」。
+- 蓋塔槽座標用 `BALANCE.slots`，不是 mock 量到的點。
+- 波次進度 0 時隱藏填充，對齊空條 mock。
+- 開場橫幅用「準備」而非舊文案「開始」；`35_01_hud` 拍到開場橫幅尚未結束，與 `35_03` 畫面接近。
+- 轉橫畫面在 Lily 卡片下方另有一行說明文字。
+- 版本號 `#kx-build` 仍為 HTML 左下角，非 Lily 稿。readiness 旗標未打開。未碰 Lily 源目錄。
+
+---
+
+# 第十三批 Part C 補：戰敗／過關按鈕重疊與貼邊修正（2026-11-13 08:54，新加坡時間 UTC+8）
+
+只改副本，無 stage／commit／push／deploy，HEAD 仍 detached `4796fcb`，push URL 維持 no_push，Lily readiness 仍 false，未碰源目錄。
+
+## 問題
+`shots_p0/35_05_defeat_card.png` 中，「馬上再試一次」（中心 494、高 100，y 444–544）與「回地圖」（中心 568、高 72，y 532–604）重疊 12px，且回地圖下緣恰在卡片底 y=604，沒有留白。過關卡僅有「回地圖」，同樣貼在 y=604。
+
+## 修正（卡片仍為 (212,164) 600×440，底邊 y=604）
+- 戰敗：「馬上再試一次」中心 **(512, 462)**，280×100，矩形 y 412–512、x 372–652。
+- 戰敗／過關：「回地圖」中心 **(512, 560)**，230×72，矩形 y 524–596、x 397–627。
+- 兩鈕垂直間距 12px；回地圖距卡片底 8px。副標「再試一次就好～」底約 y=395，距重試鈕頂 17px，無重疊。過關副標「楷芯好棒！」底約 y=430.5，距回地圖 93px。星星仍在卡片上緣，不與標題或按鈕重疊。
+- `TdUI.btn` 的 `setSize` 點擊範圍與美術顯示尺寸同為 280×100／230×72，保持對齊。`p0_playtest.py` 重試點改打 (512,462)。
+
+## 測試與截圖
+- `tests_p0/b13_part_c_playtest.py` 新增 `card_buttons_do_not_overlap_or_overflow`：戰敗／過關卡上所有按鈕矩形不得互疊、不得超出卡片、兩鈕間距至少 12px、距卡片底至少 8px，且 hit 與美術尺寸一致；標題／副標亦不得壓到按鈕。失敗時寫入 `issues`。座標斷言改為 462／560。
+- 重跑：Part C 14/14（含新檢查）、Part A 8/8、Part B 13/13、`p0`／`p0_hero_jobs`／`p0b`／`p0c` 皆 exit 0；`b12_preflight.py` 17 支 runner 全過，`validate_regressions_b11.py` 9/9。JS／console 錯誤 0。
+- 新截圖：`shots_p0/35_05b_defeat_card.png`、`shots_p0/35_06b_win_card.png`（同步更新 `35_05_defeat_card.png`、`35_06_win_card.png` 為修正後畫面）。

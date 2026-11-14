@@ -7,8 +7,12 @@ const Learn={words:[],items:[],pictures:{},
  spell(w,overrideIdx,overrideTone){return w.zhuyin.map((z,i)=>z+(i===overrideIdx?(overrideTone==null?'':TONE_SHOW[overrideTone]):(w.tones[i]===0?'˙':TONE_SHOW[w.tones[i]]))).join(' ');},
  st(id){const L=Save.data.leitner;return L[id];},
  // An emoji is not an illustration merely because it exists in the old vocabulary.
- picture(w){const p=w&&this.pictures[w.id];return p&&p.status==='matched'&&p.wordId===w.id&&typeof p.glyph==='string'&&p.glyph?p:null;},
- pictureCandidates(item){const own=this.picture(item.word),seen=new Set(own?[own.glyph]:[]);return this.words.filter(w=>{const p=this.picture(w);if(!p||w.id===item.word.id||seen.has(p.glyph))return false;seen.add(p.glyph);return true;});},
+ picture(w){const p=w&&this.pictures[w.id];if(!p||p.status!=='matched'||p.wordId!==w.id)return null;
+  // Owned Lily art first. Approved catalog emoji only when kind is not image; never vocab.pic or decorative leftovers.
+  if(p.kind==='image')return p.pictureId===QuestionArt.id(w)&&QuestionArt.has(w)?{...p,signature:'image:'+p.pictureId}:null;
+  if(p.kind&&p.kind!=='emoji')return null;if(typeof p.glyph!=='string'||!p.glyph)return null;
+  const id=p.pictureId||QuestionArt.id(w);if(id&&QuestionArt.map&&QuestionArt.map.byId[id]!==w.id)return null;return {...p,kind:'emoji',pictureId:id,signature:'emoji:'+p.glyph};},
+ pictureCandidates(item){const own=this.picture(item.word),seen=new Set(own?[own.signature]:[]);return this.words.filter(w=>{const p=this.picture(w);if(!p||w.id===item.word.id||seen.has(p.signature))return false;seen.add(p.signature);return true;});},
  typeAllowed(item,type){return !['pic2spell','spell2pic'].includes(type)||!!this.picture(item.word)&&(type!=='spell2pic'||this.pictureCandidates(item).length>=2);},
  pick(lessons,avoidId,type){const now=Date.now();const L=Save.data.leitner;
   const eligible=this.items.filter(it=>this.typeAllowed(it,type));const pool=eligible.filter(it=>it.id!==avoidId);if(!pool.length)pool.push(...eligible);if(!pool.length)return null;

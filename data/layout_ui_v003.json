@@ -1,0 +1,947 @@
+{
+  "canvas": [
+    1024,
+    768
+  ],
+  "scale_2x": 2,
+  "layout": {
+    "canvas": [
+      1024,
+      768
+    ],
+    "coin": {
+      "xy": [
+        28,
+        22
+      ],
+      "size": [
+        36,
+        36
+      ],
+      "origin": [
+        0,
+        0
+      ]
+    },
+    "wave_bar_frame": {
+      "xy": [
+        240,
+        16
+      ],
+      "size": [
+        400,
+        44
+      ],
+      "radius": 16,
+      "origin": [
+        0,
+        0
+      ]
+    },
+    "wave_bar_fill": {
+      "xy": [
+        244,
+        20
+      ],
+      "size": [
+        392,
+        36
+      ],
+      "radius": 18,
+      "origin": [
+        0,
+        0
+      ],
+      "nine_slice": {
+        "left": 18,
+        "right": 18,
+        "top": 0,
+        "bottom": 0
+      },
+      "clip_note": "Prefer 9-slice horizontal stretch (left/right caps 18px). Cropping the full fill from the right squares off the end cap."
+    },
+    "hearts_bar": {
+      "xy": [
+        20,
+        62
+      ],
+      "size": [
+        280,
+        26
+      ],
+      "origin": [
+        0,
+        0
+      ]
+    },
+    "heart": {
+      "size": [
+        24,
+        18
+      ],
+      "spacing": 27,
+      "first_xy": [
+        26,
+        66
+      ],
+      "count": 10,
+      "note": "spacing 27 is left-edge pitch. heart i at x=20+6+i*27, y=62+4."
+    },
+    "build_slot": {
+      "tap": [
+        90,
+        90
+      ],
+      "circle_radius": 40,
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "placeholder_centers_from_34_08": [
+        [
+          180,
+          369
+        ],
+        [
+          379,
+          330
+        ],
+        [
+          639,
+          359
+        ],
+        [
+          899,
+          359
+        ],
+        [
+          419,
+          559
+        ],
+        [
+          699,
+          560
+        ]
+      ],
+      "note": "Chloe did not give slot x/y; centers above were measured from placeholder 34_08 for mocks only."
+    },
+    "coin_fly": {
+      "size": [
+        32,
+        32
+      ],
+      "flies_to": [
+        48,
+        40
+      ],
+      "note": "(48,40) is the center of the HUD coin at (28,22) 36x36."
+    },
+    "coin_fly_sheet": {
+      "frame": [
+        48,
+        48
+      ],
+      "frames": 8,
+      "layout": "horizontal"
+    },
+    "wave_banner": {
+      "center": [
+        512,
+        200
+      ],
+      "size": [
+        640,
+        140
+      ],
+      "radius": 24,
+      "origin": [
+        0.5,
+        0.5
+      ]
+    },
+    "lose_card": {
+      "xy": [
+        212,
+        164
+      ],
+      "size": [
+        600,
+        440
+      ],
+      "origin": [
+        0,
+        0
+      ]
+    },
+    "btn_retry": {
+      "center": [
+        512,
+        494
+      ],
+      "size": [
+        280,
+        100
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ]
+    },
+    "btn_map": {
+      "center": [
+        512,
+        584
+      ],
+      "size": [
+        230,
+        72
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ],
+      "note": "Button bottom (y=620) overflows the lose card bottom (y=604) by 16px."
+    },
+    "win_card": {
+      "xy": [
+        212,
+        164
+      ],
+      "size": [
+        600,
+        440
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "note": "Position not in spec; assumed same as lose card."
+    },
+    "win_stars_3": {
+      "center": [
+        512,
+        200
+      ],
+      "size": [
+        400,
+        140
+      ],
+      "origin": [
+        0.5,
+        0.5
+      ]
+    },
+    "star": {
+      "size": [
+        96,
+        96
+      ]
+    },
+    "rotate_landscape": {
+      "xy": [
+        0,
+        0
+      ],
+      "size": [
+        1024,
+        768
+      ]
+    },
+    "rotate_portrait": {
+      "xy": [
+        0,
+        0
+      ],
+      "size": [
+        768,
+        1024
+      ]
+    }
+  },
+  "manifest": [
+    {
+      "name": "coin",
+      "folder": "coin",
+      "size_1x": [
+        36,
+        36
+      ],
+      "size_2x": [
+        72,
+        72
+      ],
+      "files": [
+        "coin/ui_coin_1x.png",
+        "coin/ui_coin_1x.webp",
+        "coin/ui_coin_2x.png",
+        "coin/ui_coin_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_bar_frame",
+      "folder": "wave_bar",
+      "size_1x": [
+        400,
+        44
+      ],
+      "size_2x": [
+        800,
+        88
+      ],
+      "files": [
+        "wave_bar/ui_wave_bar_frame_1x.png",
+        "wave_bar/ui_wave_bar_frame_1x.webp",
+        "wave_bar/ui_wave_bar_frame_2x.png",
+        "wave_bar/ui_wave_bar_frame_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_bar_fill",
+      "folder": "wave_bar",
+      "size_1x": [
+        392,
+        36
+      ],
+      "size_2x": [
+        784,
+        72
+      ],
+      "files": [
+        "wave_bar/ui_wave_bar_fill_1x.png",
+        "wave_bar/ui_wave_bar_fill_1x.webp",
+        "wave_bar/ui_wave_bar_fill_2x.png",
+        "wave_bar/ui_wave_bar_fill_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_bar_fill_cap_left",
+      "folder": "wave_bar",
+      "size_1x": [
+        18,
+        36
+      ],
+      "size_2x": [
+        36,
+        72
+      ],
+      "files": [
+        "wave_bar/ui_wave_bar_fill_cap_left_1x.png",
+        "wave_bar/ui_wave_bar_fill_cap_left_1x.webp",
+        "wave_bar/ui_wave_bar_fill_cap_left_2x.png",
+        "wave_bar/ui_wave_bar_fill_cap_left_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_bar_fill_cap_right",
+      "folder": "wave_bar",
+      "size_1x": [
+        18,
+        36
+      ],
+      "size_2x": [
+        36,
+        72
+      ],
+      "files": [
+        "wave_bar/ui_wave_bar_fill_cap_right_1x.png",
+        "wave_bar/ui_wave_bar_fill_cap_right_1x.webp",
+        "wave_bar/ui_wave_bar_fill_cap_right_2x.png",
+        "wave_bar/ui_wave_bar_fill_cap_right_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_bar_fill_mid",
+      "folder": "wave_bar",
+      "size_1x": [
+        16,
+        36
+      ],
+      "size_2x": [
+        32,
+        72
+      ],
+      "files": [
+        "wave_bar/ui_wave_bar_fill_mid_1x.png",
+        "wave_bar/ui_wave_bar_fill_mid_1x.webp",
+        "wave_bar/ui_wave_bar_fill_mid_2x.png",
+        "wave_bar/ui_wave_bar_fill_mid_2x.webp"
+      ]
+    },
+    {
+      "name": "hearts_bar",
+      "folder": "hearts",
+      "size_1x": [
+        280,
+        26
+      ],
+      "size_2x": [
+        560,
+        52
+      ],
+      "files": [
+        "hearts/ui_hearts_bar_1x.png",
+        "hearts/ui_hearts_bar_1x.webp",
+        "hearts/ui_hearts_bar_2x.png",
+        "hearts/ui_hearts_bar_2x.webp"
+      ]
+    },
+    {
+      "name": "heart_full",
+      "folder": "hearts",
+      "size_1x": [
+        24,
+        18
+      ],
+      "size_2x": [
+        48,
+        36
+      ],
+      "files": [
+        "hearts/ui_heart_full_1x.png",
+        "hearts/ui_heart_full_1x.webp",
+        "hearts/ui_heart_full_2x.png",
+        "hearts/ui_heart_full_2x.webp"
+      ]
+    },
+    {
+      "name": "heart_empty",
+      "folder": "hearts",
+      "size_1x": [
+        24,
+        18
+      ],
+      "size_2x": [
+        48,
+        36
+      ],
+      "files": [
+        "hearts/ui_heart_empty_1x.png",
+        "hearts/ui_heart_empty_1x.webp",
+        "hearts/ui_heart_empty_2x.png",
+        "hearts/ui_heart_empty_2x.webp"
+      ]
+    },
+    {
+      "name": "build_slot_available",
+      "folder": "build_slot",
+      "size_1x": [
+        90,
+        90
+      ],
+      "size_2x": [
+        180,
+        180
+      ],
+      "files": [
+        "build_slot/ui_build_slot_available_1x.png",
+        "build_slot/ui_build_slot_available_1x.webp",
+        "build_slot/ui_build_slot_available_2x.png",
+        "build_slot/ui_build_slot_available_2x.webp"
+      ]
+    },
+    {
+      "name": "build_slot_greyed",
+      "folder": "build_slot",
+      "size_1x": [
+        90,
+        90
+      ],
+      "size_2x": [
+        180,
+        180
+      ],
+      "files": [
+        "build_slot/ui_build_slot_greyed_1x.png",
+        "build_slot/ui_build_slot_greyed_1x.webp",
+        "build_slot/ui_build_slot_greyed_2x.png",
+        "build_slot/ui_build_slot_greyed_2x.webp"
+      ]
+    },
+    {
+      "name": "build_slot_selected",
+      "folder": "build_slot",
+      "size_1x": [
+        90,
+        90
+      ],
+      "size_2x": [
+        180,
+        180
+      ],
+      "files": [
+        "build_slot/ui_build_slot_selected_1x.png",
+        "build_slot/ui_build_slot_selected_1x.webp",
+        "build_slot/ui_build_slot_selected_2x.png",
+        "build_slot/ui_build_slot_selected_2x.webp"
+      ]
+    },
+    {
+      "name": "coin_fly",
+      "folder": "coin_fly",
+      "size_1x": [
+        32,
+        32
+      ],
+      "size_2x": [
+        64,
+        64
+      ],
+      "files": [
+        "coin_fly/ui_coin_fly_1x.png",
+        "coin_fly/ui_coin_fly_1x.webp",
+        "coin_fly/ui_coin_fly_2x.png",
+        "coin_fly/ui_coin_fly_2x.webp"
+      ]
+    },
+    {
+      "name": "coin_fly_sheet",
+      "folder": "coin_fly",
+      "size_1x": [
+        384,
+        48
+      ],
+      "size_2x": [
+        768,
+        96
+      ],
+      "files": [
+        "coin_fly/ui_coin_fly_sheet_1x.png",
+        "coin_fly/ui_coin_fly_sheet_1x.webp",
+        "coin_fly/ui_coin_fly_sheet_2x.png",
+        "coin_fly/ui_coin_fly_sheet_2x.webp"
+      ]
+    },
+    {
+      "name": "coin_fly_trail_sheet",
+      "folder": "coin_fly",
+      "size_1x": [
+        384,
+        48
+      ],
+      "size_2x": [
+        768,
+        96
+      ],
+      "files": [
+        "coin_fly/ui_coin_fly_trail_sheet_1x.png",
+        "coin_fly/ui_coin_fly_trail_sheet_1x.webp",
+        "coin_fly/ui_coin_fly_trail_sheet_2x.png",
+        "coin_fly/ui_coin_fly_trail_sheet_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_banner_blank",
+      "folder": "wave_banner",
+      "size_1x": [
+        640,
+        140
+      ],
+      "size_2x": [
+        1280,
+        280
+      ],
+      "files": [
+        "wave_banner/ui_wave_banner_blank_1x.png",
+        "wave_banner/ui_wave_banner_blank_1x.webp",
+        "wave_banner/ui_wave_banner_blank_2x.png",
+        "wave_banner/ui_wave_banner_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_banner_wave1",
+      "folder": "wave_banner",
+      "size_1x": [
+        640,
+        140
+      ],
+      "size_2x": [
+        1280,
+        280
+      ],
+      "files": [
+        "wave_banner/ui_wave_banner_wave1_1x.png",
+        "wave_banner/ui_wave_banner_wave1_1x.webp",
+        "wave_banner/ui_wave_banner_wave1_2x.png",
+        "wave_banner/ui_wave_banner_wave1_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_banner_wave2",
+      "folder": "wave_banner",
+      "size_1x": [
+        640,
+        140
+      ],
+      "size_2x": [
+        1280,
+        280
+      ],
+      "files": [
+        "wave_banner/ui_wave_banner_wave2_1x.png",
+        "wave_banner/ui_wave_banner_wave2_1x.webp",
+        "wave_banner/ui_wave_banner_wave2_2x.png",
+        "wave_banner/ui_wave_banner_wave2_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_banner_wave3",
+      "folder": "wave_banner",
+      "size_1x": [
+        640,
+        140
+      ],
+      "size_2x": [
+        1280,
+        280
+      ],
+      "files": [
+        "wave_banner/ui_wave_banner_wave3_1x.png",
+        "wave_banner/ui_wave_banner_wave3_1x.webp",
+        "wave_banner/ui_wave_banner_wave3_2x.png",
+        "wave_banner/ui_wave_banner_wave3_2x.webp"
+      ]
+    },
+    {
+      "name": "wave_banner_boss",
+      "folder": "wave_banner",
+      "size_1x": [
+        640,
+        140
+      ],
+      "size_2x": [
+        1280,
+        280
+      ],
+      "files": [
+        "wave_banner/ui_wave_banner_boss_1x.png",
+        "wave_banner/ui_wave_banner_boss_1x.webp",
+        "wave_banner/ui_wave_banner_boss_2x.png",
+        "wave_banner/ui_wave_banner_boss_2x.webp"
+      ]
+    },
+    {
+      "name": "lose_card_blank",
+      "folder": "lose",
+      "size_1x": [
+        600,
+        440
+      ],
+      "size_2x": [
+        1200,
+        880
+      ],
+      "files": [
+        "lose/ui_lose_card_blank_1x.png",
+        "lose/ui_lose_card_blank_1x.webp",
+        "lose/ui_lose_card_blank_2x.png",
+        "lose/ui_lose_card_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "win_card_blank",
+      "folder": "win",
+      "size_1x": [
+        600,
+        440
+      ],
+      "size_2x": [
+        1200,
+        880
+      ],
+      "files": [
+        "win/ui_win_card_blank_1x.png",
+        "win/ui_win_card_blank_1x.webp",
+        "win/ui_win_card_blank_2x.png",
+        "win/ui_win_card_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "win_confetti",
+      "folder": "win",
+      "size_1x": [
+        600,
+        440
+      ],
+      "size_2x": [
+        1200,
+        880
+      ],
+      "files": [
+        "win/ui_win_confetti_1x.png",
+        "win/ui_win_confetti_1x.webp",
+        "win/ui_win_confetti_2x.png",
+        "win/ui_win_confetti_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_retry_normal",
+      "folder": "lose",
+      "size_1x": [
+        280,
+        100
+      ],
+      "size_2x": [
+        560,
+        200
+      ],
+      "files": [
+        "lose/ui_btn_retry_normal_1x.png",
+        "lose/ui_btn_retry_normal_1x.webp",
+        "lose/ui_btn_retry_normal_2x.png",
+        "lose/ui_btn_retry_normal_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_retry_normal_blank",
+      "folder": "lose",
+      "size_1x": [
+        280,
+        100
+      ],
+      "size_2x": [
+        560,
+        200
+      ],
+      "files": [
+        "lose/ui_btn_retry_normal_blank_1x.png",
+        "lose/ui_btn_retry_normal_blank_1x.webp",
+        "lose/ui_btn_retry_normal_blank_2x.png",
+        "lose/ui_btn_retry_normal_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_retry_pressed",
+      "folder": "lose",
+      "size_1x": [
+        280,
+        100
+      ],
+      "size_2x": [
+        560,
+        200
+      ],
+      "files": [
+        "lose/ui_btn_retry_pressed_1x.png",
+        "lose/ui_btn_retry_pressed_1x.webp",
+        "lose/ui_btn_retry_pressed_2x.png",
+        "lose/ui_btn_retry_pressed_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_retry_pressed_blank",
+      "folder": "lose",
+      "size_1x": [
+        280,
+        100
+      ],
+      "size_2x": [
+        560,
+        200
+      ],
+      "files": [
+        "lose/ui_btn_retry_pressed_blank_1x.png",
+        "lose/ui_btn_retry_pressed_blank_1x.webp",
+        "lose/ui_btn_retry_pressed_blank_2x.png",
+        "lose/ui_btn_retry_pressed_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_map_normal",
+      "folder": "lose",
+      "size_1x": [
+        230,
+        72
+      ],
+      "size_2x": [
+        460,
+        144
+      ],
+      "files": [
+        "lose/ui_btn_map_normal_1x.png",
+        "lose/ui_btn_map_normal_1x.webp",
+        "lose/ui_btn_map_normal_2x.png",
+        "lose/ui_btn_map_normal_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_map_normal_blank",
+      "folder": "lose",
+      "size_1x": [
+        230,
+        72
+      ],
+      "size_2x": [
+        460,
+        144
+      ],
+      "files": [
+        "lose/ui_btn_map_normal_blank_1x.png",
+        "lose/ui_btn_map_normal_blank_1x.webp",
+        "lose/ui_btn_map_normal_blank_2x.png",
+        "lose/ui_btn_map_normal_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_map_pressed",
+      "folder": "lose",
+      "size_1x": [
+        230,
+        72
+      ],
+      "size_2x": [
+        460,
+        144
+      ],
+      "files": [
+        "lose/ui_btn_map_pressed_1x.png",
+        "lose/ui_btn_map_pressed_1x.webp",
+        "lose/ui_btn_map_pressed_2x.png",
+        "lose/ui_btn_map_pressed_2x.webp"
+      ]
+    },
+    {
+      "name": "btn_map_pressed_blank",
+      "folder": "lose",
+      "size_1x": [
+        230,
+        72
+      ],
+      "size_2x": [
+        460,
+        144
+      ],
+      "files": [
+        "lose/ui_btn_map_pressed_blank_1x.png",
+        "lose/ui_btn_map_pressed_blank_1x.webp",
+        "lose/ui_btn_map_pressed_blank_2x.png",
+        "lose/ui_btn_map_pressed_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "star_full",
+      "folder": "win",
+      "size_1x": [
+        96,
+        96
+      ],
+      "size_2x": [
+        192,
+        192
+      ],
+      "files": [
+        "win/ui_star_full_1x.png",
+        "win/ui_star_full_1x.webp",
+        "win/ui_star_full_2x.png",
+        "win/ui_star_full_2x.webp"
+      ]
+    },
+    {
+      "name": "star_empty",
+      "folder": "win",
+      "size_1x": [
+        96,
+        96
+      ],
+      "size_2x": [
+        192,
+        192
+      ],
+      "files": [
+        "win/ui_star_empty_1x.png",
+        "win/ui_star_empty_1x.webp",
+        "win/ui_star_empty_2x.png",
+        "win/ui_star_empty_2x.webp"
+      ]
+    },
+    {
+      "name": "win_stars_3",
+      "folder": "win",
+      "size_1x": [
+        400,
+        140
+      ],
+      "size_2x": [
+        800,
+        280
+      ],
+      "files": [
+        "win/ui_win_stars_3_1x.png",
+        "win/ui_win_stars_3_1x.webp",
+        "win/ui_win_stars_3_2x.png",
+        "win/ui_win_stars_3_2x.webp"
+      ]
+    },
+    {
+      "name": "rotate_landscape_blank",
+      "folder": "rotate",
+      "size_1x": [
+        1024,
+        768
+      ],
+      "size_2x": [
+        2048,
+        1536
+      ],
+      "files": [
+        "rotate/ui_rotate_landscape_blank_1x.png",
+        "rotate/ui_rotate_landscape_blank_1x.webp",
+        "rotate/ui_rotate_landscape_blank_2x.png",
+        "rotate/ui_rotate_landscape_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "rotate_landscape",
+      "folder": "rotate",
+      "size_1x": [
+        1024,
+        768
+      ],
+      "size_2x": [
+        2048,
+        1536
+      ],
+      "files": [
+        "rotate/ui_rotate_landscape_1x.png",
+        "rotate/ui_rotate_landscape_1x.webp",
+        "rotate/ui_rotate_landscape_2x.png",
+        "rotate/ui_rotate_landscape_2x.webp"
+      ]
+    },
+    {
+      "name": "rotate_portrait_blank",
+      "folder": "rotate",
+      "size_1x": [
+        768,
+        1024
+      ],
+      "size_2x": [
+        1536,
+        2048
+      ],
+      "files": [
+        "rotate/ui_rotate_portrait_blank_1x.png",
+        "rotate/ui_rotate_portrait_blank_1x.webp",
+        "rotate/ui_rotate_portrait_blank_2x.png",
+        "rotate/ui_rotate_portrait_blank_2x.webp"
+      ]
+    },
+    {
+      "name": "rotate_portrait",
+      "folder": "rotate",
+      "size_1x": [
+        768,
+        1024
+      ],
+      "size_2x": [
+        1536,
+        2048
+      ],
+      "files": [
+        "rotate/ui_rotate_portrait_1x.png",
+        "rotate/ui_rotate_portrait_1x.webp",
+        "rotate/ui_rotate_portrait_2x.png",
+        "rotate/ui_rotate_portrait_2x.webp"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@ const Char={m:null,v3:null,webp:false,cache:new Map(),pending:new Map(),sources:
  init(v){this.v3=v;this.memoryBudget={maxLayers:v.loadEstimate?.layers?.max||14,halfLayerBytes:1100000,halfDecodedComboBytes:15400000,fullDecodedComboBytes:61600000,compositeBytes:1100000,cacheBytes:this.maxCache*1100000};this.m=Object.assign({},v.gameUI,{masterId:v.masterId,anchorsPx:v.anchorsPx,runtime:v.runtime,assets:v.assets});return this.detectWebP().then(ok=>this.webp=ok);},
  detectWebP(){if(typeof URLSearchParams!=='undefined'&&new URLSearchParams(location.search).get('png')==='1')return Promise.resolve(false);
   // Test a real half-size alpha WebP, not the user-agent. Used as detection only; reuse not required.
-  const body=this.v3.requiredAlways.find(id=>this.v3.assets[id].part==='body'),a=this.v3.assets[body];return new Promise(resolve=>{const i=new Image();i.onload=()=>resolve(i.width===500&&i.height===550);i.onerror=()=>resolve(false);i.src=a.runtime50.path;});},
+  const body=this.v3.requiredAlways.find(id=>this.v3.assets[id].part==='body'),a=this.v3.assets[body];return new Promise(resolve=>{const i=new Image();i.onload=()=>resolve(i.width===500&&i.height===550);i.onerror=()=>resolve(false);i.src=Build.url(a.runtime50.path);});},
  normalize(sel){const c=Object.assign({},sel||{}),v=this.v3;if(!v)return c;
   c.job=this.m.jobs.some(j=>j.id===c.job)?c.job:'warrior';
   c.hair=c.hair||c.hairStyleId||'A1';c.hairColor=c.hairColor||c.hairColorId||'brown';c.outfit=c.outfit||c.outfitId||'B1';
@@ -107,7 +107,7 @@ const Char={m:null,v3:null,webp:false,cache:new Map(),pending:new Map(),sources:
  // Compatibility metadata for tests/debugging. Loader never preloads an entire wardrobe.
  layerFiles(sel,equipped,expr){return this.resolve(sel,equipped||[],expr).ids.map(id=>({key:id,file:this.webp?this.v3.assets[id].runtime50.path:this.v3.assets[id].path,order:this.v3.assets[id].drawOrder}));},
  image(path){if(this.sources.has(path))return this.sources.get(path);this.stats.fetches.push(path);
-  const p=new Promise((res,rej)=>{const i=new Image();i.onload=()=>{this.stats.liveDecoded++;this.stats.peakDecoded=Math.max(this.stats.peakDecoded,this.stats.liveDecoded);this.stats.liveDecodedBytes+=i.width*i.height*4;this.stats.peakDecodedBytes=Math.max(this.stats.peakDecodedBytes,this.stats.liveDecodedBytes);res(i);};i.onerror=()=>rej(new Error('Character image failed: '+path));i.src=path;});
+  const p=new Promise((res,rej)=>{const i=new Image();i.onload=()=>{this.stats.liveDecoded++;this.stats.peakDecoded=Math.max(this.stats.peakDecoded,this.stats.liveDecoded);this.stats.liveDecodedBytes+=i.width*i.height*4;this.stats.peakDecodedBytes=Math.max(this.stats.peakDecodedBytes,this.stats.liveDecodedBytes);res(i);};i.onerror=()=>rej(new Error('Character image failed: '+path));i.src=Build.url(path);});
   this.sources.set(path,p);return p;},
  async assetImage(id){if(this.failedAssets.has(id))return {im:null,path:null};const a=this.v3.assets[id];if(this.webp&&a.runtime50){try{return {im:await this.image(a.runtime50.path),path:a.runtime50.path};}catch(e){this.sources.delete(a.runtime50.path);this.stats.fallbacks++;}}
   try{return{im:await this.image(a.path),path:a.path};}catch(e){this.sources.delete(a.path);this.failedAssets.add(id);console.warn('Character layer unavailable (using safe princess fallback):',id);return{im:null,path:null};}},
@@ -139,7 +139,7 @@ const Char={m:null,v3:null,webp:false,cache:new Map(),pending:new Map(),sources:
  thumb(which,id,color,size=128,hat=null){let e;if(which==='hair'){const c=color||'brown';e=(this.v3.batch01Thumbnails&&this.v3.batch01Thumbnails.hairHeadwear[id+'_'+c+'_'+hat])||this.v3.hairPairs[id+'_'+c].thumb;}else if(which==='outfit')e=this.v3.outfits[id].thumbV6||this.v3.outfits[id].thumbV4||this.v3.outfits[id].thumb;else if(which==='weapon')e=this.v3.weapons[id].thumb;else if(which==='pose')e=this.v3.poses[id].thumb;else e=this.v3.menuThumbnails&&this.v3.menuThumbnails.hairSwatch&&this.v3.menuThumbnails.hairSwatch[id];
   return e&&e[String(size)];},
  ensureThumbs(scene,entries,cb){const list=entries.filter(e=>e&&e.meta&&!scene.textures.exists(e.key));if(!list.length){cb();return;}
-  let left=list.length;for(const e of list){const file=this.webp?e.meta.webp:e.meta.png;const im=new Image();im.onload=()=>{if(!scene.textures.exists(e.key))scene.textures.addImage(e.key,im);if(--left===0&&scene.sys.displayList)cb();};im.onerror=()=>{if(this.webp&&im.src.indexOf(e.meta.png.path)<0)im.src=e.meta.png.path;else if(--left===0)cb();};im.src=file.path;}},
+  let left=list.length;for(const e of list){const file=this.webp?e.meta.webp:e.meta.png;const im=new Image();im.onload=()=>{if(!scene.textures.exists(e.key))scene.textures.addImage(e.key,im);if(--left===0&&scene.sys.displayList)cb();};im.onerror=()=>{if(this.webp&&im.src.indexOf(e.meta.png.path)<0)im.src=Build.url(e.meta.png.path);else if(--left===0)cb();};im.src=Build.url(file.path);}},
  wear(d,id){const e=this.m.equipment.find(q=>q.id===id);if(!e)return{ok:false,issues:['找不到這件飾品。']};const on=d.equipped.includes(id),character={...d.character};if(e.slot==='headwear')character.headwear=on?null:id;
   // Check the full candidate BEFORE same-slot replacement. A back-slot conflict
   // must reject, not secretly remove the item the player previously selected.

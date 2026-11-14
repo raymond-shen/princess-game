@@ -1,7 +1,7 @@
 // Original procedural music/SFX: LICENSES/audio_generated_CC0.md. MOE WAVs remain unmodified.
 const Sound={ctx:null,voice:null,unlocked:false,started:false,words:{},bufs:{},cur:null,tok:0,lastSource:null,
  stats:{moe:0,tts:0},prefs:{music:true,sfx:true},metrics:{unlockAttempts:0,speechPrimed:false,htmlAudioPlayed:false,musicStarts:0,prompts:[],sfxRequests:{},sfxPlayed:{},warnings:[]},
- uiPath(key){return this.ui?.files[key]?this.ui.assetRoot+this.ui.files[key]:'';},
+ uiPath(key){const p=this.ui?.files[key]?this.ui.assetRoot+this.ui.files[key]:'';return p&&window.Build?Build.url(p):p;},
  queueUI(sc,j){this.ui=j;for(const [key,file]of Object.entries(j?.files||{}))if(!key.startsWith('start_normal')&&!key.startsWith('start_pressed'))sc.load.image('audio_ui_'+key,j.assetRoot+file);},
  initWords(j){this.words=j?.words||{};try{const p=JSON.parse(localStorage.getItem('kx_audio_settings_v1'));if(p){this.prefs.music=p.music!==false;this.prefs.sfx=p.sfx!==false;}}catch(e){}this.pickVoice();this.installUI();
   this.htmlAudio=new Audio('assets/audio/generated/silence.wav');this.htmlAudio.preload='auto';this.htmlAudio.setAttribute('playsinline','');},
